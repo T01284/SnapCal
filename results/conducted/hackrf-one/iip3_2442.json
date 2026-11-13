@@ -1,0 +1,374 @@
+{
+  "utc": "2026-11-08T07:47:17Z",
+  "board": "hackrf-one",
+  "cmd": "ref_iip3",
+  "dut": "hackrf",
+  "tx": "lime",
+  "args": {
+    "dut": "hackrf",
+    "tx": "lime",
+    "board": "hackrf-one",
+    "atten_db": 37.7,
+    "atten_note": "combiner arm + att30_a + ipex",
+    "lo_mhz": 2442.0,
+    "f1_mhz": 2.0,
+    "f2_mhz": 3.0,
+    "lime_offset_mhz": 2.0,
+    "rx_gain": 16.0,
+    "rx_rate": 0.0,
+    "antenna": "",
+    "pluto_uri": "ip:192.168.20.100",
+    "tx_gains": [
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "lime_gains": null,
+    "rfe_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "max_tx_gain": 55.0,
+    "max_lime_gain": null,
+    "count": 12,
+    "balance_db": 3.0,
+    "im3_snr_min": 6.0,
+    "tag": "",
+    "gen": null
+  },
+  "plan": {
+    "rfe_mhz": 2444.0,
+    "tone2_mhz": 2445.0,
+    "tone2_lo_hz": 2443000000.0,
+    "tone2_offset_hz": 2000000.0,
+    "f1_mhz": 2.0,
+    "f2_mhz": 3.0,
+    "im3_bb_mhz": [
+      1.0,
+      4.0
+    ]
+  },
+  "setup": "RFE + lime TX -> combiner -> 37.7 dB -> hackrf RX",
+  "rows": [
+    {
+      "gen_level": 0,
+      "gen_est_dbm": -30.43,
+      "tx_gain": 40,
+      "balance_err_db": 0.48295184699958327,
+      "tone1": {
+        "power_dbfs": -45.82806663343841,
+        "snr_db": 38.978227592753335,
+        "freq_hz": 2015204.5154964945,
+        "noise_dbfs_hz": -114.44302991926874,
+        "clip_fraction_max": 0.0
+      },
+      "tone2": {
+        "power_dbfs": -45.95168481114506,
+        "snr_db": 38.69076386989121,
+        "freq_hz": 3008717.511328828,
+        "noise_dbfs_hz": -114.6675536370092,
+        "clip_fraction_max": 0.0
+      },
+      "im3_lo": {
+        "power_dbfs": -54.77052861034103,
+        "snr_db": 30.036000722078697,
+        "freq_hz": 1009898.5163186785,
+        "noise_dbfs_hz": -114.49948305527894,
+        "clip_fraction_max": 0.0
+      },
+      "im3_hi": {
+        "power_dbfs": -75.34197859440765,
+        "snr_db": 9.577853961037064,
+        "freq_hz": 3935915.651168566,
+        "noise_dbfs_hz": -114.58637023792096,
+        "clip_fraction_max": 0.0
+      },
+      "im3_used": "lo",
+      "pin1_dbm": -68.54017238971677,
+      "pin2_dbm": -68.66379056742342,
+      "pin_avg_dbm": -68.6019814785701,
+      "delta_fund_im3_db": 8.880652888049298,
+      "iip3_dbm": -64.16165503454545,
+      "im3_snr_ok": true,
+      "clip_ok": true,
+      "balanced": true
+    },
+    {
+      "gen_level": 1,
+      "gen_est_dbm": -27.220000000000002,
+      "tx_gain": 45,
+      "balance_err_db": 1.477254456612414,
+      "tone1": {
+        "power_dbfs": -42.538819847773325,
+        "snr_db": 41.51528896242379,
+        "freq_hz": 2015214.4760947707,
+        "noise_dbfs_hz": -113.6657196847166,
+        "clip_fraction_max": 0.0
+      },
+      "tone2": {
+        "power_dbfs": -41.16577118775295,
+        "snr_db": 43.19036847887413,
+        "freq_hz": 3009056.216569555,
+        "noise_dbfs_hz": -114.25612288005777,
+        "clip_fraction_max": 0.0
+      },
+      "im3_lo": {
+        "power_dbfs": -50.07570689989244,
+        "snr_db": 34.64674244980216,
+        "freq_hz": 1009952.9278508567,
+        "noise_dbfs_hz": -114.36396759767308,
+        "clip_fraction_max": 0.0
+      },
+      "im3_hi": {
+        "power_dbfs": -75.48760990147605,
+        "snr_db": 9.055601599810743,
+        "freq_hz": 4013803.2407697905,
+        "noise_dbfs_hz": -114.35341840407314,
+        "clip_fraction_max": 0.0
+      },
+      "im3_used": "lo",
+      "pin1_dbm": -65.25092560405169,
+      "pin2_dbm": -63.877876944031314,
+      "pin_avg_dbm": -64.5644012740415,
+      "delta_fund_im3_db": 8.2234113821293,
+      "iip3_dbm": -60.45269558297685,
+      "im3_snr_ok": true,
+      "clip_ok": true,
+      "balanced": true
+    },
+    {
+      "gen_level": 2,
+      "gen_est_dbm": -24.53,
+      "tx_gain": 50,
+      "balance_err_db": 2.752833651168075,
+      "tone1": {
+        "power_dbfs": -39.11878634080367,
+        "snr_db": 45.17967207247241,
+        "freq_hz": 2015233.028181893,
+        "noise_dbfs_hz": -113.89913294298997,
+        "clip_fraction_max": 0.0
+      },
+      "tone2": {
+        "power_dbfs": -35.75038676392636,
+        "snr_db": 48.13289603829934,
+        "freq_hz": 3008247.049794955,
+        "noise_dbfs_hz": -114.16991386920236,
+        "clip_fraction_max": 0.0
+      },
+      "im3_lo": {
+        "power_dbfs": -45.35107818432692,
+        "snr_db": 38.938970777762535,
+        "freq_hz": 1009999.3820152897,
+        "noise_dbfs_hz": -113.85611055972612,
+        "clip_fraction_max": 0.0
+      },
+      "im3_hi": {
+        "power_dbfs": -75.41416259305282,
+        "snr_db": 9.12835683331992,
+        "freq_hz": 4056182.707906136,
+        "noise_dbfs_hz": -114.08316181329639,
+        "clip_fraction_max": 0.0
+      },
+      "im3_used": "lo",
+      "pin1_dbm": -61.830892097082035,
+      "pin2_dbm": -58.46249252020472,
+      "pin_avg_dbm": -60.14669230864338,
+      "delta_fund_im3_db": 7.916491631961904,
+      "iip3_dbm": -56.18844649266243,
+      "im3_snr_ok": true,
+      "clip_ok": true,
+      "balanced": true
+    },
+    {
+      "gen_level": 3,
+      "gen_est_dbm": -23.1,
+      "tx_gain": 50,
+      "balance_err_db": 0.3170480950918986,
+      "tone1": {
+        "power_dbfs": -36.57648838664021,
+        "snr_db": 46.79983116183086,
+        "freq_hz": 2015267.2935488,
+        "noise_dbfs_hz": -112.98983941460739,
+        "clip_fraction_max": 0.0
+      },
+      "tone2": {
+        "power_dbfs": -36.57589093010302,
+        "snr_db": 47.5148792814896,
+        "freq_hz": 3008489.923246716,
+        "noise_dbfs_hz": -114.1539891265179,
+        "clip_fraction_max": 0.0
+      },
+      "im3_lo": {
+        "power_dbfs": -45.36856174658199,
+        "snr_db": 38.73945507735655,
+        "freq_hz": 1009990.3807358185,
+        "noise_dbfs_hz": -113.71770934160048,
+        "clip_fraction_max": 0.0
+      },
+      "im3_hi": {
+        "power_dbfs": -75.68875436732661,
+        "snr_db": 8.770121224931877,
+        "freq_hz": 4054971.020915923,
+        "noise_dbfs_hz": -114.0908893543895,
+        "clip_fraction_max": 0.0
+      },
+      "im3_used": "lo",
+      "pin1_dbm": -59.28859414291857,
+      "pin2_dbm": -59.28799668638138,
+      "pin_avg_dbm": -59.28829541464998,
+      "delta_fund_im3_db": 8.79237208821037,
+      "iip3_dbm": -54.892109370544794,
+      "im3_snr_ok": true,
+      "clip_ok": true,
+      "balanced": true
+    }
+  ],
+  "generator": {
+    "port": "COM16",
+    "kind": "generator",
+    "main_model": "MODEL_RFGEN",
+    "expansion_model": "MODEL_NONE",
+    "active_model": "MODEL_RFGEN",
+    "expansion_active": false,
+    "firmware": "01.32",
+    "serial": "B3D9-5AL7-94D3-M784",
+    "min_freq_mhz": 23.438,
+    "max_freq_mhz": 6000,
+    "input_stage": "Direct",
+    "embedded_cal": true
+  },
+  "tx_ready": "READY lo=2442999992 rate=8000000 gain=20.0 range=[-12.0,64.0] antenna=BAND2 tone=2445000000",
+  "rx_ready": "READY lo=2442000000 rate=10000000 gain=32.0 range=[0.0,116.0] antenna=TX/RX ants=TX/RX gains=LNA,AMP,VGA",
+  "rx_rate_hz": 10000000.0,
+  "wiring_check": {
+    "off": {
+      "f1": {
+        "power_dbfs": -77.30543330459885,
+        "snr_db": 7.8998557901301325,
+        "freq_hz": 1941575.856449794,
+        "noise_dbfs_hz": -114.76983391764615,
+        "clip_fraction_max": 0.0
+      },
+      "f2": {
+        "power_dbfs": -65.1389363711839,
+        "snr_db": 20.121519858184215,
+        "freq_hz": 3009185.3728858223,
+        "noise_dbfs_hz": -114.77243918617013,
+        "clip_fraction_max": 0.0
+      }
+    },
+    "rfe_only": {
+      "power_dbfs": -36.4903235692136,
+      "snr_db": 48.37466137410727,
+      "freq_hz": 2015215.5965511973,
+      "noise_dbfs_hz": -114.51332356066743,
+      "clip_fraction_max": 0.0
+    },
+    "tx_only": {
+      "power_dbfs": -35.965059697283806,
+      "snr_db": 48.59197024401986,
+      "freq_hz": 3009531.3851841334,
+      "noise_dbfs_hz": -114.15980668392277,
+      "clip_fraction_max": 0.0
+    },
+    "both": {
+      "f1": {
+        "power_dbfs": -36.46499925104748,
+        "snr_db": 48.00176025177147,
+        "freq_hz": 2015209.041277629,
+        "noise_dbfs_hz": -114.08719765145207,
+        "clip_fraction_max": 0.0
+      },
+      "f2": {
+        "power_dbfs": -37.3512583106433,
+        "snr_db": 47.2441344620607,
+        "freq_hz": 3008724.4891691403,
+        "noise_dbfs_hz": -114.15462238952156,
+        "clip_fraction_max": 0.0
+      }
+    },
+    "checks": {
+      "rfe": true,
+      "tx": true,
+      "both_rfe": true,
+      "both_tx": true
+    },
+    "ok": true
+  },
+  "rfe_cal": {
+    "rows": [
+      {
+        "power_dbfs": -45.81928764475065,
+        "snr_db": 39.33735917167736,
+        "freq_hz": 2015206.01391292,
+        "noise_dbfs_hz": -114.76914526792253,
+        "clip_fraction_max": 0.0,
+        "gen_level": 0,
+        "gen_est_dbm": -30.43,
+        "pin_dbm": -68.13,
+        "scale": 22.310712355249343
+      },
+      {
+        "power_dbfs": -42.581216759718885,
+        "snr_db": 42.38505572208631,
+        "freq_hz": 2015200.3585616043,
+        "noise_dbfs_hz": -114.56432795366806,
+        "clip_fraction_max": 0.0,
+        "gen_level": 1,
+        "gen_est_dbm": -27.220000000000002,
+        "pin_dbm": -64.92,
+        "scale": 22.338783240281117
+      },
+      {
+        "power_dbfs": -39.1445717277244,
+        "snr_db": 45.978949136150646,
+        "freq_hz": 2015201.0061120726,
+        "noise_dbfs_hz": -114.73912562883628,
+        "clip_fraction_max": 0.0,
+        "gen_level": 2,
+        "gen_est_dbm": -24.53,
+        "pin_dbm": -62.230000000000004,
+        "scale": 23.085428272275607
+      },
+      {
+        "power_dbfs": -36.55279661013802,
+        "snr_db": 47.58069852351537,
+        "freq_hz": 2015205.1256408547,
+        "noise_dbfs_hz": -113.73862783593111,
+        "clip_fraction_max": 0.0,
+        "gen_level": 3,
+        "gen_est_dbm": -23.1,
+        "pin_dbm": -60.800000000000004,
+        "scale": 24.247203389861987
+      }
+    ],
+    "scale_dbfs_per_dbm": 22.712105756278362
+  },
+  "iip3": {
+    "median_dbm": -58.32057103781964,
+    "mean_dbm": -58.92372662018238,
+    "std_dbm": 3.6575037657793903,
+    "n": 4,
+    "definition": "IIP3 = Pin_avg + (P_avg - P_IM3)/2; Pin via RFE-only scale",
+    "atten_db": 37.7,
+    "atten_note": "combiner arm + att30_a + ipex"
+  },
+  "toolchain": {
+    "platformio_platform": "espressif32@6.13.0",
+    "esp_idf": "5.5.3",
+    "esp_sdr_upstream_commit": "06a5ca4027d28626c8e8a8b38176814dfe774a1c",
+    "pio_core": "PlatformIO Core, version 6.1.19"
+  },
+  "host": {
+    "utc": "2026-11-08T07:48:15Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "5e1e6e5d5fec0a34015e48c3d7cd431475a0c29d-dirty"
+  }
+}

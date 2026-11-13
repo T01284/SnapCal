@@ -1,0 +1,58 @@
+{
+  "utc": "2026-11-08T09:36:31Z",
+  "board": "s3-com14",
+  "window_n": 2048,
+  "t_w_us": 25.599999999999998,
+  "seconds_per_cell": 20.0,
+  "summary": [
+    {
+      "scene": "S1",
+      "note": "quiet (Pfa cell)",
+      "Pd_median": null,
+      "Pfa_median": 0.0036860658698409337,
+      "occup_err_pp_median": 0.03197820212282294,
+      "n_cells": 6
+    },
+    {
+      "scene": "S2",
+      "note": "short rare burst",
+      "Pd_median": 0.012222853213141545,
+      "Pfa_median": 0.0036860658698409337,
+      "occup_err_pp_median": 0.17944172879336204,
+      "n_cells": 6
+    },
+    {
+      "scene": "S3",
+      "note": "medium burst",
+      "Pd_median": 0.01358216562638391,
+      "Pfa_median": 0.0036860658698409337,
+      "occup_err_pp_median": -0.16112497825362523,
+      "n_cells": 6
+    },
+    {
+      "scene": "S4",
+      "note": "long / sync-trap",
+      "Pd_median": 0.046529443112176924,
+      "Pfa_median": 0.0036860658698409337,
+      "occup_err_pp_median": -1.126565626911354,
+      "n_cells": 6
+    },
+    {
+      "scene": "S5",
+      "note": "dense / high duty",
+      "Pd_median": 0.2061161233328087,
+      "Pfa_median": 0.0036860658698409337,
+      "occup_err_pp_median": -1.469161430028583,
+      "n_cells": 6
+    },
+    {
+      "scene": "S6",
+      "note": "burst + RFE interferer",
+      "Pd_median": 0.06149481323629931,
+      "Pfa_median": 0.0036860658698409337,
+      "occup_err_pp_median": 0.242021773431636,
+      "n_cells": 6
+    }
+  ],
+  "source": "results/cbm/s3-com14/q21_cbm.json"
+}

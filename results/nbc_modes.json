@@ -1,0 +1,1941 @@
+{
+  "utc": "2026-10-20T01:02:28Z",
+  "note": "Conducted rollup. Relative gain is tone power vs the first SNR>=30 dB index on that board's 2442 MHz L3 sweep. Lock uses the conducted tone criterion, not mere FREQ acceptance. Phase 0 OTA nbc_modes.json is kept as nbc_modes_phase0_ota.json.",
+  "boards": {
+    "c5-01": {
+      "board": "c5-01",
+      "gain_index_to_db": {
+        "source": "results/conducted/c5-01/levels_2442.json",
+        "esp_freq_mhz": 2442,
+        "generator_level": 3,
+        "reference_gain_index": 4,
+        "reference_power_dbfs": -63.39667984502489,
+        "usable_span_db": 61.73998747953157,
+        "usable_gain_index_first": 4,
+        "usable_gain_index_last": 68,
+        "rows": [
+          {
+            "gain_index": 0,
+            "power_dbfs": -67.56312204535563,
+            "relative_db": -4.166442200330735,
+            "snr_db": 26.610932693356546
+          },
+          {
+            "gain_index": 2,
+            "power_dbfs": -65.53190858751394,
+            "relative_db": -2.1352287424890477,
+            "snr_db": 28.58678516927824
+          },
+          {
+            "gain_index": 4,
+            "power_dbfs": -63.39667984502489,
+            "relative_db": 0.0,
+            "snr_db": 30.64713474737144
+          },
+          {
+            "gain_index": 6,
+            "power_dbfs": -61.47897989118674,
+            "relative_db": 1.9176999538381523,
+            "snr_db": 32.53609894999889
+          },
+          {
+            "gain_index": 8,
+            "power_dbfs": -59.33418088780027,
+            "relative_db": 4.062498957224619,
+            "snr_db": 34.635180172757984
+          },
+          {
+            "gain_index": 10,
+            "power_dbfs": -57.498065495856956,
+            "relative_db": 5.898614349167936,
+            "snr_db": 36.32453208082224
+          },
+          {
+            "gain_index": 12,
+            "power_dbfs": -55.49066068797594,
+            "relative_db": 7.906019157048952,
+            "snr_db": 38.14029280560586
+          },
+          {
+            "gain_index": 14,
+            "power_dbfs": -53.487796772640365,
+            "relative_db": 9.908883072384526,
+            "snr_db": 39.77437786842481
+          },
+          {
+            "gain_index": 16,
+            "power_dbfs": -51.44104787020743,
+            "relative_db": 11.955631974817464,
+            "snr_db": 42.049327174237106
+          },
+          {
+            "gain_index": 18,
+            "power_dbfs": -49.45468084103105,
+            "relative_db": 13.941999003993843,
+            "snr_db": 43.67121589717644
+          },
+          {
+            "gain_index": 20,
+            "power_dbfs": -47.45760037780449,
+            "relative_db": 15.939079467220402,
+            "snr_db": 45.09128738400902
+          },
+          {
+            "gain_index": 22,
+            "power_dbfs": -45.62524847469679,
+            "relative_db": 17.771431370328102,
+            "snr_db": 46.27734307215703
+          },
+          {
+            "gain_index": 24,
+            "power_dbfs": -43.909910716050575,
+            "relative_db": 19.486769128974316,
+            "snr_db": 48.52514586773716
+          },
+          {
+            "gain_index": 26,
+            "power_dbfs": -42.11558778516489,
+            "relative_db": 21.28109205986,
+            "snr_db": 49.48066471143047
+          },
+          {
+            "gain_index": 28,
+            "power_dbfs": -40.79959924792007,
+            "relative_db": 22.59708059710482,
+            "snr_db": 51.26449962324199
+          },
+          {
+            "gain_index": 30,
+            "power_dbfs": -38.91634029254043,
+            "relative_db": 24.48033955248446,
+            "snr_db": 52.32260176818549
+          },
+          {
+            "gain_index": 32,
+            "power_dbfs": -37.064140775797185,
+            "relative_db": 26.332539069227707,
+            "snr_db": 53.54108333341288
+          },
+          {
+            "gain_index": 34,
+            "power_dbfs": -35.72626943796337,
+            "relative_db": 27.670410407061524,
+            "snr_db": 56.83064727547972
+          },
+          {
+            "gain_index": 36,
+            "power_dbfs": -33.76348299887105,
+            "relative_db": 29.633196846153844,
+            "snr_db": 57.74882168568189
+          },
+          {
+            "gain_index": 38,
+            "power_dbfs": -31.930737997308384,
+            "relative_db": 31.465941847716508,
+            "snr_db": 58.028939942152064
+          },
+          {
+            "gain_index": 40,
+            "power_dbfs": -30.40560913577628,
+            "relative_db": 32.99107070924861,
+            "snr_db": 60.81904127081629
+          },
+          {
+            "gain_index": 42,
+            "power_dbfs": -27.47424176936686,
+            "relative_db": 35.922438075658036,
+            "snr_db": 63.99570938535973
+          },
+          {
+            "gain_index": 44,
+            "power_dbfs": -25.452921719228407,
+            "relative_db": 37.943758125796485,
+            "snr_db": 65.31583475939823
+          },
+          {
+            "gain_index": 46,
+            "power_dbfs": -23.472738939468897,
+            "relative_db": 39.923940905555995,
+            "snr_db": 66.47965547569027
+          },
+          {
+            "gain_index": 48,
+            "power_dbfs": -21.458021051814544,
+            "relative_db": 41.93865879321035,
+            "snr_db": 67.51024646291316
+          },
+          {
+            "gain_index": 50,
+            "power_dbfs": -19.461072440426083,
+            "relative_db": 43.93560740459881,
+            "snr_db": 68.16055805421597
+          },
+          {
+            "gain_index": 52,
+            "power_dbfs": -17.516209889622402,
+            "relative_db": 45.88046995540249,
+            "snr_db": 70.40843561213885
+          },
+          {
+            "gain_index": 54,
+            "power_dbfs": -15.495816831815914,
+            "relative_db": 47.900863013208976,
+            "snr_db": 72.62696102810588
+          },
+          {
+            "gain_index": 56,
+            "power_dbfs": -13.549817963807103,
+            "relative_db": 49.84686188121779,
+            "snr_db": 73.0217368575345
+          },
+          {
+            "gain_index": 58,
+            "power_dbfs": -11.61480218457887,
+            "relative_db": 51.78187766044602,
+            "snr_db": 75.63981347908637
+          },
+          {
+            "gain_index": 60,
+            "power_dbfs": -9.615880428078096,
+            "relative_db": 53.78079941694679,
+            "snr_db": 74.4912081587002
+          },
+          {
+            "gain_index": 62,
+            "power_dbfs": -7.660721456609638,
+            "relative_db": 55.735958388415256,
+            "snr_db": 74.99361928385406
+          },
+          {
+            "gain_index": 64,
+            "power_dbfs": -5.6732091107193074,
+            "relative_db": 57.723470734305586,
+            "snr_db": 74.88545870161718
+          },
+          {
+            "gain_index": 66,
+            "power_dbfs": -3.685636115784157,
+            "relative_db": 59.711043729240735,
+            "snr_db": 74.88787701076875
+          },
+          {
+            "gain_index": 68,
+            "power_dbfs": -1.6566923654933214,
+            "relative_db": 61.73998747953157,
+            "snr_db": 74.34955230523057
+          },
+          {
+            "gain_index": 70,
+            "power_dbfs": -0.08379783808508981,
+            "relative_db": 63.3128820069398,
+            "snr_db": 67.98573723411829
+          },
+          {
+            "gain_index": 72,
+            "power_dbfs": 0.7253558130114661,
+            "relative_db": 64.12203565803635,
+            "snr_db": 65.95130136741925
+          },
+          {
+            "gain_index": 74,
+            "power_dbfs": 1.1389052221271623,
+            "relative_db": 64.53558506715206,
+            "snr_db": 66.20814146270796
+          },
+          {
+            "gain_index": 76,
+            "power_dbfs": 1.316914682127592,
+            "relative_db": 64.71359452715248,
+            "snr_db": 66.88970793630402
+          },
+          {
+            "gain_index": 78,
+            "power_dbfs": 1.461486855960383,
+            "relative_db": 64.85816670098528,
+            "snr_db": 73.63522872390287
+          }
+        ]
+      },
+      "lock": {
+        "locked_mhz": [
+          2100,
+          2200,
+          2300,
+          2400,
+          2412,
+          2442,
+          2472,
+          2500,
+          2600,
+          2700,
+          4800,
+          4900,
+          5000,
+          5100,
+          5180,
+          5500,
+          5745,
+          5800,
+          5850,
+          5980,
+          5990
+        ],
+        "no_tone_mhz": [
+          100,
+          433,
+          900,
+          1575,
+          1800,
+          1850,
+          1900,
+          1950,
+          2000,
+          2800,
+          2850,
+          2900,
+          3000,
+          3500,
+          4000,
+          4200,
+          4330,
+          4400,
+          4500,
+          4600,
+          4700
+        ],
+        "rejected": [
+          {
+            "mhz": 50,
+            "reply": "'FREQ 50' -> ERR command"
+          },
+          {
+            "mhz": 99,
+            "reply": "'FREQ 99' -> ERR command"
+          },
+          {
+            "mhz": 6001,
+            "reply": "'FREQ 6001' -> ERR command"
+          },
+          {
+            "mhz": 6100,
+            "reply": "'FREQ 6100' -> ERR command"
+          }
+        ],
+        "criterion": "snr >= 20 dB and |baseband error| < 200 kHz"
+      }
+    },
+    "c5-02": {
+      "board": "c5-02",
+      "gain_index_to_db": {
+        "source": "results/conducted/c5-02/levels_2442.json",
+        "esp_freq_mhz": 2442,
+        "generator_level": 3,
+        "reference_gain_index": 8,
+        "reference_power_dbfs": -61.667090771604805,
+        "usable_span_db": 60.124084224928154,
+        "usable_gain_index_first": 8,
+        "usable_gain_index_last": 66,
+        "rows": [
+          {
+            "gain_index": 0,
+            "power_dbfs": -69.07420043828122,
+            "relative_db": -7.407109666676419,
+            "snr_db": 23.579378264754517
+          },
+          {
+            "gain_index": 2,
+            "power_dbfs": -67.25662096338381,
+            "relative_db": -5.589530191779005,
+            "snr_db": 25.32293160326188
+          },
+          {
+            "gain_index": 4,
+            "power_dbfs": -65.47770715705133,
+            "relative_db": -3.8106163854465223,
+            "snr_db": 27.013819873029384
+          },
+          {
+            "gain_index": 6,
+            "power_dbfs": -63.37495624443358,
+            "relative_db": -1.7078654728287717,
+            "snr_db": 29.23453840506197
+          },
+          {
+            "gain_index": 8,
+            "power_dbfs": -61.667090771604805,
+            "relative_db": 0.0,
+            "snr_db": 31.142634552735142
+          },
+          {
+            "gain_index": 10,
+            "power_dbfs": -59.69874662727615,
+            "relative_db": 1.968344144328654,
+            "snr_db": 32.85483071904479
+          },
+          {
+            "gain_index": 12,
+            "power_dbfs": -57.39981533326423,
+            "relative_db": 4.267275438340576,
+            "snr_db": 35.16664683688029
+          },
+          {
+            "gain_index": 14,
+            "power_dbfs": -55.8866041100884,
+            "relative_db": 5.780486661516406,
+            "snr_db": 36.58402381340416
+          },
+          {
+            "gain_index": 16,
+            "power_dbfs": -51.93352310874402,
+            "relative_db": 9.733567662860786,
+            "snr_db": 40.110460874187304
+          },
+          {
+            "gain_index": 18,
+            "power_dbfs": -49.83998175924464,
+            "relative_db": 11.827109012360168,
+            "snr_db": 41.94093774403691
+          },
+          {
+            "gain_index": 20,
+            "power_dbfs": -47.65488014909246,
+            "relative_db": 14.012210622512342,
+            "snr_db": 43.710083162831445
+          },
+          {
+            "gain_index": 22,
+            "power_dbfs": -45.031403019665305,
+            "relative_db": 16.6356877519395,
+            "snr_db": 45.714603810942435
+          },
+          {
+            "gain_index": 24,
+            "power_dbfs": -44.514678450675056,
+            "relative_db": 17.15241232092975,
+            "snr_db": 46.59700754027717
+          },
+          {
+            "gain_index": 26,
+            "power_dbfs": -42.28655834820597,
+            "relative_db": 19.380532423398833,
+            "snr_db": 48.512806143796126
+          },
+          {
+            "gain_index": 28,
+            "power_dbfs": -40.68955116725621,
+            "relative_db": 20.977539604348593,
+            "snr_db": 50.04749294501134
+          },
+          {
+            "gain_index": 30,
+            "power_dbfs": -38.675437167071,
+            "relative_db": 22.991653604533802,
+            "snr_db": 51.29560487107595
+          },
+          {
+            "gain_index": 32,
+            "power_dbfs": -36.47464828796717,
+            "relative_db": 25.192442483637635,
+            "snr_db": 52.84359954281182
+          },
+          {
+            "gain_index": 34,
+            "power_dbfs": -35.053988401653235,
+            "relative_db": 26.61310236995157,
+            "snr_db": 55.004201324887234
+          },
+          {
+            "gain_index": 36,
+            "power_dbfs": -32.96023176236066,
+            "relative_db": 28.70685900924415,
+            "snr_db": 57.2349346342196
+          },
+          {
+            "gain_index": 38,
+            "power_dbfs": -30.96695673591875,
+            "relative_db": 30.700134035686055,
+            "snr_db": 58.68866407198425
+          },
+          {
+            "gain_index": 40,
+            "power_dbfs": -29.32614819011553,
+            "relative_db": 32.34094258148927,
+            "snr_db": 61.148946353002614
+          },
+          {
+            "gain_index": 42,
+            "power_dbfs": -25.547537656277257,
+            "relative_db": 36.11955311532755,
+            "snr_db": 63.971324746302365
+          },
+          {
+            "gain_index": 44,
+            "power_dbfs": -23.56401432407867,
+            "relative_db": 38.103076447526135,
+            "snr_db": 64.90749801676932
+          },
+          {
+            "gain_index": 46,
+            "power_dbfs": -21.52705880217792,
+            "relative_db": 40.140031969426886,
+            "snr_db": 67.80127374455971
+          },
+          {
+            "gain_index": 48,
+            "power_dbfs": -19.515546801439978,
+            "relative_db": 42.15154397016482,
+            "snr_db": 66.68190654175832
+          },
+          {
+            "gain_index": 50,
+            "power_dbfs": -17.454242285804003,
+            "relative_db": 44.212848485800805,
+            "snr_db": 69.93446802810992
+          },
+          {
+            "gain_index": 52,
+            "power_dbfs": -15.432555077040128,
+            "relative_db": 46.23453569456468,
+            "snr_db": 72.15111825207224
+          },
+          {
+            "gain_index": 54,
+            "power_dbfs": -13.424919317564308,
+            "relative_db": 48.242171454040495,
+            "snr_db": 72.89890073665636
+          },
+          {
+            "gain_index": 56,
+            "power_dbfs": -11.450999034460711,
+            "relative_db": 50.2160917371441,
+            "snr_db": 72.1125175062609
+          },
+          {
+            "gain_index": 58,
+            "power_dbfs": -9.426464307115202,
+            "relative_db": 52.2406264644896,
+            "snr_db": 75.93992140100258
+          },
+          {
+            "gain_index": 60,
+            "power_dbfs": -7.440301795804206,
+            "relative_db": 54.2267889758006,
+            "snr_db": 76.14302498091112
+          },
+          {
+            "gain_index": 62,
+            "power_dbfs": -5.471849946732168,
+            "relative_db": 56.195240824872634,
+            "snr_db": 73.26852768641466
+          },
+          {
+            "gain_index": 64,
+            "power_dbfs": -3.492272678436458,
+            "relative_db": 58.17481809316835,
+            "snr_db": 76.82580893627073
+          },
+          {
+            "gain_index": 66,
+            "power_dbfs": -1.5430065466766525,
+            "relative_db": 60.124084224928154,
+            "snr_db": 72.60382696598094
+          },
+          {
+            "gain_index": 68,
+            "power_dbfs": 0.3164240333029719,
+            "relative_db": 61.98351480490778,
+            "snr_db": 71.61371831513782
+          },
+          {
+            "gain_index": 70,
+            "power_dbfs": 0.8022799983065553,
+            "relative_db": 62.46937076991136,
+            "snr_db": 66.2794886311233
+          },
+          {
+            "gain_index": 72,
+            "power_dbfs": 1.2599695247485523,
+            "relative_db": 62.92706029635336,
+            "snr_db": 73.8299230030378
+          },
+          {
+            "gain_index": 74,
+            "power_dbfs": 1.424235411348533,
+            "relative_db": 63.09132618295334,
+            "snr_db": 72.11019392627846
+          },
+          {
+            "gain_index": 76,
+            "power_dbfs": 1.5051458628036474,
+            "relative_db": 63.17223663440845,
+            "snr_db": 71.86896564104843
+          },
+          {
+            "gain_index": 78,
+            "power_dbfs": 1.5354685074863692,
+            "relative_db": 63.202559279091176,
+            "snr_db": 67.66770288598889
+          }
+        ]
+      },
+      "lock": {
+        "locked_mhz": [
+          2200,
+          2300,
+          2400,
+          2412,
+          2442,
+          2472,
+          2500,
+          2600,
+          2700,
+          4800,
+          4900,
+          5000,
+          5100,
+          5180,
+          5500,
+          5745,
+          5800,
+          5850,
+          5980,
+          5990
+        ],
+        "no_tone_mhz": [
+          100,
+          433,
+          900,
+          1575,
+          1800,
+          1850,
+          1900,
+          1950,
+          2000,
+          2100,
+          2800,
+          2850,
+          2900,
+          3000,
+          3500,
+          4000,
+          4200,
+          4330,
+          4400,
+          4500,
+          4600,
+          4700
+        ],
+        "rejected": [
+          {
+            "mhz": 50,
+            "reply": "'FREQ 50' -> ERR command"
+          },
+          {
+            "mhz": 99,
+            "reply": "'FREQ 99' -> ERR command"
+          },
+          {
+            "mhz": 6001,
+            "reply": "'FREQ 6001' -> ERR command"
+          },
+          {
+            "mhz": 6100,
+            "reply": "'FREQ 6100' -> ERR command"
+          }
+        ],
+        "criterion": "snr >= 20 dB and |baseband error| < 200 kHz"
+      }
+    },
+    "c5-03": {
+      "board": "c5-03",
+      "gain_index_to_db": {
+        "source": "results/conducted/c5-03/levels_2442.json",
+        "esp_freq_mhz": 2442,
+        "generator_level": 3,
+        "reference_gain_index": 4,
+        "reference_power_dbfs": -62.252564805738885,
+        "usable_span_db": 60.75070785832221,
+        "usable_gain_index_first": 4,
+        "usable_gain_index_last": 68,
+        "rows": [
+          {
+            "gain_index": 0,
+            "power_dbfs": -66.13744672259604,
+            "relative_db": -3.884881916857154,
+            "snr_db": 26.882751970564108
+          },
+          {
+            "gain_index": 2,
+            "power_dbfs": -64.54752117005162,
+            "relative_db": -2.294956364312739,
+            "snr_db": 28.703531464524264
+          },
+          {
+            "gain_index": 4,
+            "power_dbfs": -62.252564805738885,
+            "relative_db": 0.0,
+            "snr_db": 30.536289729565837
+          },
+          {
+            "gain_index": 6,
+            "power_dbfs": -60.828970657316745,
+            "relative_db": 1.42359414842214,
+            "snr_db": 32.376394326806995
+          },
+          {
+            "gain_index": 8,
+            "power_dbfs": -58.77220236935073,
+            "relative_db": 3.4803624363881553,
+            "snr_db": 34.26886596464721
+          },
+          {
+            "gain_index": 10,
+            "power_dbfs": -56.347548287729055,
+            "relative_db": 5.90501651800983,
+            "snr_db": 36.290515240853
+          },
+          {
+            "gain_index": 12,
+            "power_dbfs": -54.718749089582445,
+            "relative_db": 7.53381571615644,
+            "snr_db": 38.02750149730174
+          },
+          {
+            "gain_index": 14,
+            "power_dbfs": -52.64859890216403,
+            "relative_db": 9.603965903574853,
+            "snr_db": 39.542179271864
+          },
+          {
+            "gain_index": 16,
+            "power_dbfs": -50.85636711610417,
+            "relative_db": 11.396197689634718,
+            "snr_db": 41.62100935469396
+          },
+          {
+            "gain_index": 18,
+            "power_dbfs": -48.750974628877984,
+            "relative_db": 13.501590176860901,
+            "snr_db": 43.31177629341758
+          },
+          {
+            "gain_index": 20,
+            "power_dbfs": -46.74777157536204,
+            "relative_db": 15.504793230376848,
+            "snr_db": 44.71619971375837
+          },
+          {
+            "gain_index": 22,
+            "power_dbfs": -45.206000856958354,
+            "relative_db": 17.04656394878053,
+            "snr_db": 46.067042561163646
+          },
+          {
+            "gain_index": 24,
+            "power_dbfs": -43.14604639344334,
+            "relative_db": 19.106518412295543,
+            "snr_db": 48.26096394139918
+          },
+          {
+            "gain_index": 26,
+            "power_dbfs": -41.822865764107895,
+            "relative_db": 20.42969904163099,
+            "snr_db": 49.46442873129502
+          },
+          {
+            "gain_index": 28,
+            "power_dbfs": -40.03387874338303,
+            "relative_db": 22.218686062355857,
+            "snr_db": 51.65256262566369
+          },
+          {
+            "gain_index": 30,
+            "power_dbfs": -38.38425875029002,
+            "relative_db": 23.868306055448862,
+            "snr_db": 52.90582794229746
+          },
+          {
+            "gain_index": 32,
+            "power_dbfs": -36.776616325351576,
+            "relative_db": 25.47594848038731,
+            "snr_db": 53.212395872596446
+          },
+          {
+            "gain_index": 34,
+            "power_dbfs": -35.07946892069608,
+            "relative_db": 27.173095885042805,
+            "snr_db": 56.208464336052934
+          },
+          {
+            "gain_index": 36,
+            "power_dbfs": -33.18462376279286,
+            "relative_db": 29.067941042946025,
+            "snr_db": 57.88240769489568
+          },
+          {
+            "gain_index": 38,
+            "power_dbfs": -31.22780969474983,
+            "relative_db": 31.024755110989055,
+            "snr_db": 59.11521461921804
+          },
+          {
+            "gain_index": 40,
+            "power_dbfs": -29.64944910959283,
+            "relative_db": 32.603115696146055,
+            "snr_db": 61.632923707601456
+          },
+          {
+            "gain_index": 42,
+            "power_dbfs": -27.88886590323374,
+            "relative_db": 34.36369890250515,
+            "snr_db": 63.1377149173855
+          },
+          {
+            "gain_index": 44,
+            "power_dbfs": -25.939025833127864,
+            "relative_db": 36.31353897261102,
+            "snr_db": 65.40125802848782
+          },
+          {
+            "gain_index": 46,
+            "power_dbfs": -23.99559711930714,
+            "relative_db": 38.25696768643175,
+            "snr_db": 66.54427451984763
+          },
+          {
+            "gain_index": 48,
+            "power_dbfs": -21.97269473566029,
+            "relative_db": 40.279870070078594,
+            "snr_db": 66.31675793720058
+          },
+          {
+            "gain_index": 50,
+            "power_dbfs": -19.96865230712355,
+            "relative_db": 42.28391249861534,
+            "snr_db": 68.53530640572598
+          },
+          {
+            "gain_index": 52,
+            "power_dbfs": -17.87174967733599,
+            "relative_db": 44.380815128402894,
+            "snr_db": 69.18615538434827
+          },
+          {
+            "gain_index": 54,
+            "power_dbfs": -15.875456286388292,
+            "relative_db": 46.37710851935059,
+            "snr_db": 70.07258918191309
+          },
+          {
+            "gain_index": 56,
+            "power_dbfs": -13.917319809559432,
+            "relative_db": 48.335244996179455,
+            "snr_db": 71.46989477709853
+          },
+          {
+            "gain_index": 58,
+            "power_dbfs": -11.426044317801463,
+            "relative_db": 50.82652048793742,
+            "snr_db": 75.52320710457003
+          },
+          {
+            "gain_index": 60,
+            "power_dbfs": -9.435244993743042,
+            "relative_db": 52.817319811995844,
+            "snr_db": 73.23116648131617
+          },
+          {
+            "gain_index": 62,
+            "power_dbfs": -7.478836036412609,
+            "relative_db": 54.773728769326276,
+            "snr_db": 74.99443000287187
+          },
+          {
+            "gain_index": 64,
+            "power_dbfs": -5.500271987551194,
+            "relative_db": 56.75229281818769,
+            "snr_db": 76.62949280073043
+          },
+          {
+            "gain_index": 66,
+            "power_dbfs": -3.5293562822845788,
+            "relative_db": 58.7232085234543,
+            "snr_db": 75.34026396194736
+          },
+          {
+            "gain_index": 68,
+            "power_dbfs": -1.5018569474166743,
+            "relative_db": 60.75070785832221,
+            "snr_db": 76.97692224093106
+          },
+          {
+            "gain_index": 70,
+            "power_dbfs": 0.2471502331991936,
+            "relative_db": 62.49971503893808,
+            "snr_db": 74.54316739883645
+          },
+          {
+            "gain_index": 72,
+            "power_dbfs": 0.8652365082587141,
+            "relative_db": 63.117801313997596,
+            "snr_db": 75.13553108110041
+          },
+          {
+            "gain_index": 74,
+            "power_dbfs": 1.1799738063906466,
+            "relative_db": 63.432538612129534,
+            "snr_db": 74.01550699848207
+          },
+          {
+            "gain_index": 76,
+            "power_dbfs": 1.3359819515243903,
+            "relative_db": 63.58854675726327,
+            "snr_db": 73.75219975966336
+          },
+          {
+            "gain_index": 78,
+            "power_dbfs": 1.3584424142921512,
+            "relative_db": 63.611007220031034,
+            "snr_db": 65.18842326681265
+          }
+        ]
+      },
+      "lock": {
+        "locked_mhz": [
+          2200,
+          2300,
+          2400,
+          2412,
+          2442,
+          2472,
+          2490,
+          2520,
+          2600,
+          2700,
+          4800,
+          5000,
+          5100,
+          5140,
+          5160,
+          5180,
+          5200,
+          5500,
+          5745,
+          5800,
+          5850,
+          5980,
+          5990
+        ],
+        "no_tone_mhz": [
+          100,
+          433,
+          900,
+          1575,
+          1800,
+          1900,
+          2000,
+          2100,
+          2800,
+          2900,
+          3000,
+          3500,
+          4000,
+          4200,
+          4330,
+          4400,
+          4500,
+          4600,
+          4700
+        ],
+        "rejected": [
+          {
+            "mhz": 50,
+            "reply": "'FREQ 50' -> ERR command"
+          },
+          {
+            "mhz": 99,
+            "reply": "'FREQ 99' -> ERR command"
+          },
+          {
+            "mhz": 6001,
+            "reply": "'FREQ 6001' -> ERR command"
+          },
+          {
+            "mhz": 6100,
+            "reply": "'FREQ 6100' -> ERR command"
+          }
+        ],
+        "criterion": "snr >= 20 dB and |baseband error| < 200 kHz"
+      }
+    },
+    "s3-wroom1u-01": {
+      "board": "s3-wroom1u-01",
+      "gain_index_to_db": {
+        "source": "results/conducted/s3-wroom1u-01/levels_2442.json",
+        "esp_freq_mhz": 2442,
+        "generator_level": 3,
+        "reference_gain_index": 6,
+        "reference_power_dbfs": -56.21591269670118,
+        "usable_span_db": 54.057960161936364,
+        "usable_gain_index_first": 6,
+        "usable_gain_index_last": 62,
+        "rows": [
+          {
+            "gain_index": 0,
+            "power_dbfs": -61.31908518774349,
+            "relative_db": -5.103172491042308,
+            "snr_db": 27.11176263952632
+          },
+          {
+            "gain_index": 2,
+            "power_dbfs": -61.34863625840592,
+            "relative_db": -5.132723561704736,
+            "snr_db": 27.85810536344723
+          },
+          {
+            "gain_index": 4,
+            "power_dbfs": -59.97335656949644,
+            "relative_db": -3.757443872795257,
+            "snr_db": 28.79967706788214
+          },
+          {
+            "gain_index": 6,
+            "power_dbfs": -56.21591269670118,
+            "relative_db": 0.0,
+            "snr_db": 30.259302234520902
+          },
+          {
+            "gain_index": 8,
+            "power_dbfs": -54.169750870245764,
+            "relative_db": 2.0461618264554176,
+            "snr_db": 34.0751417821831
+          },
+          {
+            "gain_index": 10,
+            "power_dbfs": -53.99929365918683,
+            "relative_db": 2.2166190375143486,
+            "snr_db": 34.69916673445879
+          },
+          {
+            "gain_index": 12,
+            "power_dbfs": -51.90634496223214,
+            "relative_db": 4.3095677344690415,
+            "snr_db": 35.760917631690525
+          },
+          {
+            "gain_index": 14,
+            "power_dbfs": -48.53281070303665,
+            "relative_db": 7.683101993664529,
+            "snr_db": 37.06859673493706
+          },
+          {
+            "gain_index": 16,
+            "power_dbfs": -47.326448180503874,
+            "relative_db": 8.889464516197307,
+            "snr_db": 37.49609955274166
+          },
+          {
+            "gain_index": 18,
+            "power_dbfs": -45.48522759290422,
+            "relative_db": 10.730685103796965,
+            "snr_db": 37.84350505023549
+          },
+          {
+            "gain_index": 20,
+            "power_dbfs": -42.66152646033696,
+            "relative_db": 13.554386236364223,
+            "snr_db": 43.15603073004952
+          },
+          {
+            "gain_index": 22,
+            "power_dbfs": -41.03329489808181,
+            "relative_db": 15.182617798619368,
+            "snr_db": 43.51834104117788
+          },
+          {
+            "gain_index": 24,
+            "power_dbfs": -39.309761371114604,
+            "relative_db": 16.906151325586578,
+            "snr_db": 43.94060611450761
+          },
+          {
+            "gain_index": 26,
+            "power_dbfs": -37.213432606102884,
+            "relative_db": 19.002480090598297,
+            "snr_db": 44.478779510695674
+          },
+          {
+            "gain_index": 28,
+            "power_dbfs": -35.320390483398015,
+            "relative_db": 20.895522213303167,
+            "snr_db": 44.473425955593335
+          },
+          {
+            "gain_index": 30,
+            "power_dbfs": -32.75997405741509,
+            "relative_db": 23.45593863928609,
+            "snr_db": 54.69075444112647
+          },
+          {
+            "gain_index": 32,
+            "power_dbfs": -30.830724623146114,
+            "relative_db": 25.385188073555067,
+            "snr_db": 54.916479522306176
+          },
+          {
+            "gain_index": 34,
+            "power_dbfs": -28.9441693695596,
+            "relative_db": 27.271743327141582,
+            "snr_db": 55.3994101860609
+          },
+          {
+            "gain_index": 36,
+            "power_dbfs": -27.201862668334115,
+            "relative_db": 29.014050028367066,
+            "snr_db": 57.56080700051512
+          },
+          {
+            "gain_index": 38,
+            "power_dbfs": -25.251035595110732,
+            "relative_db": 30.96487710159045,
+            "snr_db": 57.47852070898925
+          },
+          {
+            "gain_index": 40,
+            "power_dbfs": -23.30449694519173,
+            "relative_db": 32.91141575150945,
+            "snr_db": 58.115922740742185
+          },
+          {
+            "gain_index": 42,
+            "power_dbfs": -21.240898226513796,
+            "relative_db": 34.97501447018739,
+            "snr_db": 58.274586856232624
+          },
+          {
+            "gain_index": 44,
+            "power_dbfs": -19.319895156395397,
+            "relative_db": 36.896017540305785,
+            "snr_db": 58.386830539363
+          },
+          {
+            "gain_index": 46,
+            "power_dbfs": -17.40210335675529,
+            "relative_db": 38.81380933994589,
+            "snr_db": 59.70669465540561
+          },
+          {
+            "gain_index": 48,
+            "power_dbfs": -14.953751323551913,
+            "relative_db": 41.26216137314927,
+            "snr_db": 67.63175032296017
+          },
+          {
+            "gain_index": 50,
+            "power_dbfs": -13.0173918218047,
+            "relative_db": 43.19852087489648,
+            "snr_db": 67.89047151881854
+          },
+          {
+            "gain_index": 52,
+            "power_dbfs": -11.085642567607625,
+            "relative_db": 45.13027012909356,
+            "snr_db": 67.49286071350019
+          },
+          {
+            "gain_index": 54,
+            "power_dbfs": -9.01589983221122,
+            "relative_db": 47.20001286448996,
+            "snr_db": 67.25427265321551
+          },
+          {
+            "gain_index": 56,
+            "power_dbfs": -7.959956777515832,
+            "relative_db": 48.25595591918535,
+            "snr_db": 71.69572506928071
+          },
+          {
+            "gain_index": 58,
+            "power_dbfs": -5.883729395139042,
+            "relative_db": 50.33218330156214,
+            "snr_db": 71.2625459666821
+          },
+          {
+            "gain_index": 60,
+            "power_dbfs": -4.177969448666791,
+            "relative_db": 52.03794324803439,
+            "snr_db": 70.25383455602515
+          },
+          {
+            "gain_index": 62,
+            "power_dbfs": -2.1579525347648145,
+            "relative_db": 54.057960161936364,
+            "snr_db": 69.97088186004896
+          },
+          {
+            "gain_index": 64,
+            "power_dbfs": -0.1632551850655606,
+            "relative_db": 56.05265751163562,
+            "snr_db": 72.32934698074965
+          },
+          {
+            "gain_index": 66,
+            "power_dbfs": 0.8665462150024519,
+            "relative_db": 57.08245891170363,
+            "snr_db": 71.4320172065766
+          },
+          {
+            "gain_index": 68,
+            "power_dbfs": 1.3665575187213053,
+            "relative_db": 57.58247021542249,
+            "snr_db": 70.89629387865448
+          },
+          {
+            "gain_index": 70,
+            "power_dbfs": 1.5937254803670455,
+            "relative_db": 57.80963817706823,
+            "snr_db": 67.93483089083195
+          },
+          {
+            "gain_index": 72,
+            "power_dbfs": 1.571182416008822,
+            "relative_db": 57.787095112710006,
+            "snr_db": 54.88985510236808
+          },
+          {
+            "gain_index": 74,
+            "power_dbfs": 1.9783290244593634,
+            "relative_db": 58.194241721160545,
+            "snr_db": 62.20557819998597
+          },
+          {
+            "gain_index": 76,
+            "power_dbfs": 1.9794775204281465,
+            "relative_db": 58.19539021712933,
+            "snr_db": 62.97141289396822
+          },
+          {
+            "gain_index": 78,
+            "power_dbfs": 1.9759806446412533,
+            "relative_db": 58.191893341342436,
+            "snr_db": 63.04699233063744
+          },
+          {
+            "gain_index": 80,
+            "power_dbfs": 1.979070579960778,
+            "relative_db": 58.19498327666196,
+            "snr_db": 63.153257059640794
+          },
+          {
+            "gain_index": 82,
+            "power_dbfs": 1.8397973055077463,
+            "relative_db": 58.055710002208926,
+            "snr_db": 53.28171307744047
+          }
+        ]
+      },
+      "lock": {
+        "locked_mhz": [
+          1850,
+          1900,
+          1950,
+          2000,
+          2100,
+          2200,
+          2300,
+          2400,
+          2412,
+          2442,
+          2472,
+          2500,
+          2600,
+          2700,
+          2800
+        ],
+        "no_tone_mhz": [
+          100,
+          433,
+          900,
+          1575,
+          1800,
+          2850,
+          2900,
+          3000,
+          3500,
+          4330,
+          5180,
+          5500,
+          5745,
+          5800,
+          5850,
+          5980
+        ],
+        "rejected": [
+          {
+            "mhz": 50,
+            "reply": "'FREQ 50' -> ERR command"
+          },
+          {
+            "mhz": 99,
+            "reply": "'FREQ 99' -> ERR command"
+          },
+          {
+            "mhz": 6001,
+            "reply": "'FREQ 6001' -> ERR command"
+          },
+          {
+            "mhz": 6100,
+            "reply": "'FREQ 6100' -> ERR command"
+          }
+        ],
+        "criterion": "snr >= 20 dB and |baseband error| < 200 kHz"
+      }
+    },
+    "s3-wroom1u-02": {
+      "board": "s3-wroom1u-02",
+      "gain_index_to_db": {
+        "source": "results/conducted/s3-wroom1u-02/levels_2442.json",
+        "esp_freq_mhz": 2442,
+        "generator_level": 3,
+        "reference_gain_index": 6,
+        "reference_power_dbfs": -56.026709657604655,
+        "usable_span_db": 53.98223070052639,
+        "usable_gain_index_first": 6,
+        "usable_gain_index_last": 62,
+        "rows": [
+          {
+            "gain_index": 0,
+            "power_dbfs": -61.369514246245416,
+            "relative_db": -5.34280458864076,
+            "snr_db": 27.263500279488824
+          },
+          {
+            "gain_index": 2,
+            "power_dbfs": -61.0521111187478,
+            "relative_db": -5.025401461143147,
+            "snr_db": 28.214228473333748
+          },
+          {
+            "gain_index": 4,
+            "power_dbfs": -60.565905884880934,
+            "relative_db": -4.539196227276278,
+            "snr_db": 28.880715501365977
+          },
+          {
+            "gain_index": 6,
+            "power_dbfs": -56.026709657604655,
+            "relative_db": 0.0,
+            "snr_db": 30.69890829958474
+          },
+          {
+            "gain_index": 8,
+            "power_dbfs": -55.62200070036034,
+            "relative_db": 0.404708957244317,
+            "snr_db": 33.758065989563335
+          },
+          {
+            "gain_index": 10,
+            "power_dbfs": -55.03178467427749,
+            "relative_db": 0.9949249833271665,
+            "snr_db": 34.78483253358318
+          },
+          {
+            "gain_index": 12,
+            "power_dbfs": -52.19831532007522,
+            "relative_db": 3.8283943375294385,
+            "snr_db": 35.883141463301904
+          },
+          {
+            "gain_index": 14,
+            "power_dbfs": -49.463698665173624,
+            "relative_db": 6.563010992431032,
+            "snr_db": 37.028078763728814
+          },
+          {
+            "gain_index": 16,
+            "power_dbfs": -47.79620073118529,
+            "relative_db": 8.230508926419368,
+            "snr_db": 37.5135011928141
+          },
+          {
+            "gain_index": 18,
+            "power_dbfs": -45.666835709259374,
+            "relative_db": 10.359873948345282,
+            "snr_db": 38.15478355269115
+          },
+          {
+            "gain_index": 20,
+            "power_dbfs": -42.91155321389449,
+            "relative_db": 13.115156443710163,
+            "snr_db": 43.19784818016064
+          },
+          {
+            "gain_index": 22,
+            "power_dbfs": -40.87255957543417,
+            "relative_db": 15.154150082170489,
+            "snr_db": 43.997550163448935
+          },
+          {
+            "gain_index": 24,
+            "power_dbfs": -39.09620934955223,
+            "relative_db": 16.930500308052423,
+            "snr_db": 44.39514127905025
+          },
+          {
+            "gain_index": 26,
+            "power_dbfs": -37.18145307865748,
+            "relative_db": 18.845256578947172,
+            "snr_db": 44.71875940003535
+          },
+          {
+            "gain_index": 28,
+            "power_dbfs": -35.297033564991075,
+            "relative_db": 20.72967609261358,
+            "snr_db": 44.95291841943712
+          },
+          {
+            "gain_index": 30,
+            "power_dbfs": -32.89266357444784,
+            "relative_db": 23.134046083156818,
+            "snr_db": 54.88734438190255
+          },
+          {
+            "gain_index": 32,
+            "power_dbfs": -30.988169437809955,
+            "relative_db": 25.0385402197947,
+            "snr_db": 55.74299107791365
+          },
+          {
+            "gain_index": 34,
+            "power_dbfs": -29.09295476009167,
+            "relative_db": 26.933754897512987,
+            "snr_db": 56.313984534073136
+          },
+          {
+            "gain_index": 36,
+            "power_dbfs": -27.561324004239665,
+            "relative_db": 28.46538565336499,
+            "snr_db": 58.15512857264477
+          },
+          {
+            "gain_index": 38,
+            "power_dbfs": -25.59691995630919,
+            "relative_db": 30.429789701295466,
+            "snr_db": 58.64315889482795
+          },
+          {
+            "gain_index": 40,
+            "power_dbfs": -23.67081032092731,
+            "relative_db": 32.355899336677346,
+            "snr_db": 59.071232624991026
+          },
+          {
+            "gain_index": 42,
+            "power_dbfs": -21.583619131970558,
+            "relative_db": 34.4430905256341,
+            "snr_db": 59.395993785189475
+          },
+          {
+            "gain_index": 44,
+            "power_dbfs": -19.666890125824736,
+            "relative_db": 36.35981953177992,
+            "snr_db": 59.68930959727312
+          },
+          {
+            "gain_index": 46,
+            "power_dbfs": -17.744973679023868,
+            "relative_db": 38.281735978580784,
+            "snr_db": 59.82782519593368
+          },
+          {
+            "gain_index": 48,
+            "power_dbfs": -14.876786047946249,
+            "relative_db": 41.14992360965841,
+            "snr_db": 68.02704634570406
+          },
+          {
+            "gain_index": 50,
+            "power_dbfs": -12.940270040005501,
+            "relative_db": 43.086439617599154,
+            "snr_db": 68.60804074689082
+          },
+          {
+            "gain_index": 52,
+            "power_dbfs": -11.010841894055796,
+            "relative_db": 45.01586776354886,
+            "snr_db": 68.9532319559944
+          },
+          {
+            "gain_index": 54,
+            "power_dbfs": -8.928348404537989,
+            "relative_db": 47.09836125306667,
+            "snr_db": 68.71658691246
+          },
+          {
+            "gain_index": 56,
+            "power_dbfs": -7.870646337367506,
+            "relative_db": 48.15606332023715,
+            "snr_db": 72.59681527649006
+          },
+          {
+            "gain_index": 58,
+            "power_dbfs": -5.785835870832673,
+            "relative_db": 50.240873786771985,
+            "snr_db": 72.6306755546803
+          },
+          {
+            "gain_index": 60,
+            "power_dbfs": -4.100223654138087,
+            "relative_db": 51.926486003466565,
+            "snr_db": 72.48768206003837
+          },
+          {
+            "gain_index": 62,
+            "power_dbfs": -2.0444789570782675,
+            "relative_db": 53.98223070052639,
+            "snr_db": 72.37981441460758
+          },
+          {
+            "gain_index": 64,
+            "power_dbfs": -0.11663825570727807,
+            "relative_db": 55.910071401897376,
+            "snr_db": 72.19142989205793
+          },
+          {
+            "gain_index": 66,
+            "power_dbfs": 0.7996974067484304,
+            "relative_db": 56.826407064353084,
+            "snr_db": 74.43653786483243
+          },
+          {
+            "gain_index": 68,
+            "power_dbfs": 1.237544011731927,
+            "relative_db": 57.26425366933658,
+            "snr_db": 71.28722295848047
+          },
+          {
+            "gain_index": 70,
+            "power_dbfs": 1.440515688073172,
+            "relative_db": 57.467225345677825,
+            "snr_db": 71.55742516910463
+          },
+          {
+            "gain_index": 72,
+            "power_dbfs": 1.6763710701966483,
+            "relative_db": 57.70308072780131,
+            "snr_db": 71.98999599242272
+          },
+          {
+            "gain_index": 74,
+            "power_dbfs": 1.7890268708538288,
+            "relative_db": 57.81573652845849,
+            "snr_db": 65.94935162938681
+          },
+          {
+            "gain_index": 76,
+            "power_dbfs": 1.7907036057335812,
+            "relative_db": 57.81741326333824,
+            "snr_db": 68.0363750987221
+          },
+          {
+            "gain_index": 78,
+            "power_dbfs": 1.7885426683935137,
+            "relative_db": 57.815252325998166,
+            "snr_db": 67.64776594512477
+          },
+          {
+            "gain_index": 80,
+            "power_dbfs": 1.7908019689787853,
+            "relative_db": 57.81751162658344,
+            "snr_db": 68.38673817259891
+          },
+          {
+            "gain_index": 82,
+            "power_dbfs": 1.7894130288500016,
+            "relative_db": 57.816122686454655,
+            "snr_db": 68.38195355673867
+          }
+        ]
+      },
+      "lock": {
+        "locked_mhz": [
+          1850,
+          1900,
+          1950,
+          2000,
+          2100,
+          2200,
+          2300,
+          2400,
+          2412,
+          2442,
+          2472,
+          2500,
+          2600,
+          2700,
+          2800
+        ],
+        "no_tone_mhz": [
+          100,
+          433,
+          900,
+          1575,
+          1800,
+          2850,
+          2900,
+          3000,
+          3500,
+          4330,
+          5180,
+          5500,
+          5745,
+          5800,
+          5850,
+          5980
+        ],
+        "rejected": [
+          {
+            "mhz": 50,
+            "reply": "'FREQ 50' -> ERR command"
+          },
+          {
+            "mhz": 99,
+            "reply": "'FREQ 99' -> ERR command"
+          },
+          {
+            "mhz": 6001,
+            "reply": "'FREQ 6001' -> ERR command"
+          },
+          {
+            "mhz": 6100,
+            "reply": "'FREQ 6100' -> ERR command"
+          }
+        ],
+        "criterion": "snr >= 20 dB and |baseband error| < 200 kHz"
+      }
+    },
+    "s3-wroom1u-03": {
+      "board": "s3-wroom1u-03",
+      "gain_index_to_db": {
+        "source": "results/conducted/s3-wroom1u-03/levels_2442.json",
+        "esp_freq_mhz": 2442,
+        "generator_level": 3,
+        "reference_gain_index": 6,
+        "reference_power_dbfs": -56.8417228128396,
+        "usable_span_db": 54.30087366900774,
+        "usable_gain_index_first": 6,
+        "usable_gain_index_last": 62,
+        "rows": [
+          {
+            "gain_index": 0,
+            "power_dbfs": -63.3373023119422,
+            "relative_db": -6.495579499102604,
+            "snr_db": 26.729888753520775
+          },
+          {
+            "gain_index": 2,
+            "power_dbfs": -61.09788215343765,
+            "relative_db": -4.256159340598053,
+            "snr_db": 27.960128425033872
+          },
+          {
+            "gain_index": 4,
+            "power_dbfs": -59.5430635517961,
+            "relative_db": -2.701340738956503,
+            "snr_db": 28.637368527311978
+          },
+          {
+            "gain_index": 6,
+            "power_dbfs": -56.8417228128396,
+            "relative_db": 0.0,
+            "snr_db": 30.141588067653732
+          },
+          {
+            "gain_index": 8,
+            "power_dbfs": -55.884107767718646,
+            "relative_db": 0.9576150451209529,
+            "snr_db": 33.56057959296797
+          },
+          {
+            "gain_index": 10,
+            "power_dbfs": -54.11369048646502,
+            "relative_db": 2.7280323263745814,
+            "snr_db": 34.35577049649435
+          },
+          {
+            "gain_index": 12,
+            "power_dbfs": -52.04942409173175,
+            "relative_db": 4.792298721107848,
+            "snr_db": 35.22739518950109
+          },
+          {
+            "gain_index": 14,
+            "power_dbfs": -49.823428626630175,
+            "relative_db": 7.018294186209424,
+            "snr_db": 36.585354521819376
+          },
+          {
+            "gain_index": 16,
+            "power_dbfs": -47.9813546418675,
+            "relative_db": 8.860368170972102,
+            "snr_db": 37.21339854875157
+          },
+          {
+            "gain_index": 18,
+            "power_dbfs": -46.154400946074276,
+            "relative_db": 10.687321866765323,
+            "snr_db": 37.61646237897079
+          },
+          {
+            "gain_index": 20,
+            "power_dbfs": -42.954772318193484,
+            "relative_db": 13.886950494646115,
+            "snr_db": 42.88011777467831
+          },
+          {
+            "gain_index": 22,
+            "power_dbfs": -41.29000992114862,
+            "relative_db": 15.551712891690983,
+            "snr_db": 43.367213082166664
+          },
+          {
+            "gain_index": 24,
+            "power_dbfs": -39.83610065473004,
+            "relative_db": 17.00562215810956,
+            "snr_db": 43.615324494378726
+          },
+          {
+            "gain_index": 26,
+            "power_dbfs": -37.46699728334421,
+            "relative_db": 19.374725529495386,
+            "snr_db": 43.95901937181263
+          },
+          {
+            "gain_index": 28,
+            "power_dbfs": -35.579352448707205,
+            "relative_db": 21.262370364132394,
+            "snr_db": 44.24428338925064
+          },
+          {
+            "gain_index": 30,
+            "power_dbfs": -33.23052278586867,
+            "relative_db": 23.611200026970927,
+            "snr_db": 54.71566433416645
+          },
+          {
+            "gain_index": 32,
+            "power_dbfs": -31.35602523406472,
+            "relative_db": 25.48569757877488,
+            "snr_db": 55.24998955850834
+          },
+          {
+            "gain_index": 34,
+            "power_dbfs": -29.51842126954052,
+            "relative_db": 27.323301543299078,
+            "snr_db": 55.86435026561038
+          },
+          {
+            "gain_index": 36,
+            "power_dbfs": -27.923086332400864,
+            "relative_db": 28.918636480438735,
+            "snr_db": 57.83880348937076
+          },
+          {
+            "gain_index": 38,
+            "power_dbfs": -25.9812462399705,
+            "relative_db": 30.8604765728691,
+            "snr_db": 58.28650693203219
+          },
+          {
+            "gain_index": 40,
+            "power_dbfs": -24.041982400450483,
+            "relative_db": 32.79974041238911,
+            "snr_db": 58.651213474663415
+          },
+          {
+            "gain_index": 42,
+            "power_dbfs": -21.95261163382492,
+            "relative_db": 34.88911117901468,
+            "snr_db": 59.18976092165661
+          },
+          {
+            "gain_index": 44,
+            "power_dbfs": -20.036260451638313,
+            "relative_db": 36.805462361201286,
+            "snr_db": 59.38168483911062
+          },
+          {
+            "gain_index": 46,
+            "power_dbfs": -18.12220739192921,
+            "relative_db": 38.71951542091039,
+            "snr_db": 59.53611712348831
+          },
+          {
+            "gain_index": 48,
+            "power_dbfs": -15.456024944079328,
+            "relative_db": 41.385697868760275,
+            "snr_db": 67.46252864402746
+          },
+          {
+            "gain_index": 50,
+            "power_dbfs": -13.50810211846228,
+            "relative_db": 43.333620694377316,
+            "snr_db": 67.75019370051356
+          },
+          {
+            "gain_index": 52,
+            "power_dbfs": -11.572070816869545,
+            "relative_db": 45.26965199597005,
+            "snr_db": 68.04194127832355
+          },
+          {
+            "gain_index": 54,
+            "power_dbfs": -9.486193620129164,
+            "relative_db": 47.355529192710435,
+            "snr_db": 67.99486532716388
+          },
+          {
+            "gain_index": 56,
+            "power_dbfs": -8.39841626568537,
+            "relative_db": 48.44330654715423,
+            "snr_db": 70.5062360412712
+          },
+          {
+            "gain_index": 58,
+            "power_dbfs": -6.314136575372494,
+            "relative_db": 50.527586237467105,
+            "snr_db": 71.84208930604731
+          },
+          {
+            "gain_index": 60,
+            "power_dbfs": -4.599805443389975,
+            "relative_db": 52.241917369449624,
+            "snr_db": 72.2770506594358
+          },
+          {
+            "gain_index": 62,
+            "power_dbfs": -2.540849143831854,
+            "relative_db": 54.30087366900774,
+            "snr_db": 71.5743122521799
+          },
+          {
+            "gain_index": 64,
+            "power_dbfs": -0.5664540034815669,
+            "relative_db": 56.27526880935803,
+            "snr_db": 72.11596410451097
+          },
+          {
+            "gain_index": 66,
+            "power_dbfs": 0.5940700996872051,
+            "relative_db": 57.43579291252681,
+            "snr_db": 72.3357750943927
+          },
+          {
+            "gain_index": 68,
+            "power_dbfs": 1.0970367466852684,
+            "relative_db": 57.93875955952487,
+            "snr_db": 68.0864997200436
+          },
+          {
+            "gain_index": 70,
+            "power_dbfs": 1.3192650304722295,
+            "relative_db": 58.16098784331183,
+            "snr_db": 69.83872088955744
+          },
+          {
+            "gain_index": 72,
+            "power_dbfs": 1.5807102426724566,
+            "relative_db": 58.42243305551206,
+            "snr_db": 69.27371143365892
+          },
+          {
+            "gain_index": 74,
+            "power_dbfs": 1.6982020145951318,
+            "relative_db": 58.53992482743473,
+            "snr_db": 55.6319279955774
+          },
+          {
+            "gain_index": 76,
+            "power_dbfs": 1.7015276362420462,
+            "relative_db": 58.54325044908165,
+            "snr_db": 55.491998218416505
+          },
+          {
+            "gain_index": 78,
+            "power_dbfs": 1.6873886961207818,
+            "relative_db": 58.52911150896038,
+            "snr_db": 54.612958753010396
+          },
+          {
+            "gain_index": 80,
+            "power_dbfs": 1.7369488647719722,
+            "relative_db": 58.578671677611574,
+            "snr_db": 64.93715494244353
+          },
+          {
+            "gain_index": 82,
+            "power_dbfs": 1.73356611598272,
+            "relative_db": 58.57528892882232,
+            "snr_db": 64.12357825628908
+          }
+        ]
+      },
+      "lock": {
+        "locked_mhz": [
+          1900,
+          1950,
+          2000,
+          2100,
+          2200,
+          2300,
+          2400,
+          2412,
+          2442,
+          2472,
+          2500,
+          2600,
+          2700,
+          2800
+        ],
+        "no_tone_mhz": [
+          100,
+          433,
+          900,
+          1575,
+          1800,
+          1850,
+          2850,
+          2900,
+          3000,
+          3500,
+          4330,
+          5180,
+          5500,
+          5745,
+          5800,
+          5850,
+          5980
+        ],
+        "rejected": [
+          {
+            "mhz": 50,
+            "reply": "'FREQ 50' -> ERR command"
+          },
+          {
+            "mhz": 99,
+            "reply": "'FREQ 99' -> ERR command"
+          },
+          {
+            "mhz": 6001,
+            "reply": "'FREQ 6001' -> ERR command"
+          },
+          {
+            "mhz": 6100,
+            "reply": "'FREQ 6100' -> ERR command"
+          }
+        ],
+        "criterion": "snr >= 20 dB and |baseband error| < 200 kHz"
+      }
+    }
+  }
+}

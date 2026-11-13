@@ -1,0 +1,113 @@
+{
+  "utc": "2026-10-12T09:47:49Z",
+  "args": {
+    "port": "COM14",
+    "n": [
+      256,
+      16380
+    ],
+    "count": 1000,
+    "jitter_us": 1000,
+    "out": "conducted/s3-wroom1u-01"
+  },
+  "runs": [
+    {
+      "setting": "tick",
+      "n": 256,
+      "count": 1000,
+      "poll": 0,
+      "jitter_us": 0,
+      "t_p_ms": 3.0009929929929933,
+      "t_p_std_ms": 0.03203362458503573,
+      "start_mod_1ms_R": 0.9995793233366863,
+      "cmd_mod_1ms_R": 0.9999798381051581,
+      "start_mod_1ms_mean_us": 819.9095810478564,
+      "cluster_drift_us": 0.7911440052500893,
+      "duration_s": 2.997992,
+      "cmd_to_start_us_median": 75.0
+    },
+    {
+      "setting": "fast",
+      "n": 256,
+      "count": 1000,
+      "poll": 1,
+      "jitter_us": 0,
+      "t_p_ms": 1.4858998998999,
+      "t_p_std_ms": 0.15945740702345762,
+      "start_mod_1ms_R": 0.02999922664813697,
+      "cmd_mod_1ms_R": 0.029819013692590702,
+      "start_mod_1ms_mean_us": 776.2927377792113,
+      "cluster_drift_us": 77.48720504859739,
+      "duration_s": 1.484414,
+      "cmd_to_start_us_median": 75.0
+    },
+    {
+      "setting": "jitter",
+      "n": 256,
+      "count": 1000,
+      "poll": 0,
+      "jitter_us": 1000,
+      "t_p_ms": 3.175001001001001,
+      "t_p_std_ms": 0.41537335256491836,
+      "start_mod_1ms_R": 0.034340251366854216,
+      "cmd_mod_1ms_R": 0.9999996454215044,
+      "start_mod_1ms_mean_us": 612.066026264507,
+      "cluster_drift_us": 31.644949994748572,
+      "duration_s": 3.171826,
+      "cmd_to_start_us_median": 601.5
+    },
+    {
+      "setting": "tick",
+      "n": 16380,
+      "count": 1000,
+      "poll": 0,
+      "jitter_us": 0,
+      "t_p_ms": 46.23827027027027,
+      "t_p_std_ms": 0.918110679737075,
+      "start_mod_1ms_R": 0.9962534612305247,
+      "cmd_mod_1ms_R": 0.9999991074943819,
+      "start_mod_1ms_mean_us": 969.8034319863291,
+      "cluster_drift_us": 1.0256139381614275,
+      "duration_s": 46.192032,
+      "cmd_to_start_us_median": 219.0
+    },
+    {
+      "setting": "fast",
+      "n": 16380,
+      "count": 1000,
+      "poll": 1,
+      "jitter_us": 0,
+      "t_p_ms": 44.87585885885886,
+      "t_p_std_ms": 0.5219889074670244,
+      "start_mod_1ms_R": 0.4565712622730268,
+      "cmd_mod_1ms_R": 0.4600906824898325,
+      "start_mod_1ms_mean_us": 463.90443456860015,
+      "cluster_drift_us": 126.67562686665474,
+      "duration_s": 44.830983,
+      "cmd_to_start_us_median": 217.0
+    },
+    {
+      "setting": "jitter",
+      "n": 16380,
+      "count": 1000,
+      "poll": 0,
+      "jitter_us": 1000,
+      "t_p_ms": 46.52240740740741,
+      "t_p_std_ms": 0.6457107940981008,
+      "start_mod_1ms_R": 0.007114910967978865,
+      "cmd_mod_1ms_R": 0.999999080175212,
+      "start_mod_1ms_mean_us": 43.9268745388103,
+      "cluster_drift_us": -145.04528675875065,
+      "duration_s": 46.475885,
+      "cmd_to_start_us_median": 722.5
+    }
+  ],
+  "firmware": {
+    "revision": "5cb277c4dd0c7c3f0d1ceec374164909c184f011-dirty",
+    "build_date": "2026-10-12",
+    "build_timestamp": "2026-10-12T09:40:44Z",
+    "profile": "esp32s3",
+    "upstream": "06a5ca4027d28626c8e8a8b38176814dfe774a1c"
+  },
+  "note": "R = mean resultant length of start phase on a 1 ms circle (1 = locked to grid, ~0 = uniform)"
+}

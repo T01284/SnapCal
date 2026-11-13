@@ -1,0 +1,85 @@
+{
+  "utc": "2026-11-08T07:50:06Z",
+  "freq_mhz": 2442.0,
+  "definition": {
+    "mds": "conducted analytic Pin from RF-off floor + ENBW at SNR=10 dB",
+    "sfdr": "CW carrier-to-strongest in-band spur (excl. DC/LO guard)",
+    "iip3": "two-tone Pin_avg + (P_avg-P_IM3)/2; Pin via RFE-only scale"
+  },
+  "caveats": [
+    "ESP/Lime SFDR ~24 dB may be RFE6GEN source-limited (no harmonic filter); HackRF 40.9 dB is higher on the same source chain",
+    "Lime IIP3 second tone from Pluto DDS (same-Mini full-duplex TX+RX not used)",
+    "HackRF IIP3 tones +2/+3 MHz at 10 MS/s (Nyquist-limited vs +5/+7 on Pluto/Lime)",
+    "Lime IIP3 n=2 (L1/L2 failed balance cut)"
+  ],
+  "devices": [
+    {
+      "id": "esp32-s3",
+      "label": "ESP32-S3",
+      "board_dir": "s3-com15",
+      "lo_mhz": 2442.0,
+      "mds_dbm": -104.2,
+      "sfdr_db": 24.5,
+      "iip3_dbm": -48.6,
+      "iip3_n": 4,
+      "mds_file": "results/conducted/s3-com15/mds_sfdr_2442_att61.json",
+      "iip3_file": "results/conducted/s3-com15/iip3_2442.json",
+      "notes": {
+        "mds": "analytic N0+ENBW, SNR=10 dB",
+        "sfdr": "RFE6GEN has no harmonic filter (typ. -10 dBc); in-band spur may be source-limited. sfdr_exclude_lo_1mhz drops |f_bb|<1 MHz (LO/DC skirt).",
+        "iip3": "IIP3 = Pin_avg + (P_avg - P_IM3)/2; Pin from dBFS via RFE-only scale; P_IM3 = stronger of the two IM3 products; equal-tone within --balance-db"
+      }
+    },
+    {
+      "id": "lime-mini",
+      "label": "LimeSDR Mini",
+      "board_dir": "lime-mini",
+      "lo_mhz": 2442.0,
+      "mds_dbm": -108.8,
+      "sfdr_db": 24.2,
+      "iip3_dbm": -42.5,
+      "iip3_n": 2,
+      "mds_file": "results/conducted/lime-mini/mds_sfdr_2442.json",
+      "iip3_file": "results/conducted/lime-mini/iip3_2442.json",
+      "notes": {
+        "mds": "analytic N0+ENBW, SNR=10 dB",
+        "sfdr": "conducted CW SFDR",
+        "iip3": "IIP3 = Pin_avg + (P_avg - P_IM3)/2; Pin via RFE-only scale"
+      }
+    },
+    {
+      "id": "pluto",
+      "label": "ADALM-Pluto",
+      "board_dir": "pluto",
+      "lo_mhz": 2442.0,
+      "mds_dbm": -84.3,
+      "sfdr_db": 28.9,
+      "iip3_dbm": -53.2,
+      "iip3_n": 4,
+      "mds_file": "results/conducted/pluto/mds_sfdr_2442.json",
+      "iip3_file": "results/conducted/pluto/iip3_2442.json",
+      "notes": {
+        "mds": "analytic N0+ENBW, SNR=10 dB",
+        "sfdr": "conducted CW SFDR",
+        "iip3": "IIP3 = Pin_avg + (P_avg - P_IM3)/2; Pin via RFE-only scale"
+      }
+    },
+    {
+      "id": "hackrf-one",
+      "label": "HackRF One",
+      "board_dir": "hackrf-one",
+      "lo_mhz": 2442.0,
+      "mds_dbm": -97.5,
+      "sfdr_db": 40.9,
+      "iip3_dbm": -58.3,
+      "iip3_n": 4,
+      "mds_file": "results/conducted/hackrf-one/mds_sfdr_2442.json",
+      "iip3_file": "results/conducted/hackrf-one/iip3_2442.json",
+      "notes": {
+        "mds": "analytic N0+ENBW, SNR=10 dB",
+        "sfdr": "conducted CW SFDR",
+        "iip3": "IIP3 = Pin_avg + (P_avg - P_IM3)/2; Pin via RFE-only scale"
+      }
+    }
+  ]
+}

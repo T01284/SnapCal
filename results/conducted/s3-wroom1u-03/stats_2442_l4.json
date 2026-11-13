@@ -1,0 +1,113 @@
+{
+  "utc": "2026-10-19T23:53:29Z",
+  "cmd": "stats",
+  "board": "s3-wroom1u-03",
+  "args": {
+    "port": "COM20",
+    "baud": 2000000,
+    "board": "s3-wroom1u-03",
+    "gen": "COM16",
+    "atten_db": 30.7,
+    "chain": [],
+    "esp_freq": 2442,
+    "esp_gain": 44,
+    "bb_mhz": 10.0,
+    "level": 4,
+    "dbm": -30.0,
+    "dbm_sweep": [
+      -40,
+      -35,
+      -30,
+      -25,
+      -20,
+      -15,
+      -10,
+      -5,
+      0
+    ],
+    "count": 1000,
+    "gate_pin": 4,
+    "tag": "l4",
+    "cmd": "stats"
+  },
+  "setup": "conducted: RFE6GEN -> 30.7 dB nominal -> IPEX pigtail -> ESP32; bench, no enclosure",
+  "generator": {
+    "port": "COM16",
+    "kind": "generator",
+    "main_model": "MODEL_RFGEN",
+    "expansion_model": "MODEL_NONE",
+    "active_model": "MODEL_RFGEN",
+    "expansion_active": false,
+    "firmware": "01.32",
+    "serial": "B3D9-5AL7-94D3-M784",
+    "min_freq_mhz": 23.438,
+    "max_freq_mhz": 6000,
+    "input_stage": "Direct",
+    "embedded_cal": true
+  },
+  "firmware": {
+    "revision": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty",
+    "build_date": "2026-10-18",
+    "build_timestamp": "2026-10-18T02:10:12Z",
+    "profile": "esp32s3",
+    "upstream": "06a5ca4027d28626c8e8a8b38176814dfe774a1c"
+  },
+  "identity": "S3SDR 6 burst 16380",
+  "n16380": {
+    "snapshots": 1000,
+    "ok": 1000,
+    "interference_fraction": 0.0,
+    "power_dbfs": {
+      "median": -4.2034726250169765,
+      "robust_std_db": 0.03109356470888221
+    },
+    "freq_hz": {
+      "median": 10014506.505687766,
+      "robust_std": 576.2732575502447,
+      "offset_from_nominal": 14506.505687765777
+    },
+    "phase": {
+      "mean_resultant_length": 0.008840815266028678,
+      "note": "~0 means the tone phase is random from snapshot to snapshot"
+    },
+    "image_ratio": {
+      "global": [
+        -0.0010965329294560103,
+        0.008549997983500677
+      ],
+      "abs_db": -41.289828382957,
+      "abs_robust_std_db": 0.21523315945334787,
+      "angle_robust_std_deg": 1.2459020573780761
+    },
+    "dc": {
+      "median": [
+        -0.009282351762820513,
+        -0.0030014690170940173
+      ],
+      "robust_std": [
+        0.0026760504306891026,
+        0.0027180363581730768
+      ]
+    },
+    "snr_db_median": 74.97623403779033,
+    "irr_db_median": {
+      "raw": 41.28777608864691,
+      "own": 340.83765031007715,
+      "prev": 70.6526718369179,
+      "global": 72.73829301251286
+    },
+    "capture_us_median": 207.0
+  },
+  "toolchain": {
+    "platformio_platform": "espressif32@6.13.0",
+    "esp_idf": "5.5.3",
+    "esp_sdr_upstream_commit": "06a5ca4027d28626c8e8a8b38176814dfe774a1c",
+    "pio_core": "PlatformIO Core, version 6.1.19"
+  },
+  "host": {
+    "utc": "2026-10-19T23:54:35Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty"
+  }
+}

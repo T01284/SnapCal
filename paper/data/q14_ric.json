@@ -1,0 +1,89 @@
+{
+  "utc": "2026-10-20T01:02:28Z",
+  "note": "Conducted; IRR from global median beta/alpha*; gain = robust std of tone power",
+  "rows_2442": [
+    {
+      "board": "s3-wroom1u-01",
+      "irr_raw_db": 51.8,
+      "irr_after_db": 71.9,
+      "irr_lift_db": 20.2,
+      "gain_robust_std_db": 0.056,
+      "snr_db": 76.1
+    },
+    {
+      "board": "s3-wroom1u-02",
+      "irr_raw_db": 39.2,
+      "irr_after_db": 72.5,
+      "irr_lift_db": 33.4,
+      "gain_robust_std_db": 0.026,
+      "snr_db": 75.2
+    },
+    {
+      "board": "s3-wroom1u-03",
+      "irr_raw_db": 41.3,
+      "irr_after_db": 72.7,
+      "irr_lift_db": 31.5,
+      "gain_robust_std_db": 0.031,
+      "snr_db": 75.0
+    },
+    {
+      "board": "c5-01",
+      "irr_raw_db": 43.2,
+      "irr_after_db": 75.1,
+      "irr_lift_db": 31.9,
+      "gain_robust_std_db": 0.007,
+      "snr_db": 84.9
+    },
+    {
+      "board": "c5-02",
+      "irr_raw_db": 37.1,
+      "irr_after_db": 74.5,
+      "irr_lift_db": 37.4,
+      "gain_robust_std_db": 0.007,
+      "snr_db": 85.4
+    },
+    {
+      "board": "c5-03",
+      "irr_raw_db": 33.8,
+      "irr_after_db": 72.8,
+      "irr_lift_db": 39.0,
+      "gain_robust_std_db": 0.005,
+      "snr_db": 86.9
+    }
+  ],
+  "rows_5800_c5": [
+    {
+      "board": "c5-01",
+      "irr_raw_db": 37.0,
+      "irr_after_db": 66.5,
+      "irr_lift_db": 29.5,
+      "gain_robust_std_db": 0.03,
+      "snr_db": 74.5
+    },
+    {
+      "board": "c5-02",
+      "irr_raw_db": 45.1,
+      "irr_after_db": 62.5,
+      "irr_lift_db": 17.4,
+      "gain_robust_std_db": 0.036,
+      "snr_db": 74.4
+    },
+    {
+      "board": "c5-03",
+      "irr_raw_db": 44.3,
+      "irr_after_db": 66.2,
+      "irr_lift_db": 21.9,
+      "gain_robust_std_db": 0.019,
+      "snr_db": 78.2
+    }
+  ],
+  "summary_2442": {
+    "irr_raw_min_db": 33.8,
+    "irr_raw_max_db": 51.8,
+    "irr_after_min_db": 71.9,
+    "irr_after_max_db": 75.1,
+    "lift_min_db": 20.2,
+    "lift_max_db": 39.0,
+    "gain_std_max_db": 0.056
+  }
+}

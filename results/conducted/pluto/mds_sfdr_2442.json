@@ -1,0 +1,185 @@
+{
+  "utc": "2026-11-08T06:27:34Z",
+  "board": "pluto",
+  "cmd": "ref_mds_sfdr",
+  "dut": "PlutoSDR RX",
+  "args": {
+    "dut": "pluto",
+    "board": "pluto",
+    "atten_db": 37.7,
+    "atten_note": "combiner arm + att30_a + ipex",
+    "esp_freq": 2442,
+    "bb_mhz": 5.0,
+    "rx_gain": 10.0,
+    "lime_gain": null,
+    "rx_rate": 20000000.0,
+    "lime_rate": 0.0,
+    "antenna": "",
+    "pluto_uri": "ip:192.168.20.100",
+    "count": 12,
+    "sfdr_count": 20,
+    "snr_thresh": 10.0,
+    "tag": "",
+    "gen": null
+  },
+  "setup": "RFE6GEN -> 37.7 dB (combiner arm + att30_a + ipex) -> PlutoSDR RX",
+  "generator": {
+    "port": "COM16",
+    "kind": "generator",
+    "main_model": "MODEL_RFGEN",
+    "expansion_model": "MODEL_NONE",
+    "active_model": "MODEL_RFGEN",
+    "expansion_active": false,
+    "firmware": "01.32",
+    "serial": "B3D9-5AL7-94D3-M784",
+    "min_freq_mhz": 23.438,
+    "max_freq_mhz": 6000,
+    "input_stage": "Direct",
+    "embedded_cal": true
+  },
+  "rx_ready": "READY uri=ip:192.168.20.100 lo=2442000000 rate=20000000 gain=10 bw=18000000",
+  "rx_rate_hz": 20000000.0,
+  "rf_off": {
+    "power_dbfs": -27.815175765610203,
+    "snr_db": 7.814318072674278,
+    "noise_dbfs_hz": -68.5075506717319,
+    "freq_hz": 5032365.0489671435,
+    "enbw_hz": 1831.5018315018315
+  },
+  "mds_sweep": [
+    {
+      "power_dbfs": -11.71728903923189,
+      "snr_db": 23.91298565274417,
+      "noise_dbfs_hz": -68.4923723618549,
+      "freq_hz": 5022062.758647285,
+      "enbw_hz": 1831.5018315018315,
+      "gen_level": 0,
+      "gen_est_dbm": -30.43,
+      "pin_dbm": -68.13
+    },
+    {
+      "power_dbfs": -8.69431656047285,
+      "snr_db": 26.753123788768168,
+      "noise_dbfs_hz": -68.41046416219284,
+      "freq_hz": 5022095.912162144,
+      "enbw_hz": 1831.5018315018315,
+      "gen_level": 1,
+      "gen_est_dbm": -27.220000000000002,
+      "pin_dbm": -64.92
+    },
+    {
+      "power_dbfs": -5.395866424586222,
+      "snr_db": 30.326977044932846,
+      "noise_dbfs_hz": -68.43898641468698,
+      "freq_hz": 5022083.768246326,
+      "enbw_hz": 1831.5018315018315,
+      "gen_level": 2,
+      "gen_est_dbm": -24.53,
+      "pin_dbm": -62.230000000000004
+    },
+    {
+      "power_dbfs": -2.605129819070381,
+      "snr_db": 33.11023463865526,
+      "noise_dbfs_hz": -68.37380268138949,
+      "freq_hz": 5022087.902028378,
+      "enbw_hz": 1831.5018315018315,
+      "gen_level": 3,
+      "gen_est_dbm": -23.1,
+      "pin_dbm": -60.800000000000004
+    },
+    {
+      "power_dbfs": 14.210484451000788,
+      "snr_db": 50.07173647419768,
+      "noise_dbfs_hz": -68.49858591209062,
+      "freq_hz": 5022089.914827002,
+      "enbw_hz": 1831.5018315018315,
+      "gen_level": 4,
+      "gen_est_dbm": -7.350000000000001,
+      "pin_dbm": -45.050000000000004
+    },
+    {
+      "power_dbfs": 17.280910790465512,
+      "snr_db": 53.22273275275077,
+      "noise_dbfs_hz": -68.58142190439796,
+      "freq_hz": 5022095.1244700495,
+      "enbw_hz": 1831.5018315018315,
+      "gen_level": 5,
+      "gen_est_dbm": -4.490000000000002,
+      "pin_dbm": -42.190000000000005
+    },
+    {
+      "power_dbfs": 20.320086503507085,
+      "snr_db": 56.122489255273415,
+      "noise_dbfs_hz": -68.52100399676826,
+      "freq_hz": 5022100.765556667,
+      "enbw_hz": 1831.5018315018315,
+      "gen_level": 6,
+      "gen_est_dbm": -0.7200000000000024,
+      "pin_dbm": -38.42
+    },
+    {
+      "power_dbfs": 23.194817443230207,
+      "snr_db": 57.70290808622948,
+      "noise_dbfs_hz": -68.55386550254025,
+      "freq_hz": 5022104.788686233,
+      "enbw_hz": 1831.5018315018315,
+      "gen_level": 7,
+      "gen_est_dbm": 0.5199999999999996,
+      "pin_dbm": -37.18000000000001
+    }
+  ],
+  "mds": {
+    "snr_crossing": {
+      "pin_dbm": -68.13,
+      "snr_db": 23.91298565274417,
+      "note": "SNR still >= 10.0 dB at weakest setting; MDS is an upper bound"
+    },
+    "analytic_from_floor": {
+      "scale_dbfs_per_dbm": 58.46747834221836,
+      "cal_points": 8,
+      "mds_dbfs": -25.879477098779276,
+      "mds_pin_dbm": -84.34695544099763,
+      "snr_thresh_db": 10.0,
+      "enbw_hz": 1831.5018315018315
+    },
+    "atten_db": 37.7,
+    "atten_note": "combiner arm + att30_a + ipex"
+  },
+  "sfdr": {
+    "gen_level": 3,
+    "pin_dbm": -60.800000000000004,
+    "tone_power_dbfs": -2.6722320615530784,
+    "carrier_dbfs_bin": 14.950927769218636,
+    "carrier_f_bb_hz": 5021978.021978022,
+    "spur_dbfs_bin": -13.985343279051882,
+    "spur_f_bb_hz": -4258852.258852258,
+    "spur_f_rf_mhz": null,
+    "sfdr_db": 28.93627104827052,
+    "guard_hz": 150000.0,
+    "dc_hz": 200000.0,
+    "bin_hz": 1221.0012210011482,
+    "exclude_lo_1mhz": {
+      "carrier_dbfs_bin": 14.950927769218636,
+      "carrier_f_bb_hz": 5021978.021978022,
+      "spur_dbfs_bin": -13.985343279051882,
+      "spur_f_bb_hz": -4258852.258852258,
+      "spur_f_rf_mhz": null,
+      "sfdr_db": 28.93627104827052,
+      "guard_hz": 150000.0,
+      "dc_hz": 1000000.0,
+      "bin_hz": 1221.0012210011482
+    }
+  },
+  "toolchain": {
+    "platformio_platform": "espressif32@6.13.0",
+    "esp_idf": "5.5.3",
+    "esp_sdr_upstream_commit": "06a5ca4027d28626c8e8a8b38176814dfe774a1c",
+    "pio_core": "PlatformIO Core, version 6.1.19"
+  },
+  "host": {
+    "utc": "2026-11-08T06:27:45Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "5e1e6e5d5fec0a34015e48c3d7cd431475a0c29d-dirty"
+  }
+}

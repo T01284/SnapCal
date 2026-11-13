@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-31T06:21:54Z",
+  "q": "Q17",
+  "acceptance": "every TMK pulse found; affine residual < 1% of Tw",
+  "tw_us": 204.75,
+  "limit_us_1pct_tw": 2.0475000000000003,
+  "boards": {
+    "s3-wroom1u-01": {
+      "pass": true,
+      "n_found": 20,
+      "count": 20,
+      "max_abs_residual_us": 0.6652018222009518,
+      "rms_residual_us": 0.27212298056544676,
+      "clock_ppm_lime_minus_esp": 3.454178803652397,
+      "iq": "results/tmk/align_s3-wroom1u-01_20261031T061915Z.npy",
+      "file": "results/tmk/tmk_align_s3-wroom1u-01.json"
+    },
+    "s3-wroom1u-03": {
+      "pass": true,
+      "n_found": 20,
+      "count": 20,
+      "max_abs_residual_us": 0.8428681492755885,
+      "rms_residual_us": 0.39464928273369737,
+      "clock_ppm_lime_minus_esp": 4.485767043593825,
+      "iq": "results/tmk/align_s3-wroom1u-03_20261031T060726Z.npy",
+      "file": "results/tmk/tmk_align_s3-wroom1u-03.json"
+    }
+  },
+  "pass": true
+}

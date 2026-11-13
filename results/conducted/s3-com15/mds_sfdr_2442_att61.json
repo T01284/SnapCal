@@ -1,0 +1,274 @@
+{
+  "utc": "2026-11-08T05:38:29Z",
+  "cmd": "mds_sfdr",
+  "board": "s3-com15",
+  "args": {
+    "port": "COM15",
+    "baud": 1000000,
+    "board": "s3-com15",
+    "gen": null,
+    "atten_db": 61.8,
+    "atten_note": "att30_a 30.725 + att20_a 20.483 + att10_a 10.083 + ipex_pigtail 0.5 @2442",
+    "esp_freq": 2442,
+    "esp_gain": 44,
+    "bb_mhz": 10.0,
+    "count": 20,
+    "sfdr_count": 40,
+    "snr_thresh": 10.0,
+    "dbm_sweep": [
+      -40,
+      -35,
+      -30,
+      -25,
+      -20,
+      -15,
+      -10,
+      -5,
+      0
+    ],
+    "tag": "att61",
+    "cmd": "mds_sfdr"
+  },
+  "setup": "conducted A-chain: RFE6GEN -> 61.8 dB (att30_a 30.725 + att20_a 20.483 + att10_a 10.083 + ipex_pigtail 0.5 @2442) -> IPEX -> ESP; MDS/SFDR, no enclosure",
+  "generator": {
+    "port": "COM16",
+    "kind": "generator",
+    "main_model": "MODEL_RFGEN",
+    "expansion_model": "MODEL_NONE",
+    "active_model": "MODEL_RFGEN",
+    "expansion_active": false,
+    "firmware": "01.32",
+    "serial": "B3D9-5AL7-94D3-M784",
+    "min_freq_mhz": 23.438,
+    "max_freq_mhz": 6000,
+    "input_stage": "Direct",
+    "embedded_cal": true
+  },
+  "firmware": {
+    "revision": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty",
+    "build_date": "2026-10-20",
+    "build_timestamp": "2026-10-20T01:22:52Z",
+    "profile": "esp32s3",
+    "upstream": "06a5ca4027d28626c8e8a8b38176814dfe774a1c"
+  },
+  "identity": "S3SDR 6 burst 16380",
+  "rf_off": {
+    "power_dbfs": -70.50988309001579,
+    "power_p10_p90": [
+      -71.67802140104783,
+      -69.44419684477774
+    ],
+    "snr_db": 7.244857183981852,
+    "irr_db": 6.117574194847512,
+    "noise_dbfs_hz": -116.51129799654154,
+    "freq_hz": 9962102.034320692,
+    "clip_fraction_max": 0.0,
+    "enbw_hz": 7326.007326007326,
+    "fmt": "iq8"
+  },
+  "mds_sweep": [
+    {
+      "power_dbfs": -58.34366618880856,
+      "power_p10_p90": [
+        -59.15741577538551,
+        -57.550380455504154
+      ],
+      "snr_db": 19.622349364653495,
+      "irr_db": 18.145202063855585,
+      "noise_dbfs_hz": -116.63223663801162,
+      "freq_hz": 10014560.86774813,
+      "clip_fraction_max": 0.0,
+      "enbw_hz": 7326.007326007326,
+      "fmt": "iq8",
+      "gen_level": 0,
+      "gen_dbm": null,
+      "gen_est_dbm": -30.159999999999997,
+      "pin_dbm": -91.96
+    },
+    {
+      "power_dbfs": -55.50217664286406,
+      "power_p10_p90": [
+        -56.088677309360634,
+        -55.08139006410925
+      ],
+      "snr_db": 22.297777866869176,
+      "irr_db": 16.870902629020378,
+      "noise_dbfs_hz": -116.48229268890009,
+      "freq_hz": 10014396.88301668,
+      "clip_fraction_max": 0.0,
+      "enbw_hz": 7326.007326007326,
+      "fmt": "iq8",
+      "gen_level": 1,
+      "gen_dbm": null,
+      "gen_est_dbm": -27.06,
+      "pin_dbm": -88.86
+    },
+    {
+      "power_dbfs": -51.51611930814873,
+      "power_p10_p90": [
+        -51.77407761288903,
+        -51.019499542097925
+      ],
+      "snr_db": 26.209552612578648,
+      "irr_db": 20.691290747795648,
+      "noise_dbfs_hz": -116.41137254395525,
+      "freq_hz": 10014437.136423396,
+      "clip_fraction_max": 0.0,
+      "enbw_hz": 7326.007326007326,
+      "fmt": "iq8",
+      "gen_level": 2,
+      "gen_dbm": null,
+      "gen_est_dbm": -24.63,
+      "pin_dbm": -86.42999999999999
+    },
+    {
+      "power_dbfs": -47.40173378775408,
+      "power_p10_p90": [
+        -47.68900908602337,
+        -47.00095606348762
+      ],
+      "snr_db": 30.424242362591713,
+      "irr_db": 26.235731822877845,
+      "noise_dbfs_hz": -116.59597500956946,
+      "freq_hz": 10014431.452653047,
+      "clip_fraction_max": 0.0,
+      "enbw_hz": 7326.007326007326,
+      "fmt": "iq8",
+      "gen_level": 3,
+      "gen_dbm": null,
+      "gen_est_dbm": -22.9,
+      "pin_dbm": -84.69999999999999
+    },
+    {
+      "power_dbfs": -32.01515662873452,
+      "power_p10_p90": [
+        -32.14948976300486,
+        -31.9153556861199
+      ],
+      "snr_db": 46.249062357951914,
+      "irr_db": 35.04974468149565,
+      "noise_dbfs_hz": -116.856117130007,
+      "freq_hz": 10014401.325292312,
+      "clip_fraction_max": 0.0,
+      "enbw_hz": 7326.007326007326,
+      "fmt": "iq8",
+      "gen_level": 4,
+      "gen_dbm": null,
+      "gen_est_dbm": -7.359999999999999,
+      "pin_dbm": -69.16
+    },
+    {
+      "power_dbfs": -29.051966840377336,
+      "power_p10_p90": [
+        -29.1029861589616,
+        -29.01802661634948
+      ],
+      "snr_db": 49.41569688396839,
+      "irr_db": 35.42019356737849,
+      "noise_dbfs_hz": -117.09086732856673,
+      "freq_hz": 10014400.945515698,
+      "clip_fraction_max": 0.0,
+      "enbw_hz": 7326.007326007326,
+      "fmt": "iq8",
+      "gen_level": 5,
+      "gen_dbm": null,
+      "gen_est_dbm": -4.07,
+      "pin_dbm": -65.87
+    },
+    {
+      "power_dbfs": -26.59222896150611,
+      "power_p10_p90": [
+        -26.644005175375767,
+        -26.570667692368406
+      ],
+      "snr_db": 51.396364397438475,
+      "irr_db": 36.2912418122372,
+      "noise_dbfs_hz": -116.67546637309817,
+      "freq_hz": 10014389.423795829,
+      "clip_fraction_max": 0.0,
+      "enbw_hz": 7326.007326007326,
+      "fmt": "iq8",
+      "gen_level": 6,
+      "gen_dbm": null,
+      "gen_est_dbm": -0.6899999999999977,
+      "pin_dbm": -62.489999999999995
+    },
+    {
+      "power_dbfs": -24.31010731755221,
+      "power_p10_p90": [
+        -24.326274869637217,
+        -24.289591722571657
+      ],
+      "snr_db": 54.15281895755417,
+      "irr_db": 36.877682460598535,
+      "noise_dbfs_hz": -117.11508932842965,
+      "freq_hz": 10014405.218373002,
+      "clip_fraction_max": 0.0,
+      "enbw_hz": 7326.007326007326,
+      "fmt": "iq8",
+      "gen_level": 7,
+      "gen_dbm": null,
+      "gen_est_dbm": 0.5,
+      "pin_dbm": -61.3
+    }
+  ],
+  "mds": {
+    "definition": "conducted Pin (gen_est - 61.8 dB) where median tone SNR crosses 10 dB at gain 44; RF-off N0 also reported",
+    "snr_crossing": {
+      "pin_dbm": -91.96,
+      "snr_db": 19.622349364653495,
+      "note": "SNR still >= 10.0 dB at weakest setting; MDS is an upper bound"
+    },
+    "analytic_from_floor": {
+      "scale_dbfs_per_dbm": 36.35790209905828,
+      "cal_points": 8,
+      "noise_in_enbw_dbfs": -77.86262451030929,
+      "mds_dbfs": -67.86262451030929,
+      "mds_pin_dbm": -104.22052660936757,
+      "snr_thresh_db": 10.0,
+      "enbw_hz": 7326.007326007326
+    },
+    "atten_db": 61.8,
+    "atten_note": "att30_a 30.725 + att20_a 20.483 + att10_a 10.083 + ipex_pigtail 0.5 @2442"
+  },
+  "sfdr": {
+    "gen_est_dbm": 0.5,
+    "pin_dbm": -61.3,
+    "tone_power_dbfs": -24.3236447463686,
+    "irr_db": 36.963339725165355,
+    "clip_fraction_max": 0.0,
+    "spur_note": "RFE6GEN has no harmonic filter (typ. -10 dBc); in-band spur may be source-limited. sfdr_exclude_lo_1mhz drops |f_bb|<1 MHz (LO/DC skirt).",
+    "carrier_dbfs_bin": -25.472060996156184,
+    "carrier_f_bb_hz": 10012210.012210011,
+    "spur_dbfs_bin": -49.94025528352878,
+    "spur_f_bb_hz": -37001221.001221,
+    "spur_f_rf_mhz": 2404.998778998779,
+    "sfdr_db": 24.468194287372594,
+    "guard_hz": 150000.0,
+    "dc_hz": 200000.0,
+    "bin_hz": 4884.004884004593,
+    "exclude_lo_1mhz": {
+      "carrier_dbfs_bin": -25.472060996156184,
+      "carrier_f_bb_hz": 10012210.012210011,
+      "spur_dbfs_bin": -49.94025528352878,
+      "spur_f_bb_hz": -37001221.001221,
+      "spur_f_rf_mhz": 2404.998778998779,
+      "sfdr_db": 24.468194287372594,
+      "guard_hz": 150000.0,
+      "dc_hz": 1000000.0,
+      "bin_hz": 4884.004884004593
+    }
+  },
+  "toolchain": {
+    "platformio_platform": "espressif32@6.13.0",
+    "esp_idf": "5.5.3",
+    "esp_sdr_upstream_commit": "06a5ca4027d28626c8e8a8b38176814dfe774a1c",
+    "pio_core": "PlatformIO Core, version 6.1.19"
+  },
+  "host": {
+    "utc": "2026-11-08T05:39:55Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "5e1e6e5d5fec0a34015e48c3d7cd431475a0c29d-dirty"
+  }
+}

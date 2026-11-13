@@ -1,0 +1,165 @@
+{
+  "utc": "2026-10-25T07:24:33Z",
+  "note": "80 MS/s fields are repeated at the top of each entry. corrected subtracts generator_flatness at the matching centre and the nearest bb when |delta bb| < 1.5 MHz. bw_3db_mhz is the width between the outermost -3 dB crossings relative to the generator-corrected peak. It is null when a swept end (about +/-0.47 fs) is still above -3 dB. A ripple sample between the edges can sit below -3 dB.",
+  "boards": {
+    "c5-01": [
+      {
+        "esp_freq_mhz": 2442,
+        "peak_to_peak_corrected_db": 26.25,
+        "bw_3db_mhz": 45.65,
+        "f_low_mhz": -23.98,
+        "f_high_mhz": 21.68
+      },
+      {
+        "esp_freq_mhz": 5745,
+        "peak_to_peak_corrected_db": 14.61,
+        "bw_3db_mhz": 51.11,
+        "f_low_mhz": -26.67,
+        "f_high_mhz": 24.44
+      },
+      {
+        "esp_freq_mhz": 5800,
+        "peak_to_peak_corrected_db": 13.85,
+        "bw_3db_mhz": 48.36,
+        "f_low_mhz": -26.73,
+        "f_high_mhz": 21.63
+      },
+      {
+        "esp_freq_mhz": 5850,
+        "peak_to_peak_corrected_db": 27.2,
+        "bw_3db_mhz": 36.02,
+        "f_low_mhz": -17.44,
+        "f_high_mhz": 18.58
+      }
+    ],
+    "c5-02": [
+      {
+        "esp_freq_mhz": 2442,
+        "peak_to_peak_corrected_db": 26.77,
+        "bw_3db_mhz": 45.24,
+        "f_low_mhz": -23.7,
+        "f_high_mhz": 21.53
+      },
+      {
+        "esp_freq_mhz": 5745,
+        "peak_to_peak_corrected_db": 15.0,
+        "bw_3db_mhz": 51.81,
+        "f_low_mhz": -26.73,
+        "f_high_mhz": 25.08
+      },
+      {
+        "esp_freq_mhz": 5800,
+        "peak_to_peak_corrected_db": 14.31,
+        "bw_3db_mhz": 47.59,
+        "f_low_mhz": -27.01,
+        "f_high_mhz": 20.58
+      },
+      {
+        "esp_freq_mhz": 5850,
+        "peak_to_peak_corrected_db": 27.1,
+        "bw_3db_mhz": 36.33,
+        "f_low_mhz": -17.93,
+        "f_high_mhz": 18.4
+      }
+    ],
+    "c5-03": [
+      {
+        "esp_freq_mhz": 2442,
+        "peak_to_peak_corrected_db": 25.36,
+        "bw_3db_mhz": 45.92,
+        "f_low_mhz": -24.18,
+        "f_high_mhz": 21.74
+      },
+      {
+        "esp_freq_mhz": 5745,
+        "peak_to_peak_corrected_db": 14.3,
+        "bw_3db_mhz": 52.01,
+        "f_low_mhz": -26.82,
+        "f_high_mhz": 25.19
+      },
+      {
+        "esp_freq_mhz": 5800,
+        "peak_to_peak_corrected_db": 14.07,
+        "bw_3db_mhz": 51.77,
+        "f_low_mhz": -26.44,
+        "f_high_mhz": 25.33
+      },
+      {
+        "esp_freq_mhz": 5850,
+        "peak_to_peak_corrected_db": 26.47,
+        "bw_3db_mhz": 35.98,
+        "f_low_mhz": -17.79,
+        "f_high_mhz": 18.19
+      }
+    ],
+    "s3-wroom1u-01": [
+      {
+        "esp_freq_mhz": 2412,
+        "peak_to_peak_corrected_db": 6.69,
+        "bw_3db_mhz": null,
+        "f_low_mhz": -28.66,
+        "f_high_mhz": null
+      },
+      {
+        "esp_freq_mhz": 2442,
+        "peak_to_peak_corrected_db": 7.22,
+        "bw_3db_mhz": 57.41,
+        "f_low_mhz": -25.77,
+        "f_high_mhz": 31.64
+      },
+      {
+        "esp_freq_mhz": 2472,
+        "peak_to_peak_corrected_db": 7.25,
+        "bw_3db_mhz": 59.49,
+        "f_low_mhz": -28.88,
+        "f_high_mhz": 30.61
+      }
+    ],
+    "s3-wroom1u-02": [
+      {
+        "esp_freq_mhz": 2412,
+        "peak_to_peak_corrected_db": 6.82,
+        "bw_3db_mhz": 63.52,
+        "f_low_mhz": -28.55,
+        "f_high_mhz": 34.97
+      },
+      {
+        "esp_freq_mhz": 2442,
+        "peak_to_peak_corrected_db": 7.31,
+        "bw_3db_mhz": 57.07,
+        "f_low_mhz": -25.91,
+        "f_high_mhz": 31.16
+      },
+      {
+        "esp_freq_mhz": 2472,
+        "peak_to_peak_corrected_db": 7.34,
+        "bw_3db_mhz": 59.06,
+        "f_low_mhz": -28.87,
+        "f_high_mhz": 30.19
+      }
+    ],
+    "s3-wroom1u-03": [
+      {
+        "esp_freq_mhz": 2412,
+        "peak_to_peak_corrected_db": 6.18,
+        "bw_3db_mhz": null,
+        "f_low_mhz": -29.07,
+        "f_high_mhz": null
+      },
+      {
+        "esp_freq_mhz": 2442,
+        "peak_to_peak_corrected_db": 6.78,
+        "bw_3db_mhz": 58.87,
+        "f_low_mhz": -26.36,
+        "f_high_mhz": 32.51
+      },
+      {
+        "esp_freq_mhz": 2472,
+        "peak_to_peak_corrected_db": 6.77,
+        "bw_3db_mhz": 60.11,
+        "f_low_mhz": -29.16,
+        "f_high_mhz": 30.96
+      }
+    ]
+  }
+}

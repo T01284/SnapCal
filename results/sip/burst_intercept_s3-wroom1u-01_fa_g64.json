@@ -1,0 +1,86 @@
+{
+  "utc": "2026-10-31T06:28:56Z",
+  "args": {
+    "port": "COM14",
+    "esp_freq": 2442,
+    "esp_gain": 44,
+    "lime_lo": 2450000000.0,
+    "lime_offset": 2000000.0,
+    "lime_gain": 64.0,
+    "period": 0.01,
+    "taus": [
+      2e-05,
+      0.0001,
+      0.0005,
+      0.002
+    ],
+    "windows": [
+      256,
+      2048,
+      16380
+    ],
+    "modes": [
+      "periodic",
+      "random"
+    ],
+    "jitter": 0.001,
+    "fw_jitter_us": 1000,
+    "fmt": "iq8",
+    "seconds": 12.0,
+    "half_bw": 300000.0,
+    "adj_hz": 1000000.0,
+    "adj_ratio": 4.0,
+    "tau_ov": 1e-06,
+    "tag": "fa_g64",
+    "conducted": true,
+    "board": "s3-wroom1u-01",
+    "spdt_pin": 4,
+    "fa_only": true,
+    "max_lime_gain": 64.0
+  },
+  "setup": "conducted: LimeSDR Mini TX -> att -> SPDT/coupler -> ESP IPEX; OUT terminated",
+  "q": "Q18-Q20",
+  "firmware": {
+    "revision": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty",
+    "build_date": "2026-10-20",
+    "build_timestamp": "2026-10-20T01:22:52Z",
+    "profile": "esp32s3",
+    "upstream": "06a5ca4027d28626c8e8a8b38176814dfe774a1c"
+  },
+  "cw_envelope": 0.06498830020427704,
+  "threshold": 0.03249415010213852,
+  "cw_p_hit": {
+    "256": 0.995,
+    "2048": 0.99644128113879,
+    "16380": 1.0
+  },
+  "false_alarm_before": {
+    "256": {
+      "snapshots": 2522,
+      "hits": 97,
+      "p_hit": 0.038461538461538464,
+      "t_p_s": 0.002379426378421255,
+      "t_p_std_s": 0.00041676115887411534
+    },
+    "2048": {
+      "snapshots": 768,
+      "hits": 1,
+      "p_hit": 0.0013020833333333333,
+      "t_p_s": 0.007814283311603684,
+      "t_p_std_s": 0.00041398756594081395
+    },
+    "16380": {
+      "snapshots": 115,
+      "hits": 0,
+      "p_hit": 0.0,
+      "t_p_s": 0.052415342982457286,
+      "t_p_std_s": 0.0007420635533540109
+    }
+  },
+  "bursts": [],
+  "lime_log_tail": [
+    "OK off",
+    "OK quit",
+    "DONE underflows=0"
+  ]
+}

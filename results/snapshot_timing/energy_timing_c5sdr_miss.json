@@ -1,0 +1,116 @@
+{
+  "when": "2026-10-20T00:46:12.367261+00:00",
+  "port": "COM25",
+  "baud": 1000000,
+  "freq_mhz": 2442,
+  "gain": null,
+  "thresh": 200,
+  "fast_poll": true,
+  "repeats": 20,
+  "board": {
+    "info": "C5SDR 6 burst 16380",
+    "caps": [
+      "VERSION",
+      "GPIO",
+      "SPEC",
+      "SPECN",
+      "SPECCAPS",
+      "SPECSTAT",
+      "DCT",
+      "UARTBAUD",
+      "RXLIMITS",
+      "GAIN",
+      "HWAGC",
+      "IQ8",
+      "SERIALLEASE",
+      "TUNEEXT",
+      "LPF",
+      "LPF12",
+      "ALPF",
+      "DUALSERIAL",
+      "MARK",
+      "POLL",
+      "ENERGY"
+    ],
+    "transport": "TRANSPORT UART 1000000",
+    "range": "RANGE 100 6000 1",
+    "gain": "GAIN HARDWARE -1 0 79 0",
+    "lpf": "LPF -1 4",
+    "version": {
+      "revision": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty",
+      "build_date": "2026-10-20",
+      "build_timestamp": "2026-10-20T00:45:12Z",
+      "profile": "esp32c5",
+      "upstream": "06a5ca4027d28626c8e8a8b38176814dfe774a1c"
+    },
+    "limits": {
+      "gain": [
+        0,
+        79,
+        1
+      ],
+      "bandwidth": [
+        11,
+        48,
+        1,
+        0
+      ],
+      "rates": [
+        80000000,
+        40000000,
+        20000000,
+        10000000,
+        8000000,
+        4000000
+      ],
+      "bits": [
+        8,
+        10
+      ]
+    }
+  },
+  "host": {
+    "utc": "2026-10-20T00:46:12Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty"
+  },
+  "rows": [
+    {
+      "format": "iq8",
+      "rate_hz": 80000000,
+      "thresh": 200,
+      "hit_frac": 0.0,
+      "code_p50": 64,
+      "c": 8.48,
+      "T0_ms": 2.493,
+      "fw_capture_overhead_us": 1668.6,
+      "T_cycle_med_s": {
+        "1024": 0.002621,
+        "2048": 0.002998,
+        "4096": 0.002999,
+        "8192": 0.003247,
+        "12288": 0.004,
+        "16380": 0.004139
+      }
+    },
+    {
+      "format": "iq8",
+      "rate_hz": 40000000,
+      "thresh": 200,
+      "hit_frac": 0.0,
+      "code_p50": 57,
+      "c": 4.33,
+      "T0_ms": 2.509,
+      "fw_capture_overhead_us": 1668.6,
+      "T_cycle_med_s": {
+        "1024": 0.002999,
+        "2048": 0.002999,
+        "4096": 0.003001,
+        "8192": 0.003834,
+        "12288": 0.004003,
+        "16380": 0.004998
+      }
+    }
+  ]
+}

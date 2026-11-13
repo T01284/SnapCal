@@ -1,0 +1,72 @@
+{
+  "utc": "2026-10-31T06:49:23Z",
+  "board": "s3-wroom1u-01",
+  "setup": "conducted: LimeSDR Mini TX -> att -> SPDT/coupler -> ESP IPEX; OUT terminated",
+  "q18": {
+    "file": "results/sip/burst_intercept_s3-wroom1u-01_Tb10p37ms.json",
+    "period_s": 0.01037,
+    "within_2se_all": "20/24",
+    "within_2se_fwjitter": "10/12",
+    "within_2se_excl_long_periodic": "18/20",
+    "note": "Long-window periodic (n=16380) overshoots theory; fwjitter tracks geometry. Short tau OK on conducted path."
+  },
+  "q19": {
+    "usb_iq_file": "results/sip/burst_intercept_s3-wroom1u-01_Tb10p37ms.json",
+    "usb_iq_note": "USB IQ mode: tau* few us; all tested tau>=20us prefer shortest window by rate — matches theory for tau>tau*.",
+    "cape_file": "results/sip/q19_energy.json",
+    "cape_note": "CAPE miss (c=23.3, tau*~24us): lime-gain 60, thresh=83, windows 2048/16380; excess-rate bang-bang agrees for tau=5/10/15 (long) and 100/500 us (short); pass=True. Near-tau* tau=50 excluded."
+  },
+  "q20": {
+    "file": "results/sip/burst_intercept_s3-wroom1u-01_Tb10ms_trap.json",
+    "period_s": 0.01,
+    "pairs": [
+      {
+        "tau_s": 0.0005,
+        "n": 256,
+        "p_periodic": 0.11837682087401953,
+        "p_fwjitter": 0.05055336709810542,
+        "p_theory": 0.05011999999999999
+      },
+      {
+        "tau_s": 0.0005,
+        "n": 2048,
+        "p_periodic": 0.03419053185271771,
+        "p_fwjitter": 0.051530293566520925,
+        "p_theory": 0.05235999999999999
+      },
+      {
+        "tau_s": 0.0005,
+        "n": 16380,
+        "p_periodic": 0.10395010395010396,
+        "p_fwjitter": 0.09090909090909091,
+        "p_theory": 0.07027499999999999
+      },
+      {
+        "tau_s": 0.002,
+        "n": 256,
+        "p_periodic": 0.19785497038578517,
+        "p_fwjitter": 0.1994655468600878,
+        "p_theory": 0.20012000000000002
+      },
+      {
+        "tau_s": 0.002,
+        "n": 2048,
+        "p_periodic": 0.2009278051609162,
+        "p_fwjitter": 0.20012606366214938,
+        "p_theory": 0.20236000000000004
+      },
+      {
+        "tau_s": 0.002,
+        "n": 16380,
+        "p_periodic": 0.20910973084886128,
+        "p_fwjitter": 0.23628691983122363,
+        "p_theory": 0.22027500000000003
+      }
+    ]
+  },
+  "false_alarm_after_10p37": {
+    "256": 0.00304703865930299,
+    "2048": 0.0006369426751592356,
+    "16380": 0.0041841004184100415
+  }
+}

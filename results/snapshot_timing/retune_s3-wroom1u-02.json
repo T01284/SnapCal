@@ -1,0 +1,303 @@
+{
+  "utc": "2026-10-19T23:48:41Z",
+  "board": "s3-wroom1u-02",
+  "port": "COM18",
+  "gate_pin": 4,
+  "generator_mhz": 2452,
+  "hops": "2442 (+10 MHz) <-> 2472 (-20 MHz)",
+  "n": 4096,
+  "rested_dbfs": {
+    "2442": -20.35800755561991,
+    "2472": -20.774073879675505
+  },
+  "n_hops": 30,
+  "n_settled": 30,
+  "cmd_ms_median": 57.887,
+  "by_mhz": {
+    "2442": {
+      "n": 15,
+      "cmd_ms_median": 92.469,
+      "cmd_ms_min": 91.844,
+      "cmd_ms_max": 93.388
+    },
+    "2472": {
+      "n": 15,
+      "cmd_ms_median": 22.873,
+      "cmd_ms_min": 4.323,
+      "cmd_ms_max": 23.93
+    }
+  },
+  "note": "A hop is settled when the capture started as FREQ returns already has SNR >= 20 dB, |error| < 200 kHz, and power within 3 dB of the rested tone. prepare_rx recalibrates when the centre changes. The S3 path then waits 3 ms; the C5 path does not. Repeating the centre just calibrated skips recalibration.",
+  "rows": [
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 4.323,
+      "cap_ms": 14.972,
+      "power_dbfs": -20.78,
+      "snr_db": 53.02,
+      "error_hz": 22486.3,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.168,
+      "cap_ms": 14.789,
+      "power_dbfs": -20.37,
+      "snr_db": 53.18,
+      "error_hz": 22113.9,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 22.336,
+      "cap_ms": 14.799,
+      "power_dbfs": -20.78,
+      "snr_db": 52.82,
+      "error_hz": 22292.9,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.031,
+      "cap_ms": 14.628,
+      "power_dbfs": -20.35,
+      "snr_db": 52.95,
+      "error_hz": 22420.5,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 23.402,
+      "cap_ms": 14.802,
+      "power_dbfs": -20.78,
+      "snr_db": 52.56,
+      "error_hz": 22562.7,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.583,
+      "cap_ms": 14.683,
+      "power_dbfs": -20.33,
+      "snr_db": 53.23,
+      "error_hz": 22674.1,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 22.468,
+      "cap_ms": 15.158,
+      "power_dbfs": -20.79,
+      "snr_db": 52.78,
+      "error_hz": 22881.9,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.456,
+      "cap_ms": 15.017,
+      "power_dbfs": -20.39,
+      "snr_db": 53.08,
+      "error_hz": 22455.7,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 22.873,
+      "cap_ms": 14.689,
+      "power_dbfs": -20.79,
+      "snr_db": 52.82,
+      "error_hz": 22559.1,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.469,
+      "cap_ms": 14.5,
+      "power_dbfs": -20.37,
+      "snr_db": 53.09,
+      "error_hz": 22211.8,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 23.93,
+      "cap_ms": 14.971,
+      "power_dbfs": -20.79,
+      "snr_db": 52.82,
+      "error_hz": 22754.9,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.082,
+      "cap_ms": 15.048,
+      "power_dbfs": -20.4,
+      "snr_db": 53.35,
+      "error_hz": 22506.1,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 23.066,
+      "cap_ms": 14.609,
+      "power_dbfs": -20.81,
+      "snr_db": 52.88,
+      "error_hz": 22586.2,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 93.152,
+      "cap_ms": 15.028,
+      "power_dbfs": -20.36,
+      "snr_db": 53.09,
+      "error_hz": 22507.7,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 21.983,
+      "cap_ms": 14.853,
+      "power_dbfs": -20.82,
+      "snr_db": 52.67,
+      "error_hz": 22596.5,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 93.388,
+      "cap_ms": 15.419,
+      "power_dbfs": -20.38,
+      "snr_db": 53.04,
+      "error_hz": 22084.9,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 23.204,
+      "cap_ms": 14.401,
+      "power_dbfs": -20.79,
+      "snr_db": 53.03,
+      "error_hz": 22346.1,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.895,
+      "cap_ms": 15.338,
+      "power_dbfs": -20.38,
+      "snr_db": 51.74,
+      "error_hz": 22282.8,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 22.549,
+      "cap_ms": 15.149,
+      "power_dbfs": -20.78,
+      "snr_db": 52.84,
+      "error_hz": 22445.3,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.132,
+      "cap_ms": 14.81,
+      "power_dbfs": -20.39,
+      "snr_db": 53.13,
+      "error_hz": 22146.2,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 23.21,
+      "cap_ms": 15.039,
+      "power_dbfs": -20.82,
+      "snr_db": 52.94,
+      "error_hz": 22093.4,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.473,
+      "cap_ms": 15.206,
+      "power_dbfs": -20.38,
+      "snr_db": 52.8,
+      "error_hz": 22981.6,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 22.441,
+      "cap_ms": 14.703,
+      "power_dbfs": -20.81,
+      "snr_db": 52.98,
+      "error_hz": 22318.2,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.798,
+      "cap_ms": 14.865,
+      "power_dbfs": -20.41,
+      "snr_db": 52.92,
+      "error_hz": 22442.6,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 22.997,
+      "cap_ms": 15.024,
+      "power_dbfs": -20.78,
+      "snr_db": 52.97,
+      "error_hz": 22529.3,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 91.844,
+      "cap_ms": 14.87,
+      "power_dbfs": -20.4,
+      "snr_db": 52.99,
+      "error_hz": 22557.3,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 22.896,
+      "cap_ms": 15.406,
+      "power_dbfs": -20.78,
+      "snr_db": 53.03,
+      "error_hz": 22310.2,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.916,
+      "cap_ms": 15.702,
+      "power_dbfs": -20.4,
+      "snr_db": 53.13,
+      "error_hz": 22981.2,
+      "settled": true
+    },
+    {
+      "to_mhz": 2472,
+      "cmd_ms": 22.556,
+      "cap_ms": 14.91,
+      "power_dbfs": -20.81,
+      "snr_db": 52.83,
+      "error_hz": 22497.4,
+      "settled": true
+    },
+    {
+      "to_mhz": 2442,
+      "cmd_ms": 92.283,
+      "cap_ms": 14.808,
+      "power_dbfs": -20.38,
+      "snr_db": 52.93,
+      "error_hz": 22657.7,
+      "settled": true
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "note": "M * T_p = tolerance / |drift rate|. Rates from the cold-start curves. Warmup uses the steepest 120 s chord in the first 10 min. Steady uses a line fit after 20 min.",
+  "bin_hz_80Msps_n16380": 4884.004884004884,
+  "boards": [
+    {
+      "board": "s3-wroom1u-01",
+      "mhz": 2442,
+      "warmup_ppm_per_s": 0.018376876209110986,
+      "warmup_chord_s": [
+        0.0,
+        120.0
+      ],
+      "steady_ppm_per_s": 1.9383890739829817e-05,
+      "power_ppm_not": "power is dB",
+      "steepest_power_db_per_s": -0.0024428496750017754,
+      "bin_ppm": 2.000002000002,
+      "warmup_seconds_for_0p5_ppm": 27.20810622602482,
+      "steady_seconds_for_0p5_ppm": 25794.61506005114,
+      "warmup_seconds_for_1_bin": 108.83253373663301,
+      "steady_seconds_for_1_bin": 103178.56341876797,
+      "warmup_seconds_for_0p5_db": 204.6789882802087
+    },
+    {
+      "board": "s3-wroom1u-02",
+      "mhz": 2442,
+      "warmup_ppm_per_s": 0.021160607262769783,
+      "warmup_chord_s": [
+        0.0,
+        120.0
+      ],
+      "steady_ppm_per_s": -7.838394362138475e-06,
+      "power_ppm_not": "power is dB",
+      "steepest_power_db_per_s": -0.002656545676576716,
+      "bin_ppm": 2.000002000002,
+      "warmup_seconds_for_0p5_ppm": 23.628811488775455,
+      "steady_seconds_for_0p5_ppm": 63788.57415175902,
+      "warmup_seconds_for_1_bin": 94.5153404704423,
+      "steady_seconds_for_1_bin": 255154.55176158785,
+      "warmup_seconds_for_0p5_db": 188.2143433137996
+    },
+    {
+      "board": "s3-wroom1u-03",
+      "mhz": 2442,
+      "warmup_ppm_per_s": 0.01722605172300932,
+      "warmup_chord_s": [
+        0.0,
+        120.01499999995576
+      ],
+      "steady_ppm_per_s": 7.846724837388966e-05,
+      "power_ppm_not": "power is dB",
+      "steepest_power_db_per_s": -0.0025531407849686133,
+      "bin_ppm": 2.000002000002,
+      "warmup_seconds_for_0p5_ppm": 29.025803941604096,
+      "steady_seconds_for_0p5_ppm": 6372.085301341818,
+      "warmup_seconds_for_1_bin": 116.10333186974826,
+      "steady_seconds_for_1_bin": 25488.36669373397,
+      "warmup_seconds_for_0p5_db": 195.837222507942
+    },
+    {
+      "board": "c5-01",
+      "mhz": 5800,
+      "warmup_ppm_per_s": -0.018908806861574968,
+      "warmup_chord_s": [
+        30.0,
+        150.03100000001723
+      ],
+      "steady_ppm_per_s": -0.00014088754777622322,
+      "power_ppm_not": "power is dB",
+      "steepest_power_db_per_s": -0.0028179608078631514,
+      "bin_ppm": 0.842069807587049,
+      "warmup_seconds_for_0p5_ppm": 26.44270490784174,
+      "steady_seconds_for_0p5_ppm": 3548.9296810969277,
+      "warmup_seconds_for_1_bin": 44.53320686765482,
+      "steady_seconds_for_1_bin": 5976.893067402513,
+      "warmup_seconds_for_0p5_db": 177.433269690911
+    },
+    {
+      "board": "c5-02",
+      "mhz": 5800,
+      "warmup_ppm_per_s": 0.025837551892683767,
+      "warmup_chord_s": [
+        0.0,
+        120.0
+      ],
+      "steady_ppm_per_s": 4.4859304410879566e-05,
+      "power_ppm_not": "power is dB",
+      "steepest_power_db_per_s": -0.00317779400749858,
+      "bin_ppm": 0.842069807587049,
+      "warmup_seconds_for_0p5_ppm": 19.351678598527805,
+      "steady_seconds_for_0p5_ppm": 11145.959719311582,
+      "warmup_seconds_for_1_bin": 32.59092854789744,
+      "steady_seconds_for_1_bin": 18771.352312427403,
+      "warmup_seconds_for_0p5_db": 157.34185375771983
+    },
+    {
+      "board": "c5-03",
+      "mhz": 5800,
+      "warmup_ppm_per_s": 0.006581135461901962,
+      "warmup_chord_s": [
+        0.0,
+        120.0
+      ],
+      "steady_ppm_per_s": 6.262016193842149e-05,
+      "power_ppm_not": "power is dB",
+      "steepest_power_db_per_s": -0.00059491820562713,
+      "bin_ppm": 0.842069807587049,
+      "warmup_seconds_for_0p5_ppm": 75.97473154814821,
+      "steady_seconds_for_0p5_ppm": 7984.6487859881745,
+      "warmup_seconds_for_1_bin": 127.95205515245374,
+      "steady_seconds_for_1_bin": 13447.263333734452,
+      "warmup_seconds_for_0p5_db": 840.4516709535349
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "when": "2026-10-20T00:58:10.210671+00:00",
+  "port": "COM20",
+  "baud": 2000000,
+  "freq_mhz": 2442,
+  "gain": null,
+  "thresh": 200,
+  "fast_poll": true,
+  "repeats": 20,
+  "board": {
+    "info": "S3SDR 6 burst 16380",
+    "caps": [
+      "VERSION",
+      "GPIO",
+      "UARTBAUD",
+      "RXLIMITS",
+      "SERIALLEASE",
+      "DUALSERIAL",
+      "TUNEEXT",
+      "RX40",
+      "RX16",
+      "LPFANA",
+      "GAIN",
+      "HWAGC",
+      "IQ8",
+      "RING",
+      "SPEC",
+      "SPECN",
+      "SPECCAPS",
+      "SPECSTAT",
+      "DCT",
+      "JITTER",
+      "POLL",
+      "TS",
+      "MARK",
+      "GATE",
+      "SNAPLOG",
+      "ENERGY"
+    ],
+    "transport": "TRANSPORT USB 0",
+    "range": "RANGE 100 6000 1",
+    "gain": "GAIN HARDWARE -1 0 82 0",
+    "lpf": "LPF -1 35 35",
+    "version": {
+      "revision": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty",
+      "build_date": "2026-10-20",
+      "build_timestamp": "2026-10-20T00:57:47Z",
+      "profile": "esp32s3",
+      "upstream": "06a5ca4027d28626c8e8a8b38176814dfe774a1c"
+    },
+    "limits": {
+      "gain": [
+        0,
+        82,
+        1
+      ],
+      "bandwidth": [
+        13,
+        69,
+        1,
+        0
+      ],
+      "rates": [
+        80000000,
+        40000000,
+        16000000
+      ],
+      "bits": [
+        8,
+        10
+      ]
+    }
+  },
+  "host": {
+    "utc": "2026-10-20T00:58:10Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty"
+  },
+  "rows": [
+    {
+      "format": "iq8",
+      "rate_hz": 80000000,
+      "thresh": 200,
+      "hit_frac": 0.0,
+      "code_p50": 86,
+      "c": 24.0,
+      "T0_ms": 0.471,
+      "fw_capture_overhead_us": 6.2,
+      "T_cycle_med_s": {
+        "1024": 0.001,
+        "2048": 0.001,
+        "4096": 0.001999,
+        "8192": 0.003001,
+        "12288": 0.004341,
+        "16380": 0.005599
+      }
+    },
+    {
+      "format": "iq8",
+      "rate_hz": 40000000,
+      "thresh": 200,
+      "hit_frac": 0.0,
+      "code_p50": 66,
+      "c": 11.91,
+      "T0_ms": 0.424,
+      "fw_capture_overhead_us": 5.8,
+      "T_cycle_med_s": {
+        "1024": 0.001,
+        "2048": 0.001,
+        "4096": 0.001999,
+        "8192": 0.003,
+        "12288": 0.004073,
+        "16380": 0.005998
+      }
+    },
+    {
+      "format": "iq8",
+      "rate_hz": 16000000,
+      "thresh": 200,
+      "hit_frac": 0.0,
+      "code_p50": 73,
+      "c": 4.76,
+      "T0_ms": 0.434,
+      "fw_capture_overhead_us": 6.0,
+      "T_cycle_med_s": {
+        "1024": 0.001,
+        "2048": 0.001,
+        "4096": 0.001999,
+        "8192": 0.003076,
+        "12288": 0.005,
+        "16380": 0.006004
+      }
+    }
+  ]
+}

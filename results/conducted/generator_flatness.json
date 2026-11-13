@@ -1,0 +1,5365 @@
+{
+  "utc": "2026-10-19T08:25:22Z",
+  "setup": "RFE6GEN L3 -> att30_a -> 6G Combo PLUS right port. No IPEX pigtail, no ESP32.",
+  "level": 3,
+  "span_mhz": 80.0,
+  "input_stage": "direct",
+  "generator": {
+    "port": "COM16",
+    "kind": "generator",
+    "main_model": "MODEL_RFGEN",
+    "expansion_model": "MODEL_NONE",
+    "active_model": "MODEL_RFGEN",
+    "expansion_active": false,
+    "firmware": "01.32",
+    "serial": "B3D9-5AL7-94D3-M784",
+    "min_freq_mhz": 23.438,
+    "max_freq_mhz": 6000,
+    "input_stage": "Direct",
+    "embedded_cal": true
+  },
+  "analyzer": {
+    "port": "COM17",
+    "kind": "analyzer",
+    "main_model": "MODEL_WSUB1G_PLUS",
+    "expansion_model": "MODEL_6G_PLUS",
+    "active_model": "MODEL_6G_PLUS",
+    "expansion_active": true,
+    "firmware": "03.16",
+    "serial": "B3EM-M7L7-KD33-564K",
+    "min_freq_mhz": 240.0,
+    "max_freq_mhz": 6100.0,
+    "input_stage": "Direct",
+    "embedded_cal": true
+  },
+  "rows": [
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -37600000.0,
+      "f_mhz": 2374.4,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 2374.16216,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.4,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -34467000.0,
+      "f_mhz": 2377.533,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2377.04504,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.4,
+      "above_floor_db": 36.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -31333000.0,
+      "f_mhz": 2380.667,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.4472135954999579,
+      "peak_mhz": 2380.64864,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.4,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -28200000.0,
+      "f_mhz": 2383.8,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2383.53152,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.4,
+      "above_floor_db": 36.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -25067000.0,
+      "f_mhz": 2386.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2387.13512,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.4,
+      "above_floor_db": 36.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -21933000.0,
+      "f_mhz": 2390.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.4,
+      "peak_mhz": 2390.018,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -18800000.0,
+      "f_mhz": 2393.2,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -56.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2392.90088,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.7
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -15667000.0,
+      "f_mhz": 2396.333,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 2396.50448,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -12533000.0,
+      "f_mhz": 2399.467,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2399.38736,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -9400000.0,
+      "f_mhz": 2402.6,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 2402.27024,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -6267000.0,
+      "f_mhz": 2405.733,
+      "rates_hz": [
+        80000000,
+        40000000,
+        16000000
+      ],
+      "dbm": -56.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2405.87384,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -3133000.0,
+      "f_mhz": 2408.867,
+      "rates_hz": [
+        80000000,
+        40000000,
+        16000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2408.75672,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 3133000.0,
+      "f_mhz": 2415.133,
+      "rates_hz": [
+        80000000,
+        40000000,
+        16000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2415.2432,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.60000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 6267000.0,
+      "f_mhz": 2418.267,
+      "rates_hz": [
+        80000000,
+        40000000,
+        16000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.4,
+      "peak_mhz": 2418.12608,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.60000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 9400000.0,
+      "f_mhz": 2421.4,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.2,
+      "peak_mhz": 2421.00896,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.50000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 12533000.0,
+      "f_mhz": 2424.533,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.2,
+      "peak_mhz": 2424.61256,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.50000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 15667000.0,
+      "f_mhz": 2427.667,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -56.4,
+      "std_db": 0.2,
+      "peak_mhz": 2427.49544,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.00000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 18800000.0,
+      "f_mhz": 2430.8,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.5,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2430.37832,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.900000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 21933000.0,
+      "f_mhz": 2433.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2433.98192,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 25067000.0,
+      "f_mhz": 2437.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 2436.8648,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 28200000.0,
+      "f_mhz": 2440.2,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.4,
+      "peak_mhz": 2439.74768,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 31333000.0,
+      "f_mhz": 2443.333,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.2,
+      "peak_mhz": 2443.35128,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.50000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 34467000.0,
+      "f_mhz": 2446.467,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.5,
+      "std_db": 0.0,
+      "peak_mhz": 2446.23416,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.900000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 37600000.0,
+      "f_mhz": 2449.6,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -58.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2449.11704,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -17233000.0,
+      "f_mhz": 2394.767,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.4,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2394.34232,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.00000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -14100000.0,
+      "f_mhz": 2397.9,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2397.94592,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -10967000.0,
+      "f_mhz": 2401.033,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 2400.8288000000002,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -7833000.0,
+      "f_mhz": 2404.167,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.4,
+      "std_db": 0.4898979485566356,
+      "peak_mhz": 2403.71168,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.00000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -4700000.0,
+      "f_mhz": 2407.3,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.1,
+      "std_db": 0.48989794855663554,
+      "peak_mhz": 2407.31528,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.300000000000004
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -1567000.0,
+      "f_mhz": 2410.433,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 2410.19816,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 1567000.0,
+      "f_mhz": 2413.567,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2413.08104,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.300000000000004
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 4700000.0,
+      "f_mhz": 2416.7,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2416.68464,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 7833000.0,
+      "f_mhz": 2419.833,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.2,
+      "peak_mhz": 2419.56752,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.50000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 10967000.0,
+      "f_mhz": 2422.967,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.2,
+      "peak_mhz": 2423.17112,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.50000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 14100000.0,
+      "f_mhz": 2426.1,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2426.054,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.300000000000004
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 17233000.0,
+      "f_mhz": 2429.233,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.6,
+      "std_db": 0.2,
+      "peak_mhz": 2428.93688,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.800000000000004
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -7520000.0,
+      "f_mhz": 2404.48,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2404.4324,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.300000000000004
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -6893000.0,
+      "f_mhz": 2405.107,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.4,
+      "std_db": 0.2,
+      "peak_mhz": 2405.15312,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.00000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -5640000.0,
+      "f_mhz": 2406.36,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.2,
+      "peak_mhz": 2405.87384,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.300000000000004
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -5013000.0,
+      "f_mhz": 2406.987,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.4,
+      "peak_mhz": 2406.59456,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.60000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -4387000.0,
+      "f_mhz": 2407.613,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.6,
+      "std_db": 0.2,
+      "peak_mhz": 2407.31528,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.800000000000004
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -3760000.0,
+      "f_mhz": 2408.24,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 2408.036,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -2507000.0,
+      "f_mhz": 2409.493,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2409.47744,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.7
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -1880000.0,
+      "f_mhz": 2410.12,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2410.19816,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -1253000.0,
+      "f_mhz": 2410.747,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 2410.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": -627000.0,
+      "f_mhz": 2411.373,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2410.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 627000.0,
+      "f_mhz": 2412.627,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.3,
+      "std_db": 0.7483314773547882,
+      "peak_mhz": 2412.36032,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.10000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 1253000.0,
+      "f_mhz": 2413.253,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.4,
+      "std_db": 0.2,
+      "peak_mhz": 2413.08104,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.00000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 1880000.0,
+      "f_mhz": 2413.88,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.6,
+      "std_db": 0.4898979485566356,
+      "peak_mhz": 2413.80176,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.800000000000004
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 2507000.0,
+      "f_mhz": 2414.507,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2414.52248,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.400000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 3760000.0,
+      "f_mhz": 2415.76,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.2,
+      "peak_mhz": 2415.2432,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.50000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 4387000.0,
+      "f_mhz": 2416.387,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.2,
+      "peak_mhz": 2415.96392,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.50000000000001
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 5013000.0,
+      "f_mhz": 2417.013,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.1,
+      "std_db": 0.2,
+      "peak_mhz": 2416.68464,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.300000000000004
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 5640000.0,
+      "f_mhz": 2417.64,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 2417.40536,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 6893000.0,
+      "f_mhz": 2418.893,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2418.8468,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.2
+    },
+    {
+      "centre_mhz": 2412,
+      "bb_hz": 7520000.0,
+      "f_mhz": 2419.52,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2419.56752,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.4,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.10000000000001
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -37600000.0,
+      "f_mhz": 2404.4,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 2404.16216,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -34467000.0,
+      "f_mhz": 2407.533,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.7,
+      "std_db": 0.4,
+      "peak_mhz": 2407.04504,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.0
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -31333000.0,
+      "f_mhz": 2410.667,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2410.64864,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -28200000.0,
+      "f_mhz": 2413.8,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2413.53152,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -25067000.0,
+      "f_mhz": 2416.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2417.13512,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -21933000.0,
+      "f_mhz": 2420.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.4,
+      "std_db": 0.2,
+      "peak_mhz": 2420.018,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.300000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -18800000.0,
+      "f_mhz": 2423.2,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 2422.90088,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -15667000.0,
+      "f_mhz": 2426.333,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 2426.50448,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -12533000.0,
+      "f_mhz": 2429.467,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.4,
+      "std_db": 0.48989794855663554,
+      "peak_mhz": 2429.38736,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.300000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -9400000.0,
+      "f_mhz": 2432.6,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2432.27024,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -6267000.0,
+      "f_mhz": 2435.733,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000,
+        16000000
+      ],
+      "dbm": -56.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2435.87384,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.400000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -3133000.0,
+      "f_mhz": 2438.867,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000,
+        16000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2438.75672,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.400000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 3133000.0,
+      "f_mhz": 2445.133,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000,
+        16000000
+      ],
+      "dbm": -57.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2445.2432,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.900000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 6267000.0,
+      "f_mhz": 2448.267,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000,
+        16000000
+      ],
+      "dbm": -57.9,
+      "std_db": 0.2,
+      "peak_mhz": 2448.12608,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.800000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 9400000.0,
+      "f_mhz": 2451.4,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -57.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2451.00896,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.900000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 12533000.0,
+      "f_mhz": 2454.533,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2454.61256,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 36.0
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 15667000.0,
+      "f_mhz": 2457.667,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.2,
+      "peak_mhz": 2457.49544,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 36.6
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 18800000.0,
+      "f_mhz": 2460.8,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -58.2,
+      "std_db": 0.5099019513592785,
+      "peak_mhz": 2460.37832,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 35.5
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 21933000.0,
+      "f_mhz": 2463.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.2,
+      "peak_mhz": 2463.98192,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 36.6
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 25067000.0,
+      "f_mhz": 2467.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2466.8648,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 28200000.0,
+      "f_mhz": 2470.2,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -58.6,
+      "std_db": 0.2,
+      "peak_mhz": 2469.74768,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 35.1
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 31333000.0,
+      "f_mhz": 2473.333,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.2,
+      "peak_mhz": 2473.35128,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 36.6
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 34467000.0,
+      "f_mhz": 2476.467,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2476.23416,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 36.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 37600000.0,
+      "f_mhz": 2479.6,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.9,
+      "std_db": 0.2,
+      "peak_mhz": 2479.11704,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 35.800000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -17233000.0,
+      "f_mhz": 2424.767,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.4,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2424.34232,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.300000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -14100000.0,
+      "f_mhz": 2427.9,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.4,
+      "std_db": 0.2,
+      "peak_mhz": 2427.94592,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.300000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -10967000.0,
+      "f_mhz": 2431.033,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 2430.8288000000002,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -7833000.0,
+      "f_mhz": 2434.167,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -57.4,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2433.71168,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.300000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -4700000.0,
+      "f_mhz": 2437.3,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2437.31528,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -1567000.0,
+      "f_mhz": 2440.433,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 2440.19816,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 1567000.0,
+      "f_mhz": 2443.567,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -58.0,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2443.08104,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 4700000.0,
+      "f_mhz": 2446.7,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.4472135954999579,
+      "peak_mhz": 2446.68464,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 7833000.0,
+      "f_mhz": 2449.833,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -57.9,
+      "std_db": 0.2,
+      "peak_mhz": 2449.56752,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.800000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 10967000.0,
+      "f_mhz": 2452.967,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2452.4504,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 35.900000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 14100000.0,
+      "f_mhz": 2456.1,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -58.2,
+      "std_db": 0.4,
+      "peak_mhz": 2456.054,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 35.5
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 17233000.0,
+      "f_mhz": 2459.233,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.5,
+      "std_db": 0.0,
+      "peak_mhz": 2458.93688,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 36.2
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -8617000.0,
+      "f_mhz": 2433.383,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -56.4,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2432.99096,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.300000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -7050000.0,
+      "f_mhz": 2434.95,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.2,
+      "peak_mhz": 2434.4324,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.6
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -5483000.0,
+      "f_mhz": 2436.517,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2436.59456,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -3917000.0,
+      "f_mhz": 2438.083,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2438.036,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.800000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -2350000.0,
+      "f_mhz": 2439.65,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -56.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2439.47744,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -783000.0,
+      "f_mhz": 2441.217,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -57.6,
+      "std_db": 0.2,
+      "peak_mhz": 2440.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.1
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 783000.0,
+      "f_mhz": 2442.783,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -58.4,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2442.36032,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.300000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 2350000.0,
+      "f_mhz": 2444.35,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2444.52248,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 3917000.0,
+      "f_mhz": 2445.917,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -57.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2445.96392,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.5
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 5483000.0,
+      "f_mhz": 2447.483,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -58.5,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2447.40536,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.2
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 7050000.0,
+      "f_mhz": 2449.05,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2448.8468,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 8617000.0,
+      "f_mhz": 2450.617,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2450.28824,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -7520000.0,
+      "f_mhz": 2434.48,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.4898979485566356,
+      "peak_mhz": 2434.4324,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.800000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -6893000.0,
+      "f_mhz": 2435.107,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2435.15312,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -5640000.0,
+      "f_mhz": 2436.36,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2435.87384,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.800000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -5013000.0,
+      "f_mhz": 2436.987,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.6,
+      "std_db": 0.2,
+      "peak_mhz": 2436.59456,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.1
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -4387000.0,
+      "f_mhz": 2437.613,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 2437.31528,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -3760000.0,
+      "f_mhz": 2438.24,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -55.9,
+      "std_db": 0.2,
+      "peak_mhz": 2438.036,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.800000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -2507000.0,
+      "f_mhz": 2439.493,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2439.47744,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -1880000.0,
+      "f_mhz": 2440.12,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2440.19816,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -1253000.0,
+      "f_mhz": 2440.747,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2440.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.7
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": -627000.0,
+      "f_mhz": 2441.373,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.1,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2440.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.6
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 627000.0,
+      "f_mhz": 2442.627,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2442.36032,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.0
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 1253000.0,
+      "f_mhz": 2443.253,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2443.08104,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.400000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 1880000.0,
+      "f_mhz": 2443.88,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.6,
+      "std_db": 0.2,
+      "peak_mhz": 2443.80176,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.1
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 2507000.0,
+      "f_mhz": 2444.507,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.4,
+      "peak_mhz": 2444.52248,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.900000000000006
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 3760000.0,
+      "f_mhz": 2445.76,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.9,
+      "std_db": 0.2,
+      "peak_mhz": 2445.2432,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.800000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 4387000.0,
+      "f_mhz": 2446.387,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.4,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 2445.96392,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.300000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 5013000.0,
+      "f_mhz": 2447.013,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.2,
+      "peak_mhz": 2446.68464,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.800000000000004
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 5640000.0,
+      "f_mhz": 2447.64,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.5,
+      "std_db": 0.0,
+      "peak_mhz": 2447.40536,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.2
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 6893000.0,
+      "f_mhz": 2448.893,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.2,
+      "std_db": 0.4,
+      "peak_mhz": 2448.8468,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 35.5
+    },
+    {
+      "centre_mhz": 2442,
+      "bb_hz": 7520000.0,
+      "f_mhz": 2449.52,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2449.56752,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -93.7,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 36.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -37600000.0,
+      "f_mhz": 2434.4,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 2434.16216,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 39.0
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -34467000.0,
+      "f_mhz": 2437.533,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.4472135954999579,
+      "peak_mhz": 2437.04504,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 38.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -31333000.0,
+      "f_mhz": 2440.667,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2440.64864,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 39.0
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -28200000.0,
+      "f_mhz": 2443.8,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.9,
+      "std_db": 0.2,
+      "peak_mhz": 2443.53152,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.6
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -25067000.0,
+      "f_mhz": 2446.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.8,
+      "std_db": 0.4,
+      "peak_mhz": 2446.4144,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.7
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -21933000.0,
+      "f_mhz": 2450.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -58.3,
+      "std_db": 0.4,
+      "peak_mhz": 2450.018,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -18800000.0,
+      "f_mhz": 2453.2,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.5,
+      "std_db": 0.0,
+      "peak_mhz": 2452.90088,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.0
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -15667000.0,
+      "f_mhz": 2456.333,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.2,
+      "peak_mhz": 2456.50448,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.6
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -12533000.0,
+      "f_mhz": 2459.467,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -58.2,
+      "std_db": 0.4,
+      "peak_mhz": 2459.38736,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.3
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -9400000.0,
+      "f_mhz": 2462.6,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2462.27024,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -6267000.0,
+      "f_mhz": 2465.733,
+      "rates_hz": [
+        80000000,
+        40000000,
+        16000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2465.87384,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -3133000.0,
+      "f_mhz": 2468.867,
+      "rates_hz": [
+        80000000,
+        40000000,
+        16000000
+      ],
+      "dbm": -58.0,
+      "std_db": 0.0,
+      "peak_mhz": 2468.75672,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 3133000.0,
+      "f_mhz": 2475.133,
+      "rates_hz": [
+        80000000,
+        40000000,
+        16000000
+      ],
+      "dbm": -57.6,
+      "std_db": 0.2,
+      "peak_mhz": 2475.2432,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.9
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 6267000.0,
+      "f_mhz": 2478.267,
+      "rates_hz": [
+        80000000,
+        40000000,
+        16000000
+      ],
+      "dbm": -57.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2478.12608,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.8
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 9400000.0,
+      "f_mhz": 2481.4,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.5,
+      "std_db": 0.0,
+      "peak_mhz": 2481.00896,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.0
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 12533000.0,
+      "f_mhz": 2484.533,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.6,
+      "std_db": 0.2,
+      "peak_mhz": 2484.61256,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.9
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 15667000.0,
+      "f_mhz": 2487.667,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.2,
+      "peak_mhz": 2487.49544,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 38.4
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 18800000.0,
+      "f_mhz": 2490.8,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -58.0,
+      "std_db": 0.0,
+      "peak_mhz": 2490.37832,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 21933000.0,
+      "f_mhz": 2493.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2493.98192,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 38.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 25067000.0,
+      "f_mhz": 2497.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2496.8648,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 38.7
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 28200000.0,
+      "f_mhz": 2500.2,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -58.0,
+      "std_db": 0.0,
+      "peak_mhz": 2499.74768,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 31333000.0,
+      "f_mhz": 2503.333,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2503.35128,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 38.8
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 34467000.0,
+      "f_mhz": 2506.467,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.2,
+      "peak_mhz": 2506.23416,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 38.4
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 37600000.0,
+      "f_mhz": 2509.6,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 2509.11704,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 39.0
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -17233000.0,
+      "f_mhz": 2454.767,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -58.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2454.34232,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -14100000.0,
+      "f_mhz": 2457.9,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.1,
+      "std_db": 0.2,
+      "peak_mhz": 2457.94592,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.4
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -10967000.0,
+      "f_mhz": 2461.033,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2460.8288000000002,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.7
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -7833000.0,
+      "f_mhz": 2464.167,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -58.3,
+      "std_db": 0.4,
+      "peak_mhz": 2463.71168,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -4700000.0,
+      "f_mhz": 2467.3,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.9,
+      "std_db": 0.4898979485566356,
+      "peak_mhz": 2467.31528,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.6
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -1567000.0,
+      "f_mhz": 2470.433,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -58.0,
+      "std_db": 0.0,
+      "peak_mhz": 2470.19816,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 1567000.0,
+      "f_mhz": 2473.567,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -58.4,
+      "std_db": 0.2,
+      "peak_mhz": 2473.08104,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.1
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 4700000.0,
+      "f_mhz": 2476.7,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2476.68464,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.2
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 7833000.0,
+      "f_mhz": 2479.833,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.6,
+      "std_db": 0.2,
+      "peak_mhz": 2479.56752,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.9
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 10967000.0,
+      "f_mhz": 2482.967,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.9,
+      "std_db": 0.2,
+      "peak_mhz": 2482.4504,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.6
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 14100000.0,
+      "f_mhz": 2486.1,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -58.0,
+      "std_db": 0.0,
+      "peak_mhz": 2486.054,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 17233000.0,
+      "f_mhz": 2489.233,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -57.5,
+      "std_db": 0.0,
+      "peak_mhz": 2488.93688,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -23.1,
+      "above_floor_db": 38.0
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -7520000.0,
+      "f_mhz": 2464.48,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.0,
+      "std_db": 0.4472135954999579,
+      "peak_mhz": 2464.4324,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -6893000.0,
+      "f_mhz": 2465.107,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.4,
+      "std_db": 0.2,
+      "peak_mhz": 2465.15312,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.1
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -5640000.0,
+      "f_mhz": 2466.36,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.9,
+      "std_db": 0.2,
+      "peak_mhz": 2465.87384,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.6
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -5013000.0,
+      "f_mhz": 2466.987,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.5,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 2466.59456,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.0
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -4387000.0,
+      "f_mhz": 2467.613,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.4,
+      "std_db": 0.2,
+      "peak_mhz": 2467.31528,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.1
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -3760000.0,
+      "f_mhz": 2468.24,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2468.036,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -2507000.0,
+      "f_mhz": 2469.493,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2469.47744,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.3
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -1880000.0,
+      "f_mhz": 2470.12,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2470.19816,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.3
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -1253000.0,
+      "f_mhz": 2470.747,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2470.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.2
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": -627000.0,
+      "f_mhz": 2471.373,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.5,
+      "std_db": 0.0,
+      "peak_mhz": 2470.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.0
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 627000.0,
+      "f_mhz": 2472.627,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2472.36032,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 1253000.0,
+      "f_mhz": 2473.253,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.6,
+      "std_db": 0.2,
+      "peak_mhz": 2473.08104,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.9
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 1880000.0,
+      "f_mhz": 2473.88,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2473.80176,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.2
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 2507000.0,
+      "f_mhz": 2474.507,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -56.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2474.52248,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.8
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 3760000.0,
+      "f_mhz": 2475.76,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.9,
+      "std_db": 0.2,
+      "peak_mhz": 2475.2432,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.6
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 4387000.0,
+      "f_mhz": 2476.387,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.1,
+      "std_db": 0.2,
+      "peak_mhz": 2475.96392,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.4
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 5013000.0,
+      "f_mhz": 2477.013,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.0,
+      "std_db": 0.0,
+      "peak_mhz": 2476.68464,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 5640000.0,
+      "f_mhz": 2477.64,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.5,
+      "std_db": 0.0,
+      "peak_mhz": 2477.40536,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.0
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 6893000.0,
+      "f_mhz": 2478.893,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -58.0,
+      "std_db": 0.0,
+      "peak_mhz": 2478.8468,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 37.5
+    },
+    {
+      "centre_mhz": 2472,
+      "bb_hz": 7520000.0,
+      "f_mhz": 2479.52,
+      "rates_hz": [
+        16000000
+      ],
+      "dbm": -57.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 2479.56752,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -95.5,
+      "gen_est_dbm": -22.9,
+      "above_floor_db": 38.2
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -37600000.0,
+      "f_mhz": 5707.4,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -52.9,
+      "std_db": 0.2,
+      "peak_mhz": 5707.16216,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 33.00000000000001
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -34467000.0,
+      "f_mhz": 5710.533,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.5,
+      "std_db": 0.0,
+      "peak_mhz": 5710.04504,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 31.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -31333000.0,
+      "f_mhz": 5713.667,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -52.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5713.64864,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 33.10000000000001
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -28200000.0,
+      "f_mhz": 5716.8,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -52.6,
+      "std_db": 0.2,
+      "peak_mhz": 5716.5315200000005,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 33.300000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -25067000.0,
+      "f_mhz": 5719.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5720.13512,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 31.900000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -21933000.0,
+      "f_mhz": 5723.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.0,
+      "std_db": 0.0,
+      "peak_mhz": 5723.018,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.900000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -18800000.0,
+      "f_mhz": 5726.2,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -52.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5725.90088,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 33.10000000000001
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -15667000.0,
+      "f_mhz": 5729.333,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5729.50448,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.300000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -12533000.0,
+      "f_mhz": 5732.467,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5732.38736,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -9400000.0,
+      "f_mhz": 5735.6,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.1,
+      "std_db": 0.2,
+      "peak_mhz": 5735.27024,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.800000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -6267000.0,
+      "f_mhz": 5738.733,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5738.87384,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -3133000.0,
+      "f_mhz": 5741.867,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -54.1,
+      "std_db": 0.2,
+      "peak_mhz": 5741.75672,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 31.800000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 3133000.0,
+      "f_mhz": 5748.133,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.0,
+      "std_db": 0.0,
+      "peak_mhz": 5748.2432,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.900000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 6267000.0,
+      "f_mhz": 5751.267,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -55.5,
+      "std_db": 0.0,
+      "peak_mhz": 5751.12608,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 30.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 9400000.0,
+      "f_mhz": 5754.4,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.1,
+      "std_db": 0.2,
+      "peak_mhz": 5754.00896,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.800000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 12533000.0,
+      "f_mhz": 5757.533,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -53.1,
+      "std_db": 0.2,
+      "peak_mhz": 5757.61256,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.800000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 15667000.0,
+      "f_mhz": 5760.667,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -54.1,
+      "std_db": 0.2,
+      "peak_mhz": 5760.49544,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.800000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 18800000.0,
+      "f_mhz": 5763.8,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5763.37832,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.300000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 21933000.0,
+      "f_mhz": 5766.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5766.98192,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 25067000.0,
+      "f_mhz": 5770.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5769.8648,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.900000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 28200000.0,
+      "f_mhz": 5773.2,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5772.74768,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.700000000000003
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 31333000.0,
+      "f_mhz": 5776.333,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5776.35128,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 34467000.0,
+      "f_mhz": 5779.467,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5779.23416,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.300000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 37600000.0,
+      "f_mhz": 5782.6,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -55.2,
+      "std_db": 0.4,
+      "peak_mhz": 5782.11704,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 30.700000000000003
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -17233000.0,
+      "f_mhz": 5727.767,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5727.34232,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -14100000.0,
+      "f_mhz": 5730.9,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -52.6,
+      "std_db": 0.2,
+      "peak_mhz": 5730.94592,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 33.300000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -10967000.0,
+      "f_mhz": 5734.033,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5733.8288,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -7833000.0,
+      "f_mhz": 5737.167,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.9,
+      "std_db": 0.2,
+      "peak_mhz": 5736.71168,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.00000000000001
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -4700000.0,
+      "f_mhz": 5740.3,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.1,
+      "std_db": 0.2,
+      "peak_mhz": 5740.31528,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.800000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -1567000.0,
+      "f_mhz": 5743.433,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5743.19816,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.60000000000001
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 1567000.0,
+      "f_mhz": 5746.567,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -54.9,
+      "std_db": 0.2,
+      "peak_mhz": 5746.08104,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 31.000000000000007
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 4700000.0,
+      "f_mhz": 5749.7,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.0,
+      "std_db": 0.0,
+      "peak_mhz": 5749.68464,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.900000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 7833000.0,
+      "f_mhz": 5752.833,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.0,
+      "std_db": 0.0,
+      "peak_mhz": 5752.56752,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.900000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 10967000.0,
+      "f_mhz": 5755.967,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -54.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5756.17112,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.10000000000001
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 14100000.0,
+      "f_mhz": 5759.1,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5759.054,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 17233000.0,
+      "f_mhz": 5762.233,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -53.4,
+      "std_db": 0.2,
+      "peak_mhz": 5761.93688,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.50000000000001
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -8617000.0,
+      "f_mhz": 5736.383,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5735.99096,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.60000000000001
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -7050000.0,
+      "f_mhz": 5737.95,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.5,
+      "std_db": 0.0,
+      "peak_mhz": 5738.15312,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 31.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -5483000.0,
+      "f_mhz": 5739.517,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.0,
+      "std_db": 0.0,
+      "peak_mhz": 5739.59456,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.900000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -3917000.0,
+      "f_mhz": 5741.083,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5741.036,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -2350000.0,
+      "f_mhz": 5742.65,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.1,
+      "std_db": 0.2,
+      "peak_mhz": 5742.47744,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 31.800000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": -783000.0,
+      "f_mhz": 5744.217,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.1,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 5743.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.800000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 783000.0,
+      "f_mhz": 5745.783,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5745.36032,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.400000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 2350000.0,
+      "f_mhz": 5747.35,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.9,
+      "std_db": 0.2,
+      "peak_mhz": 5747.52248,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.00000000000001
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 3917000.0,
+      "f_mhz": 5748.917,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.1,
+      "std_db": 0.2,
+      "peak_mhz": 5748.96392,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 32.800000000000004
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 5483000.0,
+      "f_mhz": 5750.483,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5750.40536,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.0,
+      "above_floor_db": 31.900000000000006
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 7050000.0,
+      "f_mhz": 5752.05,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5751.8468,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.2
+    },
+    {
+      "centre_mhz": 5745,
+      "bb_hz": 8617000.0,
+      "f_mhz": 5753.617,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.4,
+      "std_db": 0.2,
+      "peak_mhz": 5753.28824,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -85.9,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.50000000000001
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -37600000.0,
+      "f_mhz": 5762.4,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5762.16216,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 33.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -34467000.0,
+      "f_mhz": 5765.533,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -55.0,
+      "std_db": 0.0,
+      "peak_mhz": 5765.04504,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.5
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -31333000.0,
+      "f_mhz": 5768.667,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5768.64864,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 33.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -28200000.0,
+      "f_mhz": 5771.8,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5771.5315200000005,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 33.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -25067000.0,
+      "f_mhz": 5774.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -55.0,
+      "std_db": 0.0,
+      "peak_mhz": 5775.13512,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.5
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -21933000.0,
+      "f_mhz": 5778.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5778.018,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -18800000.0,
+      "f_mhz": 5781.2,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5780.90088,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 33.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -15667000.0,
+      "f_mhz": 5784.333,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -54.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5784.50448,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.2
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -12533000.0,
+      "f_mhz": 5787.467,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -54.4,
+      "std_db": 0.2,
+      "peak_mhz": 5787.38736,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.1
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -9400000.0,
+      "f_mhz": 5790.6,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5790.27024,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -6267000.0,
+      "f_mhz": 5793.733,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.9,
+      "std_db": 0.2,
+      "peak_mhz": 5793.87384,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.6
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -3133000.0,
+      "f_mhz": 5796.867,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -55.0,
+      "std_db": 0.0,
+      "peak_mhz": 5796.75672,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.5
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 3133000.0,
+      "f_mhz": 5803.133,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5803.2432,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 6267000.0,
+      "f_mhz": 5806.267,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -56.5,
+      "std_db": 0.0,
+      "peak_mhz": 5806.12608,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 30.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 9400000.0,
+      "f_mhz": 5809.4,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5809.00896,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.8
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 12533000.0,
+      "f_mhz": 5812.533,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5812.61256,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 33.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 15667000.0,
+      "f_mhz": 5815.667,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -55.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5815.49544,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.299999999999997
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 18800000.0,
+      "f_mhz": 5818.8,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -54.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5818.37832,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.3
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 21933000.0,
+      "f_mhz": 5821.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5821.98192,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.7
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 25067000.0,
+      "f_mhz": 5825.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.6,
+      "std_db": 0.2,
+      "peak_mhz": 5824.8648,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 28200000.0,
+      "f_mhz": 5828.2,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -55.1,
+      "std_db": 0.2,
+      "peak_mhz": 5827.74768,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.4
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 31333000.0,
+      "f_mhz": 5831.333,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.9,
+      "std_db": 0.2,
+      "peak_mhz": 5831.35128,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.6
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 34467000.0,
+      "f_mhz": 5834.467,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5834.23416,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.3
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 37600000.0,
+      "f_mhz": 5837.6,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5837.11704,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.299999999999997
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -17233000.0,
+      "f_mhz": 5782.767,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5782.34232,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.5
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -14100000.0,
+      "f_mhz": 5785.9,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5785.94592,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 33.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -10967000.0,
+      "f_mhz": 5789.033,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -54.1,
+      "std_db": 0.2,
+      "peak_mhz": 5788.8288,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.4
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -7833000.0,
+      "f_mhz": 5792.167,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -54.5,
+      "std_db": 0.0,
+      "peak_mhz": 5791.71168,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -4700000.0,
+      "f_mhz": 5795.3,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5795.31528,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.8
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -1567000.0,
+      "f_mhz": 5798.433,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5798.19816,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.7
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 1567000.0,
+      "f_mhz": 5801.567,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -55.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5801.08104,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 30.700000000000003
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 4700000.0,
+      "f_mhz": 5804.7,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5804.68464,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 7833000.0,
+      "f_mhz": 5807.833,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5807.56752,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 33.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 10967000.0,
+      "f_mhz": 5810.967,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -55.6,
+      "std_db": 0.2,
+      "peak_mhz": 5811.17112,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 30.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 14100000.0,
+      "f_mhz": 5814.1,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5814.054,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.5
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 17233000.0,
+      "f_mhz": 5817.233,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -53.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5816.93688,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.8
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -8617000.0,
+      "f_mhz": 5791.383,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5790.99096,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -7050000.0,
+      "f_mhz": 5792.95,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -55.5,
+      "std_db": 0.0,
+      "peak_mhz": 5793.15312,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -5483000.0,
+      "f_mhz": 5794.517,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5794.59456,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 33.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -3917000.0,
+      "f_mhz": 5796.083,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5796.036,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.7
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -2350000.0,
+      "f_mhz": 5797.65,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -55.0,
+      "std_db": 0.0,
+      "peak_mhz": 5797.47744,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.5
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": -783000.0,
+      "f_mhz": 5799.217,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5798.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 783000.0,
+      "f_mhz": 5800.783,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5800.36032,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.5
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 2350000.0,
+      "f_mhz": 5802.35,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.6,
+      "std_db": 0.2,
+      "peak_mhz": 5802.52248,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 3917000.0,
+      "f_mhz": 5803.917,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5803.96392,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 5483000.0,
+      "f_mhz": 5805.483,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.6,
+      "std_db": 0.2,
+      "peak_mhz": 5805.40536,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 31.9
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 7050000.0,
+      "f_mhz": 5807.05,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.5,
+      "std_db": 0.0,
+      "peak_mhz": 5806.8468,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.0
+    },
+    {
+      "centre_mhz": 5800,
+      "bb_hz": 8617000.0,
+      "f_mhz": 5808.617,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5808.28824,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.5,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.9
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -37600000.0,
+      "f_mhz": 5812.4,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5812.16216,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 32.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -34467000.0,
+      "f_mhz": 5815.533,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.1,
+      "std_db": 0.2,
+      "peak_mhz": 5815.04504,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -21.8,
+      "above_floor_db": 29.999999999999993
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -31333000.0,
+      "f_mhz": 5818.667,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5818.64864,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -28200000.0,
+      "f_mhz": 5821.8,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -53.9,
+      "std_db": 0.2,
+      "peak_mhz": 5821.5315200000005,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.199999999999996
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -25067000.0,
+      "f_mhz": 5824.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 5825.13512,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -21933000.0,
+      "f_mhz": 5828.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.1,
+      "std_db": 0.2,
+      "peak_mhz": 5828.018,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.999999999999993
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -18800000.0,
+      "f_mhz": 5831.2,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -53.9,
+      "std_db": 0.2,
+      "peak_mhz": 5830.90088,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.199999999999996
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -15667000.0,
+      "f_mhz": 5834.333,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -55.4,
+      "std_db": 0.2,
+      "peak_mhz": 5834.50448,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.699999999999996
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -12533000.0,
+      "f_mhz": 5837.467,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -55.1,
+      "std_db": 0.2,
+      "peak_mhz": 5837.38736,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.999999999999993
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -9400000.0,
+      "f_mhz": 5840.6,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -54.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5840.27024,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.799999999999997
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -6267000.0,
+      "f_mhz": 5843.733,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -54.9,
+      "std_db": 0.2,
+      "peak_mhz": 5843.87384,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.199999999999996
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -3133000.0,
+      "f_mhz": 5846.867,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 5846.75672,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 3133000.0,
+      "f_mhz": 5853.133,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.9,
+      "std_db": 0.2,
+      "peak_mhz": 5853.2432,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.199999999999996
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 6267000.0,
+      "f_mhz": 5856.267,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -56.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5856.12608,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 29.39999999999999
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 9400000.0,
+      "f_mhz": 5859.4,
+      "rates_hz": [
+        80000000,
+        40000000,
+        20000000
+      ],
+      "dbm": -53.9,
+      "std_db": 0.2,
+      "peak_mhz": 5859.00896,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.199999999999996
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 12533000.0,
+      "f_mhz": 5862.533,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -53.5,
+      "std_db": 0.0,
+      "peak_mhz": 5862.61256,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.599999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 15667000.0,
+      "f_mhz": 5865.667,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -55.5,
+      "std_db": 0.0,
+      "peak_mhz": 5865.49544,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.599999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 18800000.0,
+      "f_mhz": 5868.8,
+      "rates_hz": [
+        80000000,
+        40000000
+      ],
+      "dbm": -54.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5868.37832,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.39999999999999
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 21933000.0,
+      "f_mhz": 5871.933,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5871.98192,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 25067000.0,
+      "f_mhz": 5875.067,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -55.1,
+      "std_db": 0.2,
+      "peak_mhz": 5874.8648,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.999999999999993
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 28200000.0,
+      "f_mhz": 5878.2,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -55.5,
+      "std_db": 0.0,
+      "peak_mhz": 5877.74768,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.599999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 31333000.0,
+      "f_mhz": 5881.333,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.1,
+      "std_db": 0.2,
+      "peak_mhz": 5881.35128,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -25.7,
+      "above_floor_db": 31.999999999999993
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 34467000.0,
+      "f_mhz": 5884.467,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -54.5,
+      "std_db": 0.0,
+      "peak_mhz": 5884.23416,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -25.7,
+      "above_floor_db": 31.599999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 37600000.0,
+      "f_mhz": 5887.6,
+      "rates_hz": [
+        80000000
+      ],
+      "dbm": -56.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5887.11704,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -25.7,
+      "above_floor_db": 29.89999999999999
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -17233000.0,
+      "f_mhz": 5832.767,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -54.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5832.34232,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.299999999999997
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -14100000.0,
+      "f_mhz": 5835.9,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -53.9,
+      "std_db": 0.3741657386773941,
+      "peak_mhz": 5835.94592,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.199999999999996
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -10967000.0,
+      "f_mhz": 5839.033,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -55.0,
+      "std_db": 0.0,
+      "peak_mhz": 5838.8288,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -7833000.0,
+      "f_mhz": 5842.167,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -55.6,
+      "std_db": 0.2,
+      "peak_mhz": 5841.71168,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.499999999999993
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -4700000.0,
+      "f_mhz": 5845.3,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -54.5,
+      "std_db": 0.0,
+      "peak_mhz": 5845.31528,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.599999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -1567000.0,
+      "f_mhz": 5848.433,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -54.5,
+      "std_db": 0.0,
+      "peak_mhz": 5848.19816,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.599999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 1567000.0,
+      "f_mhz": 5851.567,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -56.1,
+      "std_db": 0.2,
+      "peak_mhz": 5851.08104,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 29.999999999999993
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 4700000.0,
+      "f_mhz": 5854.7,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.7,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5854.68464,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.39999999999999
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 7833000.0,
+      "f_mhz": 5857.833,
+      "rates_hz": [
+        40000000,
+        20000000
+      ],
+      "dbm": -53.6,
+      "std_db": 0.2,
+      "peak_mhz": 5857.56752,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.49999999999999
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 10967000.0,
+      "f_mhz": 5860.967,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -56.0,
+      "std_db": 0.0,
+      "peak_mhz": 5861.17112,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 14100000.0,
+      "f_mhz": 5864.1,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -54.1,
+      "std_db": 0.2,
+      "peak_mhz": 5864.054,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.999999999999993
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 17233000.0,
+      "f_mhz": 5867.233,
+      "rates_hz": [
+        40000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.0,
+      "peak_mhz": 5866.93688,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -8617000.0,
+      "f_mhz": 5841.383,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.4,
+      "std_db": 0.2,
+      "peak_mhz": 5840.99096,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.699999999999996
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -7050000.0,
+      "f_mhz": 5842.95,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -56.3,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5843.15312,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 29.799999999999997
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -5483000.0,
+      "f_mhz": 5844.517,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5844.59456,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.89999999999999
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -3917000.0,
+      "f_mhz": 5846.083,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.5,
+      "std_db": 0.0,
+      "peak_mhz": 5846.036,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.599999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -2350000.0,
+      "f_mhz": 5847.65,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -55.6,
+      "std_db": 0.2,
+      "peak_mhz": 5847.47744,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 30.499999999999993
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": -783000.0,
+      "f_mhz": 5849.217,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -53.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5848.91888,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.3
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 783000.0,
+      "f_mhz": 5850.783,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.5,
+      "std_db": 0.0,
+      "peak_mhz": 5850.36032,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.599999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 2350000.0,
+      "f_mhz": 5852.35,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -55.0,
+      "std_db": 0.0,
+      "peak_mhz": 5852.52248,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 3917000.0,
+      "f_mhz": 5853.917,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.0,
+      "std_db": 0.31622776601683794,
+      "peak_mhz": 5853.96392,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 32.099999999999994
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 5483000.0,
+      "f_mhz": 5855.483,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.9,
+      "std_db": 0.2,
+      "peak_mhz": 5855.40536,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.199999999999996
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 7050000.0,
+      "f_mhz": 5857.05,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.8,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5856.8468,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.299999999999997
+    },
+    {
+      "centre_mhz": 5850,
+      "bb_hz": 8617000.0,
+      "f_mhz": 5858.617,
+      "rates_hz": [
+        20000000
+      ],
+      "dbm": -54.2,
+      "std_db": 0.2449489742783178,
+      "peak_mhz": 5858.28824,
+      "rbw_khz": 420.0,
+      "span_mhz": 80.0,
+      "floor_dbm": -86.1,
+      "gen_est_dbm": -23.8,
+      "above_floor_db": 31.89999999999999
+    }
+  ],
+  "toolchain": {
+    "platformio_platform": "espressif32@6.13.0",
+    "esp_idf": "5.5.3",
+    "esp_sdr_upstream_commit": "06a5ca4027d28626c8e8a8b38176814dfe774a1c",
+    "pio_core": "PlatformIO Core, version 6.1.19"
+  },
+  "host": {
+    "utc": "2026-10-19T08:25:22Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty"
+  }
+}

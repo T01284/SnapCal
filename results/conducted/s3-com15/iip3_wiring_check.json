@@ -1,0 +1,118 @@
+{
+  "utc": "2026-11-08T05:53:25Z",
+  "args": {
+    "port": "COM15",
+    "baud": 1000000,
+    "esp_freq": 2442,
+    "esp_gain": 44,
+    "rfe_bb_mhz": 10.0,
+    "lime_bb_mhz": 12.0,
+    "lime_offset_mhz": 2.0,
+    "rfe_level": 3,
+    "lime_gain": 40.0,
+    "max_lime_gain": 50.0,
+    "gen": null,
+    "margin_db": 8.0
+  },
+  "plan": {
+    "esp_mhz": 2442,
+    "rfe_mhz": 2452.0,
+    "lime_tone_mhz": 2454.0,
+    "im3_bb_mhz": [
+      8.0,
+      14.0
+    ]
+  },
+  "steps": {
+    "off": {
+      "rfe_bin": {
+        "power_dbfs": -70.99927816186599,
+        "snr_db": 6.905482485891633,
+        "freq_hz": 10006424.362563558,
+        "noise_dbfs_hz": -116.73921658453958
+      },
+      "lime_bin": {
+        "power_dbfs": -71.43886417559955,
+        "snr_db": 6.607193346453112,
+        "freq_hz": 11979852.382408129,
+        "noise_dbfs_hz": -116.65471085836464
+      }
+    },
+    "rfe_only": {
+      "rfe_bin": {
+        "power_dbfs": -25.863502503321165,
+        "snr_db": 52.59404684048859,
+        "freq_hz": 10014546.300817497,
+        "noise_dbfs_hz": -117.09698808729495
+      },
+      "lime_bin": {
+        "power_dbfs": -71.46738942507571,
+        "snr_db": 6.7481917650445915,
+        "freq_hz": 12079770.00769639,
+        "noise_dbfs_hz": -116.88336262424698
+      },
+      "gen_est_dbm": -22.9
+    },
+    "lime_only": {
+      "rfe_bin": {
+        "power_dbfs": -70.90838528193828,
+        "snr_db": 7.0097684917928405,
+        "freq_hz": 10009539.253129546,
+        "noise_dbfs_hz": -116.75012393673175
+      },
+      "lime_bin": {
+        "power_dbfs": -27.638561093636362,
+        "snr_db": 50.78159878193617,
+        "freq_hz": 12009409.198333353,
+        "noise_dbfs_hz": -117.07697903159948
+      }
+    },
+    "both": {
+      "rfe_bin": {
+        "power_dbfs": -25.925378622512234,
+        "snr_db": 51.88109523727603,
+        "freq_hz": 10014676.09522006,
+        "noise_dbfs_hz": -116.44947848261617
+      },
+      "lime_bin": {
+        "power_dbfs": -27.69896150262383,
+        "snr_db": 50.4975468353022,
+        "freq_hz": 12009492.730632702,
+        "noise_dbfs_hz": -116.86589282540362
+      },
+      "gen_est_dbm": -22.9
+    }
+  },
+  "generator": {
+    "port": "COM16",
+    "kind": "generator",
+    "main_model": "MODEL_RFGEN",
+    "expansion_model": "MODEL_NONE",
+    "active_model": "MODEL_RFGEN",
+    "expansion_active": false,
+    "firmware": "01.32",
+    "serial": "B3D9-5AL7-94D3-M784",
+    "min_freq_mhz": 23.438,
+    "max_freq_mhz": 6000,
+    "input_stage": "Direct",
+    "embedded_cal": true
+  },
+  "lime": "READY lo=2451999989 rate=8000000 gain=40.0 range=[-12.0,64.0] antenna=BAND2 tone=2454000000",
+  "firmware": {
+    "revision": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty",
+    "build_date": "2026-10-20",
+    "build_timestamp": "2026-10-20T01:22:52Z",
+    "profile": "esp32s3",
+    "upstream": "06a5ca4027d28626c8e8a8b38176814dfe774a1c"
+  },
+  "checks": {
+    "rfe_appears_alone": true,
+    "lime_appears_alone": true,
+    "rfe_present_both": true,
+    "lime_present_both": true,
+    "rfe_bin_quiet_when_lime_only": true,
+    "lime_bin_quiet_when_rfe_only": true
+  },
+  "ok": true,
+  "tone_balance_db": 1.7735828801115971
+}

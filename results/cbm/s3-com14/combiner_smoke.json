@@ -1,0 +1,105 @@
+{
+  "utc": "2026-11-08T09:17:41Z",
+  "cmd": "q21_combiner_smoke",
+  "board": "s3-com14",
+  "args": {
+    "port": "COM14",
+    "board": "s3-com14",
+    "lo_mhz": 2442.0,
+    "f1_mhz": 10.0,
+    "f2_mhz": 2.0,
+    "lime_offset_mhz": 2.0,
+    "lime_gain": 40.0,
+    "max_lime_gain": 50.0,
+    "rfe_level": 3,
+    "esp_gain": 44,
+    "spdt_pin": 4,
+    "margin_db": 8.0,
+    "gen": null
+  },
+  "plan": {
+    "rfe_mhz": 2452.0,
+    "lime_tone_mhz": 2444.0,
+    "lime_lo_hz": 2442000000.0,
+    "f1_mhz": 10.0,
+    "f2_mhz": 2.0
+  },
+  "setup": "RFE->SPDT->comb4 arm1; LimeTX->att30->arm2; arm3/4=50ohm; comb4 common->IPEX->ESP; SPDT=GPIO4",
+  "checks": {
+    "rfe": true,
+    "lime": true,
+    "both_rfe": true,
+    "both_lime": true,
+    "spdt_blocks": true
+  },
+  "generator": {
+    "port": "COM16",
+    "kind": "generator",
+    "main_model": "MODEL_RFGEN",
+    "expansion_model": "MODEL_NONE",
+    "active_model": "MODEL_RFGEN",
+    "expansion_active": false,
+    "firmware": "01.32",
+    "serial": "B3D9-5AL7-94D3-M784",
+    "min_freq_mhz": 23.438,
+    "max_freq_mhz": 6000,
+    "input_stage": "Direct",
+    "embedded_cal": true
+  },
+  "lime_ready": "READY lo=2441999989 rate=8000000 gain=40.0 range=[-12.0,64.0] antenna=BAND2 tone=2444000000",
+  "esp": "S3SDR 6 burst 16380",
+  "rows": {
+    "floor": {
+      "f1": {
+        "power_dbfs": -70.4988817861623,
+        "snr_db": 7.665707251170093,
+        "freq_hz": 9872105.466975575
+      },
+      "f2": {
+        "power_dbfs": -69.25523147555731,
+        "snr_db": 8.928186677137978,
+        "freq_hz": 2000357.6351783355
+      }
+    },
+    "rfe_only": {
+      "power_dbfs": -27.583227495034556,
+      "snr_db": 50.84005743917788,
+      "freq_hz": 10014762.044004105
+    },
+    "lime_only": {
+      "power_dbfs": -58.03516733398186,
+      "snr_db": 20.10833292009724,
+      "freq_hz": 2009195.2523766037
+    },
+    "both": {
+      "f1": {
+        "power_dbfs": -27.596082369317926,
+        "snr_db": 50.68169667657053,
+        "freq_hz": 10014746.244134307
+      },
+      "f2": {
+        "power_dbfs": -59.555469982694014,
+        "snr_db": 18.76120135069663,
+        "freq_hz": 2009434.8946226453
+      }
+    },
+    "spdt0_rfe": {
+      "power_dbfs": -61.59395496755364,
+      "snr_db": 16.64722426779049,
+      "freq_hz": 10014567.670158932
+    }
+  },
+  "ok": true,
+  "toolchain": {
+    "platformio_platform": "espressif32@6.13.0",
+    "esp_idf": "5.5.3",
+    "esp_sdr_upstream_commit": "06a5ca4027d28626c8e8a8b38176814dfe774a1c",
+    "pio_core": "PlatformIO Core, version 6.1.19"
+  },
+  "host": {
+    "utc": "2026-11-08T09:18:02Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "5e1e6e5d5fec0a34015e48c3d7cd431475a0c29d-dirty"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source": "results/conducted/s3-wroom1u-01/start_phase.json",
+  "note": "R = mean resultant length of start phase on a 1 ms circle (1 = locked to grid, ~0 = uniform)",
+  "table": [
+    {
+      "setting": "tick",
+      "n": 256,
+      "R": 0.9996,
+      "poll": 0,
+      "jitter_us": 0
+    },
+    {
+      "setting": "fast",
+      "n": 256,
+      "R": 0.03,
+      "poll": 1,
+      "jitter_us": 0
+    },
+    {
+      "setting": "jitter",
+      "n": 256,
+      "R": 0.0343,
+      "poll": 0,
+      "jitter_us": 1000
+    },
+    {
+      "setting": "tick",
+      "n": 16380,
+      "R": 0.9963,
+      "poll": 0,
+      "jitter_us": 0
+    },
+    {
+      "setting": "fast",
+      "n": 16380,
+      "R": 0.4566,
+      "poll": 1,
+      "jitter_us": 0
+    },
+    {
+      "setting": "jitter",
+      "n": 16380,
+      "R": 0.0071,
+      "poll": 0,
+      "jitter_us": 1000
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "utc": "2026-10-20T01:40:05Z",
+  "question": "Q12",
+  "rollup": "results/snapshot_timing.json",
+  "Tw_max_us_nominal": {
+    "80000000": 204.75,
+    "40000000": 409.5,
+    "16000000": 1023.75,
+    "20000000": 819.0
+  },
+  "IQ_WORDS": 16380,
+  "modes": [
+    {
+      "mode": "raw_iq",
+      "board": "s3-wroom1u-01",
+      "link": "USB",
+      "format": "iq8",
+      "rate_hz": 80000000,
+      "n": 16380,
+      "c": 241.62,
+      "T0_ms": 0.541,
+      "duty_pct_at_nmax": 0.419,
+      "Tw_mark_us_median": 209.687,
+      "T_cycle_ms_median": 50.003,
+      "Tw_nominal_us": 204.75,
+      "source": "results/snapshot_timing/la_timing_fastpoll.json",
+      "method": "logic",
+      "note": "POLL 1; SIP baseline upload"
+    },
+    {
+      "mode": "energy_miss",
+      "board": "s3-wroom1u-01",
+      "link": "USB",
+      "format": "iq8",
+      "rate_hz": 80000000,
+      "n": 16380,
+      "c": 23.34,
+      "T0_ms": 0.408,
+      "duty_pct_at_nmax": 3.925,
+      "Tw_mark_us_median": 209.437,
+      "T_cycle_ms_median": 5.336,
+      "Tw_nominal_us": 204.75,
+      "source": "results/snapshot_timing/la_timing_s3-01-energy-miss.json",
+      "method": "logic",
+      "note": "CAPE* miss path; paper on-chip detect when hits are rare"
+    },
+    {
+      "mode": "energy_hit",
+      "board": "s3-wroom1u-01",
+      "link": "USB",
+      "format": "iq8",
+      "rate_hz": 80000000,
+      "n": 16380,
+      "c": 269.3,
+      "T0_ms": 0.444,
+      "duty_pct_at_nmax": 0.378,
+      "Tw_mark_us_median": 211.437,
+      "T_cycle_ms_median": 56.004,
+      "Tw_nominal_us": 204.75,
+      "source": "results/snapshot_timing/la_timing_s3-01-energy-hit.json",
+      "method": "logic",
+      "note": "CAPE* hit path; ~raw IQ upload cost"
+    },
+    {
+      "mode": "raw_iq",
+      "board": "c5-03",
+      "link": "UART_1M",
+      "format": "iq8",
+      "rate_hz": 80000000,
+      "n": 16380,
+      "c": 1611.98,
+      "T0_ms": 2.8,
+      "duty_pct_at_nmax": 0.569,
+      "Tw_mark_us_median": 1893.5,
+      "T_cycle_ms_median": 333.067,
+      "Tw_nominal_us": 204.75,
+      "source": "results/snapshot_timing/la_timing_c5-03-fastpoll.json",
+      "method": "logic",
+      "note": "POLL 1; UART shift time dominates c"
+    },
+    {
+      "mode": "energy_miss",
+      "board": "c5-03",
+      "link": "UART_1M",
+      "format": "iq8",
+      "rate_hz": 80000000,
+      "n": 16380,
+      "c": 8.63,
+      "T0_ms": 2.613,
+      "duty_pct_at_nmax": 41.162,
+      "Tw_mark_us_median": 1879.875,
+      "T_cycle_ms_median": 4.567,
+      "Tw_nominal_us": 204.75,
+      "source": "results/snapshot_timing/la_timing_c5-03-energy-miss.json",
+      "method": "logic",
+      "note": "CAPE* miss; mark width includes C5 stock_capture overhead"
+    },
+    {
+      "mode": "energy_hit",
+      "board": "c5-03",
+      "link": "UART_1M",
+      "format": "iq8",
+      "rate_hz": 80000000,
+      "n": 16380,
+      "c": 1617.59,
+      "T0_ms": 2.906,
+      "duty_pct_at_nmax": 0.566,
+      "Tw_mark_us_median": 1891.312,
+      "T_cycle_ms_median": 334.353,
+      "Tw_nominal_us": 204.75,
+      "source": "results/snapshot_timing/la_timing_c5-03-energy-hit.json",
+      "method": "logic",
+      "note": "CAPE* hit \u2248 raw IQ UART"
+    }
+  ],
+  "spec_duty": [
+    {
+      "board": "s3-wroom1u-01",
+      "link": "USB",
+      "rate_hz": 80000000,
+      "duty_pct_range": [
+        7.78,
+        11.32
+      ],
+      "duty_pct_by_nfft": {
+        "256": 11.32,
+        "512": 10.66,
+        "1024": 8.47,
+        "2048": 7.78
+      },
+      "source": "results/snapshot_timing/spec_timing_s3-wroom1u-01.json",
+      "note": "SPEC has no c/T0 fit; duty from on-chip FFT stream"
+    },
+    {
+      "board": "s3-wroom1u-01",
+      "link": "USB",
+      "rate_hz": 40000000,
+      "duty_pct_range": [
+        16.35,
+        25.06
+      ],
+      "duty_pct_by_nfft": {
+        "256": 25.06,
+        "512": 24.1,
+        "1024": 22.48,
+        "2048": 16.35
+      },
+      "source": "results/snapshot_timing/spec_timing_s3-wroom1u-01.json",
+      "note": "SPEC has no c/T0 fit; duty from on-chip FFT stream"
+    },
+    {
+      "board": "s3-wroom1u-01",
+      "link": "USB",
+      "rate_hz": 16000000,
+      "duty_pct_range": [
+        59.77,
+        64.63
+      ],
+      "duty_pct_by_nfft": {
+        "256": 64.63,
+        "512": 64.08,
+        "1024": 61.24,
+        "2048": 59.77
+      },
+      "source": "results/snapshot_timing/spec_timing_s3-wroom1u-01.json",
+      "note": "SPEC has no c/T0 fit; duty from on-chip FFT stream"
+    },
+    {
+      "board": "c5-01",
+      "link": "UART_1M",
+      "rate_hz": 80000000,
+      "duty_pct_range": [
+        0.15,
+        0.42
+      ],
+      "duty_pct_by_nfft": {
+        "256": 0.15,
+        "512": 0.24,
+        "1024": 0.36,
+        "2048": 0.42
+      },
+      "source": "results/snapshot_timing/spec_timing_c5-01.json",
+      "note": "SPEC has no c/T0 fit; duty from on-chip FFT stream"
+    },
+    {
+      "board": "c5-01",
+      "link": "UART_1M",
+      "rate_hz": 40000000,
+      "duty_pct_range": [
+        0.3,
+        0.85
+      ],
+      "duty_pct_by_nfft": {
+        "256": 0.3,
+        "512": 0.49,
+        "1024": 0.73,
+        "2048": 0.85
+      },
+      "source": "results/snapshot_timing/spec_timing_c5-01.json",
+      "note": "SPEC has no c/T0 fit; duty from on-chip FFT stream"
+    },
+    {
+      "board": "c5-01",
+      "link": "UART_1M",
+      "rate_hz": 20000000,
+      "duty_pct_range": [
+        0.61,
+        1.68
+      ],
+      "duty_pct_by_nfft": {
+        "256": 0.61,
+        "512": 0.97,
+        "1024": 1.42,
+        "2048": 1.68
+      },
+      "source": "results/snapshot_timing/spec_timing_c5-01.json",
+      "note": "SPEC has no c/T0 fit; duty from on-chip FFT stream"
+    }
+  ],
+  "retune_to_2442_ms_median": {
+    "s3-wroom1u-01": 92.399,
+    "s3-wroom1u-02": 92.469,
+    "s3-wroom1u-03": 93.111,
+    "c5-01": 11.297,
+    "c5-02": 9.667,
+    "c5-03": 10.418
+  },
+  "table2_primary": {
+    "comment": "Sensors Letters table 2: S3 USB IQ8 @80 MS/s, busy-poll; detect = CAPE miss",
+    "raw_iq8": {
+      "c": 241.62,
+      "T0_ms": 0.541,
+      "duty_pct": 0.419
+    },
+    "spec_80Ms": {
+      "c": null,
+      "T0_ms": null,
+      "duty_pct_range": [
+        7.78,
+        11.32
+      ],
+      "source": "results/snapshot_timing/spec_timing_s3-wroom1u-01.json"
+    },
+    "energy_miss": {
+      "c": 23.34,
+      "T0_ms": 0.408,
+      "duty_pct": 3.925
+    }
+  },
+  "note": "Raw IQ and CAPE* c/T0 for table 2: prefer Logic GPIO fits (S3-01 and C5-03). S3 USB and C5 UART c are not directly comparable."
+}

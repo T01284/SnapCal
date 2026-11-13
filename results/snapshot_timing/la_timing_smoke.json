@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-19T06:54:07Z",
+  "method": "Saleae Logic 2 digital export; SNAP_MARK width, XFER_DONE after USB queue, cycle from mark rise to next mark rise",
+  "wiring": {
+    "snap_mark": "GPIO5 -> digital 0",
+    "xfer_done": "GPIO6 -> digital 1"
+  },
+  "digital_hz": 8000000,
+  "digital_threshold_volts": null,
+  "fast_poll": false,
+  "repeats": 8,
+  "sizes": [
+    16380
+  ],
+  "firmware": {
+    "revision": "9ebe51bca7c02888767a0e8d2fb0a4c25804ae4f-dirty",
+    "build_date": "2026-10-12",
+    "build_timestamp": "2026-10-12T10:49:27Z",
+    "profile": "esp32s3",
+    "upstream": "06a5ca4027d28626c8e8a8b38176814dfe774a1c"
+  },
+  "toolchain": {
+    "platformio_platform": "espressif32@6.13.0",
+    "esp_idf": "5.5.3",
+    "esp_sdr_upstream_commit": "06a5ca4027d28626c8e8a8b38176814dfe774a1c",
+    "pio_core": "PlatformIO Core, version 6.1.19"
+  },
+  "host": {
+    "utc": "2026-10-19T06:54:08Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty"
+  },
+  "rows": [
+    {
+      "n_host": 8,
+      "n_marks": 0,
+      "error": "SNAP_MARK pulse count does not match the number of captures",
+      "format": "iq10",
+      "rate_hz": 80000000,
+      "la_resolution_us": 0.125
+    }
+  ]
+}

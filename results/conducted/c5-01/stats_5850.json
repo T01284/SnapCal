@@ -1,0 +1,111 @@
+{
+  "utc": "2026-10-18T08:02:08Z",
+  "cmd": "stats",
+  "board": "c5-01",
+  "args": {
+    "port": "COM22",
+    "baud": 1000000,
+    "board": "c5-01",
+    "gen": "COM16",
+    "atten_db": 30.7,
+    "chain": [],
+    "esp_freq": 5850,
+    "esp_gain": 44,
+    "bb_mhz": 10.0,
+    "level": 3,
+    "dbm": -30.0,
+    "dbm_sweep": [
+      -40,
+      -35,
+      -30,
+      -25,
+      -20,
+      -15,
+      -10,
+      -5,
+      0
+    ],
+    "count": 1000,
+    "cmd": "stats"
+  },
+  "setup": "conducted: RFE6GEN -> 30.7 dB nominal -> IPEX pigtail -> ESP32; bench, no enclosure",
+  "generator": {
+    "port": "COM16",
+    "kind": "generator",
+    "main_model": "MODEL_RFGEN",
+    "expansion_model": "MODEL_NONE",
+    "active_model": "MODEL_RFGEN",
+    "expansion_active": false,
+    "firmware": "01.32",
+    "serial": "B3D9-5AL7-94D3-M784",
+    "min_freq_mhz": 23.438,
+    "max_freq_mhz": 6000,
+    "input_stage": "Direct",
+    "embedded_cal": true
+  },
+  "firmware": {
+    "revision": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty",
+    "build_date": "2026-10-18",
+    "build_timestamp": "2026-10-18T03:40:00Z",
+    "profile": "esp32c5",
+    "upstream": "06a5ca4027d28626c8e8a8b38176814dfe774a1c"
+  },
+  "identity": "C5SDR 6 burst 16380",
+  "n16380": {
+    "snapshots": 1000,
+    "ok": 1000,
+    "interference_fraction": 0.0,
+    "power_dbfs": {
+      "median": -30.743830840257605,
+      "robust_std_db": 0.027258769450509635
+    },
+    "freq_hz": {
+      "median": 10019914.622329624,
+      "robust_std": 266.7440921840485,
+      "offset_from_nominal": 19914.62232962437
+    },
+    "phase": {
+      "mean_resultant_length": 0.03617152343226629,
+      "note": "~0 means the tone phase is random from snapshot to snapshot"
+    },
+    "image_ratio": {
+      "global": [
+        -0.029937983310215927,
+        -0.007343759621147208
+      ],
+      "abs_db": -30.221787351235054,
+      "abs_robust_std_db": 0.29199202411045505,
+      "angle_robust_std_deg": 1.466808297569588
+    },
+    "dc": {
+      "median": [
+        -0.0014253162202380952,
+        -0.0033089252327533577
+      ],
+      "robust_std": [
+        0.0006084865785256409,
+        0.0005987635216346152
+      ]
+    },
+    "snr_db_median": 62.78449635376883,
+    "irr_db_median": {
+      "raw": 30.22168803188921,
+      "own": 338.86793396418796,
+      "prev": 56.95230474743886,
+      "global": 59.421863747940094
+    },
+    "capture_us_median": 1880.0
+  },
+  "toolchain": {
+    "platformio_platform": "espressif32@6.13.0",
+    "esp_idf": "5.5.3",
+    "esp_sdr_upstream_commit": "06a5ca4027d28626c8e8a8b38176814dfe774a1c",
+    "pio_core": "PlatformIO Core, version 6.1.19"
+  },
+  "host": {
+    "utc": "2026-10-18T08:09:15Z",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.10",
+    "snapcal_git": "6e49df5856c0b36bd892d71284125fa62f23ea4a-dirty"
+  }
+}

@@ -1,0 +1,4 @@
+# Extra defaults for env esp32s3_wroom1u_snaplog (ESP32-S3-WROOM-1U, 16 MB flash, SNAPLOG partition).
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions-snaplog.csv"

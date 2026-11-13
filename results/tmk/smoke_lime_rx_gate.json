@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-31T06:00:46Z",
+  "smoke": "q17_lime_rx_gate",
+  "retry": "L7_gain45",
+  "port": "COM20",
+  "rf_mhz": 2452.0,
+  "lo_hz": 2450000000.0,
+  "tone_offset_hz": 2000000.0,
+  "gen_level": 7,
+  "gen_est_dbm": 0.5,
+  "lime_gain_db": 45,
+  "off": {
+    "n": 1048576,
+    "lo_hz": 2450000000.0,
+    "rate_hz": 8000000.0,
+    "gain_db": 45.0,
+    "peak_hz": 2005363.4643554688,
+    "peak_db": -52.42733609839054,
+    "tone_offset_hz": 2000000.0,
+    "tone_bin_hz": 2000000.0,
+    "tone_db": -100.38750544709764,
+    "noise_median_db": -113.38918612102108,
+    "tone_snr_db": 13.001680673923445
+  },
+  "on": {
+    "n": 1048576,
+    "lo_hz": 2450000000.0,
+    "rate_hz": 8000000.0,
+    "gain_db": 45.0,
+    "peak_hz": 2005363.4643554688,
+    "peak_db": -5.5030059916789735,
+    "tone_offset_hz": 2000000.0,
+    "tone_bin_hz": 2000000.0,
+    "tone_db": -71.08186992776554,
+    "noise_median_db": -107.07265930773715,
+    "tone_snr_db": 35.990789379971616
+  },
+  "delta_on_minus_off_db": 29.3056355193321,
+  "pass": true
+}

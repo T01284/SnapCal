@@ -1,0 +1,3891 @@
+{
+  "utc": "2026-10-25T11:21:16Z",
+  "note": "Spur list rolled up from floor_spurs_*.json. Oct 12 files (tag box, box-load) are a different day and are not the 2026-10-25 baseline. channel12_strongest is the intermittent line within 10 MHz of 2467 MHz when that frequency is inside the 80 MS/s window. P_fa is not estimated.",
+  "acceptance": {
+    "snapshots": 1000,
+    "spatial_coupling_10db_below_floor": false,
+    "hotspot_2442_gain60": [
+      {
+        "board": "c5-01",
+        "outlier_fraction_3db": 0.021,
+        "floor_dbfs_per_hz": -120.87820626983903,
+        "channel12_mhz": 2466.375,
+        "channel12_excess_db": 32.114349365234375,
+        "channel12_level_dbfs_bin": -40.827880859375
+      },
+      {
+        "board": "c5-02",
+        "outlier_fraction_3db": 0.015,
+        "floor_dbfs_per_hz": -121.61887552032731,
+        "channel12_mhz": 2472.46875,
+        "channel12_excess_db": 26.028213500976562,
+        "channel12_level_dbfs_bin": -53.38079833984375
+      },
+      {
+        "board": "c5-03",
+        "outlier_fraction_3db": 0.023,
+        "floor_dbfs_per_hz": -120.54039193878434,
+        "channel12_mhz": 2465.984375,
+        "channel12_excess_db": 28.86526870727539,
+        "channel12_level_dbfs_bin": -42.901363372802734
+      },
+      {
+        "board": "s3-wroom1u-01",
+        "outlier_fraction_3db": 0.017,
+        "floor_dbfs_per_hz": -115.38414193878434,
+        "channel12_mhz": 2465.125,
+        "channel12_excess_db": 28.333534240722656,
+        "channel12_level_dbfs_bin": -36.30104064941406
+      },
+      {
+        "board": "s3-wroom1u-02",
+        "outlier_fraction_3db": 0.0,
+        "floor_dbfs_per_hz": -115.69114877472184,
+        "channel12_mhz": 2474.8125,
+        "channel12_excess_db": 10.662281036376953,
+        "channel12_level_dbfs_bin": -55.61191177368164
+      },
+      {
+        "board": "s3-wroom1u-03",
+        "outlier_fraction_3db": 0.034,
+        "floor_dbfs_per_hz": -115.61648751983903,
+        "channel12_mhz": 2463.875,
+        "channel12_excess_db": 29.09042739868164,
+        "channel12_level_dbfs_bin": -36.16707229614258
+      }
+    ],
+    "reason": "False when any 2026-10-25 closed-box gain-60 capture at 2442 MHz has an intermittent line inside 2457\u20132477 MHz at least 10 dB above the floor. 6 of 6 boards do. The median floor did not rise; the leakage is bursts. P_fa is not in this file."
+  },
+  "runs": [
+    {
+      "source": "results/conducted/c5-01/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T10:24:43Z",
+      "board": "c5-01",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5745,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -127.94393350372575,
+      "rms_median_dbfs": -48.8924053807745,
+      "rms_max_dbfs": -48.412836749412016,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-01/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T10:24:43Z",
+      "board": "c5-01",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5745,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -124.06024362335465,
+      "rms_median_dbfs": -45.61605072945002,
+      "rms_max_dbfs": -38.99331581697345,
+      "outlier_fraction_3db": 0.001,
+      "n_persistent": 1,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 5760.0,
+          "excess_db": 6.5123138427734375,
+          "snapshot_fraction": 0.791,
+          "level_dbfs_bin": -67.1236572265625,
+          "f_rf_fine_mhz": 5760.000205524859,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 144,
+              "offset_hz": 205.52485942840576
+            },
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 120,
+              "offset_hz": 205.52485942840576
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 30,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 5748.75,
+          "excess_db": 16.737903594970703,
+          "snapshot_fraction": 0.006,
+          "level_dbfs_bin": -56.29001998901367
+        },
+        {
+          "f_rf_mhz": 5749.921875,
+          "excess_db": 15.047050476074219,
+          "snapshot_fraction": 0.005,
+          "level_dbfs_bin": -58.070701599121094
+        },
+        {
+          "f_rf_mhz": 5757.5,
+          "excess_db": 14.701484680175781,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -58.87395477294922
+        },
+        {
+          "f_rf_mhz": 5758.671875,
+          "excess_db": 13.569091796875,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -60.057777404785156
+        },
+        {
+          "f_rf_mhz": 5766.25,
+          "excess_db": 13.452136993408203,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -60.03811264038086
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-01/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T10:24:43Z",
+      "board": "c5-01",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5800,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -127.91709329376481,
+      "rms_median_dbfs": -48.88114544768098,
+      "rms_max_dbfs": -48.73924537292236,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-01/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T10:24:43Z",
+      "board": "c5-01",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5800,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -123.57306863556168,
+      "rms_median_dbfs": -45.13199203078683,
+      "rms_max_dbfs": -44.739419355367936,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-01/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T10:24:43Z",
+      "board": "c5-01",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5850,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -130.64283944854998,
+      "rms_median_dbfs": -52.053378125871276,
+      "rms_max_dbfs": -51.7926899940964,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-01/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T10:24:43Z",
+      "board": "c5-01",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5850,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -125.92852975616715,
+      "rms_median_dbfs": -47.699361573851114,
+      "rms_max_dbfs": -47.511115334068904,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 1,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 5856.015625,
+          "excess_db": 6.7033233642578125,
+          "snapshot_fraction": 0.889,
+          "level_dbfs_bin": -67.33661651611328,
+          "f_rf_fine_mhz": 5856.000012474439,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 122,
+              "offset_hz": 12.47443962097168
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-01/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T05:30:21Z",
+      "board": "c5-01",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, UART through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -128.51443673858904,
+      "rms_median_dbfs": -50.27348952693106,
+      "rms_max_dbfs": -42.14386889978126,
+      "outlier_fraction_3db": 0.005,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 9,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2466.6875,
+          "excess_db": 20.59149169921875,
+          "snapshot_fraction": 0.005,
+          "level_dbfs_bin": -58.961181640625
+        },
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 17.298614501953125,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -59.83153533935547
+        },
+        {
+          "f_rf_mhz": 2425.984375,
+          "excess_db": 15.735336303710938,
+          "snapshot_fraction": 0.008,
+          "level_dbfs_bin": -61.946678161621094
+        },
+        {
+          "f_rf_mhz": 2475.125,
+          "excess_db": 11.816276550292969,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -73.21939086914062
+        },
+        {
+          "f_rf_mhz": 2448.484375,
+          "excess_db": 11.058639526367188,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -66.12129974365234
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2466.6875,
+        "excess_db": 20.59149169921875,
+        "snapshot_fraction": 0.005,
+        "level_dbfs_bin": -58.961181640625
+      }
+    },
+    {
+      "source": "results/conducted/c5-01/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T05:30:21Z",
+      "board": "c5-01",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, UART through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -120.87820626983903,
+      "rms_median_dbfs": -43.39730808387312,
+      "rms_max_dbfs": -24.704840787460732,
+      "outlier_fraction_3db": 0.021,
+      "n_persistent": 1,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 13.393310546875,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -73.4268798828125,
+          "f_rf_fine_mhz": 2480.000019108897,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 19.10889720916748
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 16,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2466.375,
+          "excess_db": 32.114349365234375,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -40.827880859375
+        },
+        {
+          "f_rf_mhz": 2419.96875,
+          "excess_db": 29.548324584960938,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -41.30735778808594
+        },
+        {
+          "f_rf_mhz": 2444.03125,
+          "excess_db": 27.55780792236328,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -41.766990661621094
+        },
+        {
+          "f_rf_mhz": 2434.03125,
+          "excess_db": 27.503013610839844,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -42.305641174316406
+        },
+        {
+          "f_rf_mhz": 2424.03125,
+          "excess_db": 27.28235626220703,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -43.000465393066406
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2466.375,
+        "excess_db": 32.114349365234375,
+        "snapshot_fraction": 0.009,
+        "level_dbfs_bin": -40.827880859375
+      }
+    },
+    {
+      "source": "results/conducted/c5-02/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:56:02Z",
+      "board": "c5-02",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5745,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -127.74181558380387,
+      "rms_median_dbfs": -48.69629261004464,
+      "rms_max_dbfs": -47.35748676930921,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-02/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:56:02Z",
+      "board": "c5-02",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5745,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -123.42572213897965,
+      "rms_median_dbfs": -45.1588755086384,
+      "rms_max_dbfs": -31.69905337720781,
+      "outlier_fraction_3db": 0.01,
+      "n_persistent": 1,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 5760.0,
+          "excess_db": 9.187545776367188,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -64.00999450683594,
+          "f_rf_fine_mhz": 5760.000277252443,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 144,
+              "offset_hz": 277.25244331359863
+            },
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 120,
+              "offset_hz": 277.25244331359863
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 13,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 5749.921875,
+          "excess_db": 24.12771987915039,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -48.56977462768555
+        },
+        {
+          "f_rf_mhz": 5758.671875,
+          "excess_db": 23.49334716796875,
+          "snapshot_fraction": 0.006,
+          "level_dbfs_bin": -49.695518493652344
+        },
+        {
+          "f_rf_mhz": 5763.671875,
+          "excess_db": 23.175338745117188,
+          "snapshot_fraction": 0.006,
+          "level_dbfs_bin": -49.891510009765625
+        },
+        {
+          "f_rf_mhz": 5739.921875,
+          "excess_db": 21.734050750732422,
+          "snapshot_fraction": 0.01,
+          "level_dbfs_bin": -50.844844818115234
+        },
+        {
+          "f_rf_mhz": 5752.5,
+          "excess_db": 17.70734405517578,
+          "snapshot_fraction": 0.008,
+          "level_dbfs_bin": -55.19189453125
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-02/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:56:02Z",
+      "board": "c5-02",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5800,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -127.41367532501481,
+      "rms_median_dbfs": -48.37467696282708,
+      "rms_max_dbfs": -47.30022252162613,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 2,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 5769.921875,
+          "excess_db": 10.820556640625,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -66.4281234741211
+        },
+        {
+          "f_rf_mhz": 5772.421875,
+          "excess_db": 10.6767578125,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -66.31184387207031
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-02/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:56:02Z",
+      "board": "c5-02",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5800,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -124.0259037185695,
+      "rms_median_dbfs": -45.43830246200093,
+      "rms_max_dbfs": -40.32820976428258,
+      "outlier_fraction_3db": 0.002,
+      "n_persistent": 1,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 5760.0,
+          "excess_db": 6.4046478271484375,
+          "snapshot_fraction": 0.733,
+          "level_dbfs_bin": -70.76589965820312,
+          "f_rf_fine_mhz": 5759.998469778635,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 144,
+              "offset_hz": -1530.2213649749756
+            },
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 120,
+              "offset_hz": -1530.2213649749756
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 6,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 5772.421875,
+          "excess_db": 18.911457061767578,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -55.1665153503418
+        },
+        {
+          "f_rf_mhz": 5766.25,
+          "excess_db": 13.226825714111328,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -63.27640914916992
+        },
+        {
+          "f_rf_mhz": 5763.671875,
+          "excess_db": 11.430809020996094,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -65.47004699707031
+        },
+        {
+          "f_rf_mhz": 5766.71875,
+          "excess_db": 11.084953308105469,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -65.25843811035156
+        },
+        {
+          "f_rf_mhz": 5764.6875,
+          "excess_db": 10.793098449707031,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -65.9965591430664
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-02/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:56:02Z",
+      "board": "c5-02",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5850,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -129.09935189972185,
+      "rms_median_dbfs": -50.54448282875839,
+      "rms_max_dbfs": -49.89683635226289,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-02/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:56:02Z",
+      "board": "c5-02",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5850,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -125.78351022491715,
+      "rms_median_dbfs": -47.54627626392385,
+      "rms_max_dbfs": -47.08079148560452,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-02/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T06:42:28Z",
+      "board": "c5-02",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, UART through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -127.9614277053859,
+      "rms_median_dbfs": -49.41544043839071,
+      "rms_max_dbfs": -47.076709226787614,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 23,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2464.5,
+          "excess_db": 12.667755126953125,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -65.25907897949219
+        },
+        {
+          "f_rf_mhz": 2463.875,
+          "excess_db": 12.574806213378906,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -65.13008880615234
+        },
+        {
+          "f_rf_mhz": 2465.75,
+          "excess_db": 12.3680419921875,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -66.00297546386719
+        },
+        {
+          "f_rf_mhz": 2468.875,
+          "excess_db": 11.801460266113281,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -68.06857299804688
+        },
+        {
+          "f_rf_mhz": 2464.8125,
+          "excess_db": 11.709312438964844,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -66.32274627685547
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2464.5,
+        "excess_db": 12.667755126953125,
+        "snapshot_fraction": 0.001,
+        "level_dbfs_bin": -65.25907897949219
+      }
+    },
+    {
+      "source": "results/conducted/c5-02/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T06:42:28Z",
+      "board": "c5-02",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, UART through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -121.61887552032731,
+      "rms_median_dbfs": -43.63445080306078,
+      "rms_max_dbfs": -33.301943027440885,
+      "outlier_fraction_3db": 0.015,
+      "n_persistent": 1,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 11.223846435546875,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -75.06607055664062,
+          "f_rf_fine_mhz": 2480.0000058237993,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 5.823799133300781
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 9,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2472.46875,
+          "excess_db": 26.028213500976562,
+          "snapshot_fraction": 0.012,
+          "level_dbfs_bin": -53.38079833984375
+        },
+        {
+          "f_rf_mhz": 2426.0625,
+          "excess_db": 24.686573028564453,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -46.02609634399414
+        },
+        {
+          "f_rf_mhz": 2405.828125,
+          "excess_db": 23.4228515625,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -61.23847961425781
+        },
+        {
+          "f_rf_mhz": 2422.3125,
+          "excess_db": 22.353256225585938,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -48.632598876953125
+        },
+        {
+          "f_rf_mhz": 2458.5625,
+          "excess_db": 19.919734954833984,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -51.27327346801758
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2472.46875,
+        "excess_db": 26.028213500976562,
+        "snapshot_fraction": 0.012,
+        "level_dbfs_bin": -53.38079833984375
+      }
+    },
+    {
+      "source": "results/conducted/c5-03/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:09:55Z",
+      "board": "c5-03",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5745,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -127.44022561798356,
+      "rms_median_dbfs": -48.418837166873544,
+      "rms_max_dbfs": -48.03123075546192,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-03/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:09:55Z",
+      "board": "c5-03",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5745,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -122.45878793487809,
+      "rms_median_dbfs": -44.028680935032796,
+      "rms_max_dbfs": -42.00058950909042,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 3,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 5748.75,
+          "excess_db": 11.400505065917969,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -59.98417663574219
+        },
+        {
+          "f_rf_mhz": 5750.0,
+          "excess_db": 10.678153991699219,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -60.801612854003906
+        },
+        {
+          "f_rf_mhz": 5743.75,
+          "excess_db": 10.397968292236328,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -60.68063735961914
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-03/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:09:55Z",
+      "board": "c5-03",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5800,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -127.74193765411637,
+      "rms_median_dbfs": -48.728365383369905,
+      "rms_max_dbfs": -48.564699283295525,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-03/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:09:55Z",
+      "board": "c5-03",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5800,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -122.92006112823746,
+      "rms_median_dbfs": -44.511442967783,
+      "rms_max_dbfs": -40.54445115237053,
+      "outlier_fraction_3db": 0.001,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 22,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 5791.25,
+          "excess_db": 13.344810485839844,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -58.70048522949219
+        },
+        {
+          "f_rf_mhz": 5792.5,
+          "excess_db": 12.458831787109375,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -59.53678894042969
+        },
+        {
+          "f_rf_mhz": 5793.125,
+          "excess_db": 12.019275665283203,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -59.94649887084961
+        },
+        {
+          "f_rf_mhz": 5789.765625,
+          "excess_db": 11.894180297851562,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -60.192771911621094
+        },
+        {
+          "f_rf_mhz": 5790.0,
+          "excess_db": 11.885406494140625,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -60.189369201660156
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-03/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:09:55Z",
+      "board": "c5-03",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5850,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -128.65101815948748,
+      "rms_median_dbfs": -50.052616822215995,
+      "rms_max_dbfs": -49.6758177133852,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-03/floor_spurs_box-5g-20261025.json",
+      "utc": "2026-10-25T08:09:55Z",
+      "board": "c5-03",
+      "tag": "box-5g-20261025",
+      "same_day_20261025": true,
+      "termination": "IPEX 50 ohm, shield box door closed, UART through wall",
+      "freq_mhz": 5850,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -123.61986734161637,
+      "rms_median_dbfs": -45.40295245553578,
+      "rms_max_dbfs": -45.242448858819756,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/c5-03/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T07:00:16Z",
+      "board": "c5-03",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, UART through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -127.62240792999528,
+      "rms_median_dbfs": -49.22137394642591,
+      "rms_max_dbfs": -43.48917622803292,
+      "outlier_fraction_3db": 0.009,
+      "n_persistent": 0,
+      "persistent_spurs": [],
+      "n_intermittent": 9,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2435.984375,
+          "excess_db": 24.384010314941406,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -51.502906799316406
+        },
+        {
+          "f_rf_mhz": 2425.984375,
+          "excess_db": 23.800151824951172,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -52.74551773071289
+        },
+        {
+          "f_rf_mhz": 2469.8125,
+          "excess_db": 19.068389892578125,
+          "snapshot_fraction": 0.008,
+          "level_dbfs_bin": -61.366798400878906
+        },
+        {
+          "f_rf_mhz": 2480.046875,
+          "excess_db": 15.797378540039062,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -71.34237670898438
+        },
+        {
+          "f_rf_mhz": 2475.125,
+          "excess_db": 15.208351135253906,
+          "snapshot_fraction": 0.007,
+          "level_dbfs_bin": -69.1489486694336
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2469.8125,
+        "excess_db": 19.068389892578125,
+        "snapshot_fraction": 0.008,
+        "level_dbfs_bin": -61.366798400878906
+      }
+    },
+    {
+      "source": "results/conducted/c5-03/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T07:00:16Z",
+      "board": "c5-03",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, UART through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -120.54039193878434,
+      "rms_median_dbfs": -42.36723111493282,
+      "rms_max_dbfs": -30.17385728878274,
+      "outlier_fraction_3db": 0.023,
+      "n_persistent": 2,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 13.285171508789062,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -73.10340881347656,
+          "f_rf_fine_mhz": 2480.0000115298703,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 11.529870510101318
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 7.846286773681641,
+          "snapshot_fraction": 0.824,
+          "level_dbfs_bin": -60.23313522338867,
+          "f_rf_fine_mhz": 2440.000050597913,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 50.59791278839111
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 27,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2438.015625,
+          "excess_db": 33.66265106201172,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -34.66551208496094
+        },
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 32.7216796875,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -35.97731018066406
+        },
+        {
+          "f_rf_mhz": 2426.0625,
+          "excess_db": 30.799793243408203,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -38.68626022338867
+        },
+        {
+          "f_rf_mhz": 2465.984375,
+          "excess_db": 28.86526870727539,
+          "snapshot_fraction": 0.007,
+          "level_dbfs_bin": -42.901363372802734
+        },
+        {
+          "f_rf_mhz": 2429.734375,
+          "excess_db": 28.55734634399414,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -40.62211990356445
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2465.984375,
+        "excess_db": 28.86526870727539,
+        "snapshot_fraction": 0.007,
+        "level_dbfs_bin": -42.901363372802734
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box-load.json",
+      "utc": "2026-10-12T10:16:04Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box-load",
+      "same_day_20261025": false,
+      "termination": "50 ohm load on the IPEX-SMA pigtail inside the enclosure (Lime cable removed)",
+      "freq_mhz": 2412,
+      "gain_index": 20,
+      "count": 1000,
+      "floor_dbfs_per_hz": -123.59234811554215,
+      "rms_median_dbfs": -44.19639584778889,
+      "rms_max_dbfs": -38.88945684409285,
+      "outlier_fraction_3db": 0.007,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 12.789562225341797,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -60.78194046020508,
+          "f_rf_fine_mhz": 2448.0002138501595,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 213.8501591682434
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 11.314170837402344,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -61.716339111328125,
+          "f_rf_fine_mhz": 2440.000188105626,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 188.1056261062622
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2399.96875,
+          "excess_db": 9.186832427978516,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -63.95242691040039,
+          "f_rf_fine_mhz": 2400.000214084835,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 60,
+              "offset_hz": 214.08483505249023
+            },
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 50,
+              "offset_hz": 214.08483505249023
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 19,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2426.84375,
+          "excess_db": 21.33104705810547,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -51.72715759277344
+        },
+        {
+          "f_rf_mhz": 2402.859375,
+          "excess_db": 18.739166259765625,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -54.15997314453125
+        },
+        {
+          "f_rf_mhz": 2421.84375,
+          "excess_db": 17.134353637695312,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -55.766204833984375
+        },
+        {
+          "f_rf_mhz": 2420.125,
+          "excess_db": 16.99779510498047,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -55.76020050048828
+        },
+        {
+          "f_rf_mhz": 2410.046875,
+          "excess_db": 16.94824981689453,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -55.04326629638672
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box-load.json",
+      "utc": "2026-10-12T10:16:04Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box-load",
+      "same_day_20261025": false,
+      "termination": "50 ohm load on the IPEX-SMA pigtail inside the enclosure (Lime cable removed)",
+      "freq_mhz": 2412,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -116.87323190460465,
+      "rms_median_dbfs": -37.652732415994365,
+      "rms_max_dbfs": -20.175537100319172,
+      "outlier_fraction_3db": 0.075,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 15.497421264648438,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -52.62525177001953,
+          "f_rf_fine_mhz": 2448.0002003725776,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 200.37257766723633
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2399.96875,
+          "excess_db": 12.175910949707031,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -54.42878723144531,
+          "f_rf_fine_mhz": 2400.0002087960306,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 60,
+              "offset_hz": 208.79603052139282
+            },
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 50,
+              "offset_hz": 208.79603052139282
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 10.776912689208984,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -55.55770492553711,
+          "f_rf_fine_mhz": 2440.0001998333373,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 199.83333730697632
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 21,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2422.859375,
+          "excess_db": 37.57524108886719,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -28.832443237304688
+        },
+        {
+          "f_rf_mhz": 2405.203125,
+          "excess_db": 36.810997009277344,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -29.122426986694336
+        },
+        {
+          "f_rf_mhz": 2409.96875,
+          "excess_db": 30.23432159423828,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -34.94554901123047
+        },
+        {
+          "f_rf_mhz": 2447.625,
+          "excess_db": 29.725967407226562,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -38.370635986328125
+        },
+        {
+          "f_rf_mhz": 2448.328125,
+          "excess_db": 29.249107360839844,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -38.885414123535156
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box-load.json",
+      "utc": "2026-10-12T10:16:04Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box-load",
+      "same_day_20261025": false,
+      "termination": "50 ohm load on the IPEX-SMA pigtail inside the enclosure (Lime cable removed)",
+      "freq_mhz": 2412,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -109.30667306671403,
+      "rms_median_dbfs": -34.252893519775675,
+      "rms_max_dbfs": -3.688127888075861,
+      "outlier_fraction_3db": 0.261,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.09741973876953,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -50.38352966308594,
+          "f_rf_fine_mhz": 2448.000193827745,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 193.8277449607849
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2399.96875,
+          "excess_db": 12.0928955078125,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -52.8519287109375,
+          "f_rf_fine_mhz": 2400.000606963193,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 60,
+              "offset_hz": 606.9631929397583
+            },
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 50,
+              "offset_hz": 606.9631929397583
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 7.328498840332031,
+          "snapshot_fraction": 0.993,
+          "level_dbfs_bin": -52.86574935913086,
+          "f_rf_fine_mhz": 2440.0003538113106,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 353.81131076812744
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 20,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2403.015625,
+          "excess_db": 52.51895523071289,
+          "snapshot_fraction": 0.026,
+          "level_dbfs_bin": -12.08039379119873
+        },
+        {
+          "f_rf_mhz": 2416.375,
+          "excess_db": 50.96552658081055,
+          "snapshot_fraction": 0.028,
+          "level_dbfs_bin": -12.96479320526123
+        },
+        {
+          "f_rf_mhz": 2450.984375,
+          "excess_db": 40.589900970458984,
+          "snapshot_fraction": 0.006,
+          "level_dbfs_bin": -26.03286361694336
+        },
+        {
+          "f_rf_mhz": 2377.0,
+          "excess_db": 39.06694030761719,
+          "snapshot_fraction": 0.017,
+          "level_dbfs_bin": -27.87898063659668
+        },
+        {
+          "f_rf_mhz": 2447.0,
+          "excess_db": 35.03684997558594,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -31.33713722229004
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box-load.json",
+      "utc": "2026-10-12T10:16:04Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box-load",
+      "same_day_20261025": false,
+      "termination": "50 ohm load on the IPEX-SMA pigtail inside the enclosure (Lime cable removed)",
+      "freq_mhz": 2442,
+      "gain_index": 20,
+      "count": 1000,
+      "floor_dbfs_per_hz": -124.28309823761246,
+      "rms_median_dbfs": -44.87763624890613,
+      "rms_max_dbfs": -40.0256825653486,
+      "outlier_fraction_3db": 0.004,
+      "n_persistent": 2,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 14.41165542602539,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -58.86893844604492,
+          "f_rf_fine_mhz": 2448.0001623272547,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 162.32725477218628
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 11.282691955566406,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -61.399261474609375,
+          "f_rf_fine_mhz": 2440.000167352119,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 167.35211944580078
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 40,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2410.046875,
+          "excess_db": 24.624420166015625,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -49.86897277832031
+        },
+        {
+          "f_rf_mhz": 2458.015625,
+          "excess_db": 20.32189178466797,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -53.50843811035156
+        },
+        {
+          "f_rf_mhz": 2403.328125,
+          "excess_db": 18.760963439941406,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -55.48566436767578
+        },
+        {
+          "f_rf_mhz": 2460.671875,
+          "excess_db": 17.42475128173828,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -56.289939880371094
+        },
+        {
+          "f_rf_mhz": 2472.0,
+          "excess_db": 16.98830795288086,
+          "snapshot_fraction": 0.007,
+          "level_dbfs_bin": -57.13912582397461
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2458.015625,
+        "excess_db": 20.32189178466797,
+        "snapshot_fraction": 0.003,
+        "level_dbfs_bin": -53.50843811035156
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box-load.json",
+      "utc": "2026-10-12T10:16:04Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box-load",
+      "same_day_20261025": false,
+      "termination": "50 ohm load on the IPEX-SMA pigtail inside the enclosure (Lime cable removed)",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -115.3250751663234,
+      "rms_median_dbfs": -37.76196301314215,
+      "rms_max_dbfs": -21.47952077693883,
+      "outlier_fraction_3db": 0.142,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.343299865722656,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -49.67124938964844,
+          "f_rf_fine_mhz": 2448.0001673403017,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 167.34030151367188
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 13.00643539428711,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.97837448120117,
+          "f_rf_fine_mhz": 2440.0001610708814,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 161.07088136672974
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 8.098533630371094,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -60.350059509277344,
+          "f_rf_fine_mhz": 2480.000288914848,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 288.91484785079956
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 17,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2412.703125,
+          "excess_db": 37.76060485839844,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -30.100412368774414
+        },
+        {
+          "f_rf_mhz": 2404.8125,
+          "excess_db": 36.909000396728516,
+          "snapshot_fraction": 0.008,
+          "level_dbfs_bin": -31.76443099975586
+        },
+        {
+          "f_rf_mhz": 2472.078125,
+          "excess_db": 35.78498840332031,
+          "snapshot_fraction": 0.006,
+          "level_dbfs_bin": -31.909215927124023
+        },
+        {
+          "f_rf_mhz": 2480.203125,
+          "excess_db": 29.240894317626953,
+          "snapshot_fraction": 0.029,
+          "level_dbfs_bin": -39.20602035522461
+        },
+        {
+          "f_rf_mhz": 2444.96875,
+          "excess_db": 28.261436462402344,
+          "snapshot_fraction": 0.023,
+          "level_dbfs_bin": -37.19970703125
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2472.078125,
+        "excess_db": 35.78498840332031,
+        "snapshot_fraction": 0.006,
+        "level_dbfs_bin": -31.909215927124023
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box-load.json",
+      "utc": "2026-10-12T10:16:04Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box-load",
+      "same_day_20261025": false,
+      "termination": "50 ohm load on the IPEX-SMA pigtail inside the enclosure (Lime cable removed)",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -105.53423501739762,
+      "rms_median_dbfs": -33.552745632985385,
+      "rms_max_dbfs": -4.420575020414722,
+      "outlier_fraction_3db": 0.371,
+      "n_persistent": 2,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 17.03060531616211,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -47.09474563598633,
+          "f_rf_fine_mhz": 2448.0003166899387,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 316.68993854522705
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 8.091064453125,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.42218780517578,
+          "f_rf_fine_mhz": 2440.000164776228,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 164.7762279510498
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 7,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2413.015625,
+          "excess_db": 52.38096618652344,
+          "snapshot_fraction": 0.014,
+          "level_dbfs_bin": -13.65562629699707
+        },
+        {
+          "f_rf_mhz": 2474.03125,
+          "excess_db": 51.986228942871094,
+          "snapshot_fraction": 0.067,
+          "level_dbfs_bin": -13.958658218383789
+        },
+        {
+          "f_rf_mhz": 2444.96875,
+          "excess_db": 50.674713134765625,
+          "snapshot_fraction": 0.164,
+          "level_dbfs_bin": -12.662163734436035
+        },
+        {
+          "f_rf_mhz": 2447.703125,
+          "excess_db": 41.07571029663086,
+          "snapshot_fraction": 0.007,
+          "level_dbfs_bin": -23.020160675048828
+        },
+        {
+          "f_rf_mhz": 2437.859375,
+          "excess_db": 16.932106018066406,
+          "snapshot_fraction": 0.046,
+          "level_dbfs_bin": -42.96693420410156
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2474.03125,
+        "excess_db": 51.986228942871094,
+        "snapshot_fraction": 0.067,
+        "level_dbfs_bin": -13.958658218383789
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box-load.json",
+      "utc": "2026-10-12T10:16:04Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box-load",
+      "same_day_20261025": false,
+      "termination": "50 ohm load on the IPEX-SMA pigtail inside the enclosure (Lime cable removed)",
+      "freq_mhz": 2472,
+      "gain_index": 20,
+      "count": 1000,
+      "floor_dbfs_per_hz": -124.35103036651871,
+      "rms_median_dbfs": -44.94887120896061,
+      "rms_max_dbfs": -23.618430812488533,
+      "outlier_fraction_3db": 0.002,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 14.251884460449219,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -59.45085906982422,
+          "f_rf_fine_mhz": 2448.00018871233,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 188.71232986450195
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 8.818038940429688,
+          "snapshot_fraction": 0.992,
+          "level_dbfs_bin": -65.5732421875,
+          "f_rf_fine_mhz": 2440.000203620007,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 203.62000703811646
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2495.984375,
+          "excess_db": 7.4553680419921875,
+          "snapshot_fraction": 0.658,
+          "level_dbfs_bin": -66.21270751953125,
+          "f_rf_fine_mhz": 2496.0001454696508,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 52,
+              "offset_hz": 145.46965074539185
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 29,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2471.6875,
+          "excess_db": 34.295021057128906,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -38.24109649658203
+        },
+        {
+          "f_rf_mhz": 2472.3125,
+          "excess_db": 34.193092346191406,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -38.34302520751953
+        },
+        {
+          "f_rf_mhz": 2475.28125,
+          "excess_db": 23.109050750732422,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -49.84184646606445
+        },
+        {
+          "f_rf_mhz": 2463.015625,
+          "excess_db": 22.770740509033203,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -50.880619049072266
+        },
+        {
+          "f_rf_mhz": 2468.640625,
+          "excess_db": 22.176300048828125,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -50.814918518066406
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2471.6875,
+        "excess_db": 34.295021057128906,
+        "snapshot_fraction": 0.001,
+        "level_dbfs_bin": -38.24109649658203
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box-load.json",
+      "utc": "2026-10-12T10:16:04Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box-load",
+      "same_day_20261025": false,
+      "termination": "50 ohm load on the IPEX-SMA pigtail inside the enclosure (Lime cable removed)",
+      "freq_mhz": 2472,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -117.44947244415543,
+      "rms_median_dbfs": -38.013960764738755,
+      "rms_max_dbfs": -19.521052157019124,
+      "outlier_fraction_3db": 0.233,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.372859954833984,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -50.601139068603516,
+          "f_rf_fine_mhz": 2448.0002132873537,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 213.287353515625
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 11.81488037109375,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -56.21094512939453,
+          "f_rf_fine_mhz": 2440.0001995561333,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 199.55613327026367
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2495.984375,
+          "excess_db": 8.922035217285156,
+          "snapshot_fraction": 0.767,
+          "level_dbfs_bin": -58.019371032714844,
+          "f_rf_fine_mhz": 2496.0001620974435,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 52,
+              "offset_hz": 162.09744358062744
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 17,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2460.984375,
+          "excess_db": 40.23573303222656,
+          "snapshot_fraction": 0.013,
+          "level_dbfs_bin": -26.608827590942383
+        },
+        {
+          "f_rf_mhz": 2477.703125,
+          "excess_db": 38.045989990234375,
+          "snapshot_fraction": 0.013,
+          "level_dbfs_bin": -27.96227264404297
+        },
+        {
+          "f_rf_mhz": 2437.9375,
+          "excess_db": 36.761051177978516,
+          "snapshot_fraction": 0.05,
+          "level_dbfs_bin": -31.618656158447266
+        },
+        {
+          "f_rf_mhz": 2511.921875,
+          "excess_db": 26.903244018554688,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -41.64373016357422
+        },
+        {
+          "f_rf_mhz": 2432.0,
+          "excess_db": 26.58511734008789,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -41.961856842041016
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2460.984375,
+        "excess_db": 40.23573303222656,
+        "snapshot_fraction": 0.013,
+        "level_dbfs_bin": -26.608827590942383
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box-load.json",
+      "utc": "2026-10-12T10:16:04Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box-load",
+      "same_day_20261025": false,
+      "termination": "50 ohm load on the IPEX-SMA pigtail inside the enclosure (Lime cable removed)",
+      "freq_mhz": 2472,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -109.48320581207535,
+      "rms_median_dbfs": -33.89411944387483,
+      "rms_max_dbfs": -4.597934175426288,
+      "outlier_fraction_3db": 0.359,
+      "n_persistent": 4,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.939743041992188,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -48.06232452392578,
+          "f_rf_fine_mhz": 2448.000241982541,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 241.98254108428955
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 9.5889892578125,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -54.5616455078125,
+          "f_rf_fine_mhz": 2480.0255880055215,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 25588.005521297455
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2495.984375,
+          "excess_db": 7.738372802734375,
+          "snapshot_fraction": 0.747,
+          "level_dbfs_bin": -56.860443115234375,
+          "f_rf_fine_mhz": 2496.000173654956,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 52,
+              "offset_hz": 173.65495586395264
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 6.6929473876953125,
+          "snapshot_fraction": 0.82,
+          "level_dbfs_bin": -55.25289535522461,
+          "f_rf_fine_mhz": 2440.0002197201907,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 219.72019052505493
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 16,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2461.0625,
+          "excess_db": 53.29393005371094,
+          "snapshot_fraction": 0.032,
+          "level_dbfs_bin": -11.494514465332031
+        },
+        {
+          "f_rf_mhz": 2477.078125,
+          "excess_db": 51.569114685058594,
+          "snapshot_fraction": 0.027,
+          "level_dbfs_bin": -12.3353271484375
+        },
+        {
+          "f_rf_mhz": 2437.78125,
+          "excess_db": 45.53315734863281,
+          "snapshot_fraction": 0.058,
+          "level_dbfs_bin": -16.708072662353516
+        },
+        {
+          "f_rf_mhz": 2480.203125,
+          "excess_db": 44.863304138183594,
+          "snapshot_fraction": 0.11,
+          "level_dbfs_bin": -19.30217933654785
+        },
+        {
+          "f_rf_mhz": 2446.84375,
+          "excess_db": 36.75799560546875,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -28.303049087524414
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2461.0625,
+        "excess_db": 53.29393005371094,
+        "snapshot_fraction": 0.032,
+        "level_dbfs_bin": -11.494514465332031
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box.json",
+      "utc": "2026-10-12T10:01:27Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box",
+      "same_day_20261025": false,
+      "termination": "idle LimeSDR Mini TX port via SMA cable through the enclosure wall (no Lime process running; last Lime config LO 2450 MHz)",
+      "freq_mhz": 2412,
+      "gain_index": 20,
+      "count": 1000,
+      "floor_dbfs_per_hz": -123.87605478058121,
+      "rms_median_dbfs": -44.474518640186176,
+      "rms_max_dbfs": -38.03669496093656,
+      "outlier_fraction_3db": 0.004,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 12.761955261230469,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -61.0975341796875
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 11.183189392089844,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -62.12261962890625
+        },
+        {
+          "f_rf_mhz": 2399.96875,
+          "excess_db": 9.195396423339844,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -64.21090698242188
+        }
+      ],
+      "n_intermittent": 12,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2420.515625,
+          "excess_db": 17.764114379882812,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -55.30132293701172
+        },
+        {
+          "f_rf_mhz": 2401.84375,
+          "excess_db": 16.62494659423828,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -56.627349853515625
+        },
+        {
+          "f_rf_mhz": 2427.9375,
+          "excess_db": 15.100948333740234,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -58.20884323120117
+        },
+        {
+          "f_rf_mhz": 2415.75,
+          "excess_db": 12.246261596679688,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -60.263282775878906
+        },
+        {
+          "f_rf_mhz": 2415.984375,
+          "excess_db": 12.178398132324219,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -60.37647247314453
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box.json",
+      "utc": "2026-10-12T10:01:27Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box",
+      "same_day_20261025": false,
+      "termination": "idle LimeSDR Mini TX port via SMA cable through the enclosure wall (no Lime process running; last Lime config LO 2450 MHz)",
+      "freq_mhz": 2412,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -116.00184060821793,
+      "rms_median_dbfs": -37.457702548444004,
+      "rms_max_dbfs": -14.938673986686872,
+      "outlier_fraction_3db": 0.16,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 15.517932891845703,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -52.69179916381836
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 13.307487487792969,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -53.39704895019531
+        },
+        {
+          "f_rf_mhz": 2399.96875,
+          "excess_db": 13.223762512207031,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -53.37885284423828
+        }
+      ],
+      "n_intermittent": 24,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2409.03125,
+          "excess_db": 40.942466735839844,
+          "snapshot_fraction": 0.008,
+          "level_dbfs_bin": -24.434907913208008
+        },
+        {
+          "f_rf_mhz": 2415.984375,
+          "excess_db": 40.37285232543945,
+          "snapshot_fraction": 0.03,
+          "level_dbfs_bin": -25.068950653076172
+        },
+        {
+          "f_rf_mhz": 2448.953125,
+          "excess_db": 31.624309539794922,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -36.62013626098633
+        },
+        {
+          "f_rf_mhz": 2443.875,
+          "excess_db": 31.179569244384766,
+          "snapshot_fraction": 0.005,
+          "level_dbfs_bin": -36.43843460083008
+        },
+        {
+          "f_rf_mhz": 2440.75,
+          "excess_db": 30.945167541503906,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -36.02851104736328
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box.json",
+      "utc": "2026-10-12T10:01:27Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box",
+      "same_day_20261025": false,
+      "termination": "idle LimeSDR Mini TX port via SMA cable through the enclosure wall (no Lime process running; last Lime config LO 2450 MHz)",
+      "freq_mhz": 2412,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -104.26078607330582,
+      "rms_median_dbfs": -32.19700190595766,
+      "rms_max_dbfs": -1.0373508001382816,
+      "outlier_fraction_3db": 0.369,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2399.96875,
+          "excess_db": 17.144790649414062,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -47.64165496826172
+        },
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.24553680419922,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -50.225120544433594
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 14.454925537109375,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -50.12354278564453
+        }
+      ],
+      "n_intermittent": 5,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2404.34375,
+          "excess_db": 49.45833969116211,
+          "snapshot_fraction": 0.026,
+          "level_dbfs_bin": -14.83835220336914
+        },
+        {
+          "f_rf_mhz": 2417.78125,
+          "excess_db": 48.0787239074707,
+          "snapshot_fraction": 0.03,
+          "level_dbfs_bin": -15.894976615905762
+        },
+        {
+          "f_rf_mhz": 2445.984375,
+          "excess_db": 47.13520050048828,
+          "snapshot_fraction": 0.052,
+          "level_dbfs_bin": -18.77789306640625
+        },
+        {
+          "f_rf_mhz": 2373.015625,
+          "excess_db": 46.08473205566406,
+          "snapshot_fraction": 0.02,
+          "level_dbfs_bin": -20.644628524780273
+        },
+        {
+          "f_rf_mhz": 2449.96875,
+          "excess_db": 43.16361999511719,
+          "snapshot_fraction": 0.028,
+          "level_dbfs_bin": -23.37805938720703
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box.json",
+      "utc": "2026-10-12T10:01:27Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box",
+      "same_day_20261025": false,
+      "termination": "idle LimeSDR Mini TX port via SMA cable through the enclosure wall (no Lime process running; last Lime config LO 2450 MHz)",
+      "freq_mhz": 2442,
+      "gain_index": 20,
+      "count": 1000,
+      "floor_dbfs_per_hz": -123.66314889679215,
+      "rms_median_dbfs": -44.351290492840334,
+      "rms_max_dbfs": -23.59167557769949,
+      "outlier_fraction_3db": 0.011,
+      "n_persistent": 2,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 14.557098388671875,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -58.203819274902344
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 10.209686279296875,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -61.9517822265625
+        }
+      ],
+      "n_intermittent": 32,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2442.3125,
+          "excess_db": 36.191612243652344,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -35.65473175048828
+        },
+        {
+          "f_rf_mhz": 2441.6875,
+          "excess_db": 36.10124969482422,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -35.745094299316406
+        },
+        {
+          "f_rf_mhz": 2427.0,
+          "excess_db": 24.701499938964844,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -48.72338104248047
+        },
+        {
+          "f_rf_mhz": 2438.71875,
+          "excess_db": 23.606914520263672,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -48.83713150024414
+        },
+        {
+          "f_rf_mhz": 2410.046875,
+          "excess_db": 22.015132904052734,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -52.00471878051758
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2464.03125,
+        "excess_db": 15.093116760253906,
+        "snapshot_fraction": 0.002,
+        "level_dbfs_bin": -57.98030090332031
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box.json",
+      "utc": "2026-10-12T10:01:27Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box",
+      "same_day_20261025": false,
+      "termination": "idle LimeSDR Mini TX port via SMA cable through the enclosure wall (no Lime process running; last Lime config LO 2450 MHz)",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -110.83340265045426,
+      "rms_median_dbfs": -37.18101831447438,
+      "rms_max_dbfs": -13.797510152538756,
+      "outlier_fraction_3db": 0.2,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.40786361694336,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -49.34727096557617
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 13.541526794433594,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.23655700683594
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 8.517715454101562,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -59.679481506347656
+        }
+      ],
+      "n_intermittent": 15,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2413.015625,
+          "excess_db": 46.134342193603516,
+          "snapshot_fraction": 0.011,
+          "level_dbfs_bin": -21.32687759399414
+        },
+        {
+          "f_rf_mhz": 2449.03125,
+          "excess_db": 45.116241455078125,
+          "snapshot_fraction": 0.007,
+          "level_dbfs_bin": -20.801437377929688
+        },
+        {
+          "f_rf_mhz": 2447.3125,
+          "excess_db": 43.023406982421875,
+          "snapshot_fraction": 0.007,
+          "level_dbfs_bin": -22.608556747436523
+        },
+        {
+          "f_rf_mhz": 2440.90625,
+          "excess_db": 42.52997589111328,
+          "snapshot_fraction": 0.005,
+          "level_dbfs_bin": -22.154314041137695
+        },
+        {
+          "f_rf_mhz": 2435.046875,
+          "excess_db": 41.52750015258789,
+          "snapshot_fraction": 0.01,
+          "level_dbfs_bin": -24.250713348388672
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2476.53125,
+        "excess_db": 10.942916870117188,
+        "snapshot_fraction": 0.001,
+        "level_dbfs_bin": -57.1219482421875
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box.json",
+      "utc": "2026-10-12T10:01:27Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box",
+      "same_day_20261025": false,
+      "termination": "idle LimeSDR Mini TX port via SMA cable through the enclosure wall (no Lime process running; last Lime config LO 2450 MHz)",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -100.20695688019059,
+      "rms_median_dbfs": -30.815884846134413,
+      "rms_max_dbfs": -0.4381387087829542,
+      "outlier_fraction_3db": 0.396,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 17.23321533203125,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -46.794464111328125
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 14.701229095458984,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -48.113765716552734
+        },
+        {
+          "f_rf_mhz": 2480.046875,
+          "excess_db": 10.736011505126953,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -55.699771881103516
+        }
+      ],
+      "n_intermittent": 5,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2419.96875,
+          "excess_db": 56.31890869140625,
+          "snapshot_fraction": 0.056,
+          "level_dbfs_bin": -8.496369361877441
+        },
+        {
+          "f_rf_mhz": 2448.875,
+          "excess_db": 53.64907455444336,
+          "snapshot_fraction": 0.012,
+          "level_dbfs_bin": -10.503154754638672
+        },
+        {
+          "f_rf_mhz": 2445.984375,
+          "excess_db": 47.56329345703125,
+          "snapshot_fraction": 0.058,
+          "level_dbfs_bin": -15.830986022949219
+        },
+        {
+          "f_rf_mhz": 2481.921875,
+          "excess_db": 41.59478759765625,
+          "snapshot_fraction": 0.129,
+          "level_dbfs_bin": -24.871747970581055
+        },
+        {
+          "f_rf_mhz": 2441.453125,
+          "excess_db": 30.307010650634766,
+          "snapshot_fraction": 0.12,
+          "level_dbfs_bin": -32.421878814697266
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box.json",
+      "utc": "2026-10-12T10:01:27Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box",
+      "same_day_20261025": false,
+      "termination": "idle LimeSDR Mini TX port via SMA cable through the enclosure wall (no Lime process running; last Lime config LO 2450 MHz)",
+      "freq_mhz": 2472,
+      "gain_index": 20,
+      "count": 1000,
+      "floor_dbfs_per_hz": -124.00718881378434,
+      "rms_median_dbfs": -44.61556242022259,
+      "rms_max_dbfs": -23.69113761105554,
+      "outlier_fraction_3db": 0.001,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 14.238128662109375,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -59.10131072998047
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 9.094390869140625,
+          "snapshot_fraction": 0.997,
+          "level_dbfs_bin": -64.94676208496094
+        },
+        {
+          "f_rf_mhz": 2495.984375,
+          "excess_db": 7.369636535644531,
+          "snapshot_fraction": 0.649,
+          "level_dbfs_bin": -65.96344757080078
+        }
+      ],
+      "n_intermittent": 33,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2471.6875,
+          "excess_db": 36.64717483520508,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -35.57241439819336
+        },
+        {
+          "f_rf_mhz": 2472.3125,
+          "excess_db": 36.586421966552734,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -35.6331672668457
+        },
+        {
+          "f_rf_mhz": 2475.28125,
+          "excess_db": 25.56081771850586,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -47.058406829833984
+        },
+        {
+          "f_rf_mhz": 2468.796875,
+          "excess_db": 24.36841583251953,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -48.2591552734375
+        },
+        {
+          "f_rf_mhz": 2477.546875,
+          "excess_db": 21.580291748046875,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -51.297393798828125
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2471.6875,
+        "excess_db": 36.64717483520508,
+        "snapshot_fraction": 0.001,
+        "level_dbfs_bin": -35.57241439819336
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box.json",
+      "utc": "2026-10-12T10:01:27Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box",
+      "same_day_20261025": false,
+      "termination": "idle LimeSDR Mini TX port via SMA cable through the enclosure wall (no Lime process running; last Lime config LO 2450 MHz)",
+      "freq_mhz": 2472,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -116.61123849640153,
+      "rms_median_dbfs": -37.75571873824153,
+      "rms_max_dbfs": -17.130156954454193,
+      "outlier_fraction_3db": 0.065,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.35601806640625,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -50.447242736816406
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 12.132198333740234,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -55.49375534057617
+        },
+        {
+          "f_rf_mhz": 2495.984375,
+          "excess_db": 8.630756378173828,
+          "snapshot_fraction": 0.744,
+          "level_dbfs_bin": -58.136592864990234
+        }
+      ],
+      "n_intermittent": 35,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2443.953125,
+          "excess_db": 41.505496978759766,
+          "snapshot_fraction": 0.005,
+          "level_dbfs_bin": -25.63760757446289
+        },
+        {
+          "f_rf_mhz": 2450.125,
+          "excess_db": 41.127410888671875,
+          "snapshot_fraction": 0.005,
+          "level_dbfs_bin": -25.59206199645996
+        },
+        {
+          "f_rf_mhz": 2455.984375,
+          "excess_db": 34.2724494934082,
+          "snapshot_fraction": 0.018,
+          "level_dbfs_bin": -32.58933639526367
+        },
+        {
+          "f_rf_mhz": 2445.828125,
+          "excess_db": 29.437774658203125,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -37.50847625732422
+        },
+        {
+          "f_rf_mhz": 2480.046875,
+          "excess_db": 29.289756774902344,
+          "snapshot_fraction": 0.044,
+          "level_dbfs_bin": -36.891395568847656
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2477.0,
+        "excess_db": 26.44832992553711,
+        "snapshot_fraction": 0.002,
+        "level_dbfs_bin": -39.343379974365234
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_box.json",
+      "utc": "2026-10-12T10:01:27Z",
+      "board": "s3-wroom1u-01",
+      "tag": "box",
+      "same_day_20261025": false,
+      "termination": "idle LimeSDR Mini TX port via SMA cable through the enclosure wall (no Lime process running; last Lime config LO 2450 MHz)",
+      "freq_mhz": 2472,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -108.69043542633317,
+      "rms_median_dbfs": -33.212615232540756,
+      "rms_max_dbfs": -6.014736427514031,
+      "outlier_fraction_3db": 0.271,
+      "n_persistent": 4,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 17.18902587890625,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -47.81510925292969
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 10.70218276977539,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -53.64223861694336
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 8.422924041748047,
+          "snapshot_fraction": 0.997,
+          "level_dbfs_bin": -51.17445373535156
+        },
+        {
+          "f_rf_mhz": 2495.984375,
+          "excess_db": 7.594505310058594,
+          "snapshot_fraction": 0.749,
+          "level_dbfs_bin": -57.21881103515625
+        }
+      ],
+      "n_intermittent": 11,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2464.8125,
+          "excess_db": 49.81028747558594,
+          "snapshot_fraction": 0.025,
+          "level_dbfs_bin": -14.496179580688477
+        },
+        {
+          "f_rf_mhz": 2477.0,
+          "excess_db": 49.53561019897461,
+          "snapshot_fraction": 0.066,
+          "level_dbfs_bin": -14.496402740478516
+        },
+        {
+          "f_rf_mhz": 2505.28125,
+          "excess_db": 42.87677001953125,
+          "snapshot_fraction": 0.006,
+          "level_dbfs_bin": -23.446569442749023
+        },
+        {
+          "f_rf_mhz": 2435.046875,
+          "excess_db": 37.78556823730469,
+          "snapshot_fraction": 0.065,
+          "level_dbfs_bin": -25.28845977783203
+        },
+        {
+          "f_rf_mhz": 2443.09375,
+          "excess_db": 37.22298049926758,
+          "snapshot_fraction": 0.03,
+          "level_dbfs_bin": -26.256935119628906
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2464.8125,
+        "excess_db": 49.81028747558594,
+        "snapshot_fraction": 0.025,
+        "level_dbfs_bin": -14.496179580688477
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T05:23:14Z",
+      "board": "s3-wroom1u-01",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, USB through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -117.56813241729996,
+      "rms_median_dbfs": -37.85145852581704,
+      "rms_max_dbfs": -23.438987925141248,
+      "outlier_fraction_3db": 0.005,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.76849365234375,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -49.219276428222656,
+          "f_rf_fine_mhz": 2448.0001623322987,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 162.33229875564575
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 13.750991821289062,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.59514617919922,
+          "f_rf_fine_mhz": 2440.000154230728,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 154.23072814941406
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 8.54378890991211,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -59.98491287231445,
+          "f_rf_fine_mhz": 2480.0001475651598,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 147.56515979766846
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 40,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2442.3125,
+          "excess_db": 28.357234954833984,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -36.75456619262695
+        },
+        {
+          "f_rf_mhz": 2441.6875,
+          "excess_db": 28.188186645507812,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -36.923614501953125
+        },
+        {
+          "f_rf_mhz": 2438.640625,
+          "excess_db": 15.986679077148438,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -49.68174743652344
+        },
+        {
+          "f_rf_mhz": 2423.953125,
+          "excess_db": 14.869495391845703,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -52.13969802856445
+        },
+        {
+          "f_rf_mhz": 2447.46875,
+          "excess_db": 13.746105194091797,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -52.18057632446289
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2465.4375,
+        "excess_db": 13.226982116699219,
+        "snapshot_fraction": 0.005,
+        "level_dbfs_bin": -53.54454803466797
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-01/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T05:23:14Z",
+      "board": "s3-wroom1u-01",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, USB through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -115.38414193878434,
+      "rms_median_dbfs": -36.03108788523694,
+      "rms_max_dbfs": -19.28311704102828,
+      "outlier_fraction_3db": 0.017,
+      "n_persistent": 2,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 17.61681365966797,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -46.42876434326172,
+          "f_rf_fine_mhz": 2448.00016188897,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 161.88896989822388
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 12.205280303955078,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.384220123291016,
+          "f_rf_fine_mhz": 2440.000154409075,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 154.40907526016235
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 15,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2413.015625,
+          "excess_db": 32.02275466918945,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -34.0484504699707
+        },
+        {
+          "f_rf_mhz": 2425.90625,
+          "excess_db": 29.187320709228516,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -36.05620193481445
+        },
+        {
+          "f_rf_mhz": 2429.8125,
+          "excess_db": 28.34857940673828,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -36.73155975341797
+        },
+        {
+          "f_rf_mhz": 2465.125,
+          "excess_db": 28.333534240722656,
+          "snapshot_fraction": 0.005,
+          "level_dbfs_bin": -36.30104064941406
+        },
+        {
+          "f_rf_mhz": 2449.5,
+          "excess_db": 24.620159149169922,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -39.65813064575195
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2465.125,
+        "excess_db": 28.333534240722656,
+        "snapshot_fraction": 0.005,
+        "level_dbfs_bin": -36.30104064941406
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-02/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T05:07:42Z",
+      "board": "s3-wroom1u-02",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, USB through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -117.77621652374528,
+      "rms_median_dbfs": -38.13591650526725,
+      "rms_max_dbfs": -37.35288477758475,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.47170639038086,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -49.70112228393555,
+          "f_rf_fine_mhz": 2448.0001522848993,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 152.28489923477173
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 12.31842041015625,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -53.16130828857422,
+          "f_rf_fine_mhz": 2440.0001534486482,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 153.4486484527588
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 6.020179748535156,
+          "snapshot_fraction": 0.512,
+          "level_dbfs_bin": -62.91123962402344,
+          "f_rf_fine_mhz": 2480.000166954773,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 166.95477294921875
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 0,
+      "intermittent_strongest": [],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-02/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T05:07:42Z",
+      "board": "s3-wroom1u-02",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, USB through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -115.69114877472184,
+      "rms_median_dbfs": -36.08784131244704,
+      "rms_max_dbfs": -33.996386322479815,
+      "outlier_fraction_3db": 0.0,
+      "n_persistent": 2,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 17.311107635498047,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -46.68989181518555,
+          "f_rf_fine_mhz": 2448.000155945806,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 155.94580602645874
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 12.017341613769531,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.56483459472656,
+          "f_rf_fine_mhz": 2440.000164184581,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 164.18458127975464
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 5,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2479.890625,
+          "excess_db": 14.769721984863281,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -52.00481414794922
+        },
+        {
+          "f_rf_mhz": 2474.8125,
+          "excess_db": 10.662281036376953,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -55.61191177368164
+        },
+        {
+          "f_rf_mhz": 2475.125,
+          "excess_db": 10.50967788696289,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -55.815677642822266
+        },
+        {
+          "f_rf_mhz": 2474.5,
+          "excess_db": 10.472251892089844,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -55.73664855957031
+        },
+        {
+          "f_rf_mhz": 2474.1875,
+          "excess_db": 10.038314819335938,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -56.10894012451172
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2474.8125,
+        "excess_db": 10.662281036376953,
+        "snapshot_fraction": 0.003,
+        "level_dbfs_bin": -55.61191177368164
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_bench-20261025.json",
+      "utc": "2026-10-25T04:16:46Z",
+      "board": "s3-wroom1u-03",
+      "tag": "bench-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, on the bench outside the shield box",
+      "freq_mhz": 2442,
+      "gain_index": 20,
+      "count": 1000,
+      "floor_dbfs_per_hz": -124.96989633331559,
+      "rms_median_dbfs": -45.39770347285236,
+      "rms_max_dbfs": -24.02849872519795,
+      "outlier_fraction_3db": 0.001,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 14.563674926757812,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -59.26539611816406,
+          "f_rf_fine_mhz": 2448.000160251492,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 160.25149202346802
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 11.075706481933594,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -62.170921325683594,
+          "f_rf_fine_mhz": 2440.0001534384105,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 153.43841075897217
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 6.989219665527344,
+          "snapshot_fraction": 0.943,
+          "level_dbfs_bin": -67.6048355102539,
+          "f_rf_fine_mhz": 2480.0001552042095,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 155.2042098045349
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 21,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2441.6875,
+          "excess_db": 35.66773223876953,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -37.34588623046875
+        },
+        {
+          "f_rf_mhz": 2442.3125,
+          "excess_db": 35.248313903808594,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -37.76530456542969
+        },
+        {
+          "f_rf_mhz": 2438.796875,
+          "excess_db": 22.879112243652344,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -50.700531005859375
+        },
+        {
+          "f_rf_mhz": 2445.4375,
+          "excess_db": 21.411827087402344,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -52.11143493652344
+        },
+        {
+          "f_rf_mhz": 2436.375,
+          "excess_db": 18.568775177001953,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -55.2751350402832
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_bench-20261025.json",
+      "utc": "2026-10-25T04:16:46Z",
+      "board": "s3-wroom1u-03",
+      "tag": "bench-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, on the bench outside the shield box",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -118.03280832062028,
+      "rms_median_dbfs": -38.291388533162504,
+      "rms_max_dbfs": -27.763798568504367,
+      "outlier_fraction_3db": 0.012,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.44062042236328,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -50.13951873779297,
+          "f_rf_fine_mhz": 2448.000160533906,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 160.5339059829712
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 13.608638763427734,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -52.22282028198242,
+          "f_rf_fine_mhz": 2440.0001516824173,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 151.68241691589355
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 10.408401489257812,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -58.143951416015625,
+          "f_rf_fine_mhz": 2480.0001605030398,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 160.50303983688354
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 22,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2425.984375,
+          "excess_db": 24.59145736694336,
+          "snapshot_fraction": 0.005,
+          "level_dbfs_bin": -43.031978607177734
+        },
+        {
+          "f_rf_mhz": 2464.1875,
+          "excess_db": 23.13003921508789,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -44.15426254272461
+        },
+        {
+          "f_rf_mhz": 2402.15625,
+          "excess_db": 22.729598999023438,
+          "snapshot_fraction": 0.007,
+          "level_dbfs_bin": -45.8280029296875
+        },
+        {
+          "f_rf_mhz": 2469.1875,
+          "excess_db": 21.371337890625,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -46.170440673828125
+        },
+        {
+          "f_rf_mhz": 2481.921875,
+          "excess_db": 21.25432586669922,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -47.302467346191406
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2464.1875,
+        "excess_db": 23.13003921508789,
+        "snapshot_fraction": 0.009,
+        "level_dbfs_bin": -44.15426254272461
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_bench-20261025.json",
+      "utc": "2026-10-25T04:16:46Z",
+      "board": "s3-wroom1u-03",
+      "tag": "bench-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, on the bench outside the shield box",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -115.51576425323746,
+      "rms_median_dbfs": -36.533167062699775,
+      "rms_max_dbfs": -12.954563012598843,
+      "outlier_fraction_3db": 0.029,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 17.167613983154297,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -47.52714157104492,
+          "f_rf_fine_mhz": 2448.0001553885145,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 155.3885145187378
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 12.705692291259766,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.4431037902832,
+          "f_rf_fine_mhz": 2440.000168170153,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 168.17015266418457
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 9.469230651855469,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -57.17042541503906,
+          "f_rf_fine_mhz": 2480.000155609193,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 155.60919332504272
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 33,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2426.140625,
+          "excess_db": 35.96477508544922,
+          "snapshot_fraction": 0.02,
+          "level_dbfs_bin": -29.917579650878906
+        },
+        {
+          "f_rf_mhz": 2464.5,
+          "excess_db": 35.58488464355469,
+          "snapshot_fraction": 0.007,
+          "level_dbfs_bin": -29.688940048217773
+        },
+        {
+          "f_rf_mhz": 2445.984375,
+          "excess_db": 35.2973518371582,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -29.13156509399414
+        },
+        {
+          "f_rf_mhz": 2402.0,
+          "excess_db": 34.82773208618164,
+          "snapshot_fraction": 0.006,
+          "level_dbfs_bin": -31.89505386352539
+        },
+        {
+          "f_rf_mhz": 2481.921875,
+          "excess_db": 34.3401985168457,
+          "snapshot_fraction": 0.006,
+          "level_dbfs_bin": -32.38029098510742
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2464.5,
+        "excess_db": 35.58488464355469,
+        "snapshot_fraction": 0.007,
+        "level_dbfs_bin": -29.688940048217773
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_box-20261025.json",
+      "utc": "2026-10-25T03:47:53Z",
+      "board": "s3-wroom1u-03",
+      "tag": "box-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX inside shield box, USB through the wall",
+      "freq_mhz": 2442,
+      "gain_index": 20,
+      "count": 1000,
+      "floor_dbfs_per_hz": -124.84749795685075,
+      "rms_median_dbfs": -45.300817860779134,
+      "rms_max_dbfs": -23.991160120236156,
+      "outlier_fraction_3db": 0.003,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 14.779228210449219,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -58.972755432128906,
+          "f_rf_fine_mhz": 2448.0001547002753,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 154.70027542114258
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 12.124137878417969,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -61.019554138183594,
+          "f_rf_fine_mhz": 2440.0001498307874,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 149.8307876586914
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 7.4324951171875,
+          "snapshot_fraction": 0.983,
+          "level_dbfs_bin": -67.10364532470703,
+          "f_rf_fine_mhz": 2480.000154719671,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 154.71967124938965
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 22,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2441.6875,
+          "excess_db": 37.64535140991211,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -35.23757553100586
+        },
+        {
+          "f_rf_mhz": 2442.3125,
+          "excess_db": 37.35477828979492,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -35.52814865112305
+        },
+        {
+          "f_rf_mhz": 2438.796875,
+          "excess_db": 24.70562744140625,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -48.795379638671875
+        },
+        {
+          "f_rf_mhz": 2447.625,
+          "excess_db": 20.697593688964844,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -52.95782470703125
+        },
+        {
+          "f_rf_mhz": 2436.53125,
+          "excess_db": 19.982791900634766,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -53.75003433227539
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2458.640625,
+        "excess_db": 12.86895751953125,
+        "snapshot_fraction": 0.002,
+        "level_dbfs_bin": -61.458038330078125
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_box-20261025.json",
+      "utc": "2026-10-25T03:47:53Z",
+      "board": "s3-wroom1u-03",
+      "tag": "box-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX inside shield box, USB through the wall",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -117.9075946975734,
+      "rms_median_dbfs": -38.072601165204034,
+      "rms_max_dbfs": -23.96700153826997,
+      "outlier_fraction_3db": 0.002,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.61285400390625,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -49.702850341796875,
+          "f_rf_fine_mhz": 2448.0001572493074,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 157.2493076324463
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 13.072532653808594,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -52.561363220214844,
+          "f_rf_fine_mhz": 2440.0001493042405,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 149.3042402267456
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 10.914379119873047,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -57.426509857177734,
+          "f_rf_fine_mhz": 2480.0001521906834,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 152.19068336486816
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 13,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2441.6875,
+          "excess_db": 28.416385650634766,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -36.97475051879883
+        },
+        {
+          "f_rf_mhz": 2442.3125,
+          "excess_db": 28.17816162109375,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -37.212974548339844
+        },
+        {
+          "f_rf_mhz": 2438.640625,
+          "excess_db": 15.892505645751953,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -50.12916946411133
+        },
+        {
+          "f_rf_mhz": 2445.28125,
+          "excess_db": 15.289539337158203,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -50.66379928588867
+        },
+        {
+          "f_rf_mhz": 2421.453125,
+          "excess_db": 13.402320861816406,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -53.92970275878906
+        }
+      ],
+      "channel12_strongest": null
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_box-20261025.json",
+      "utc": "2026-10-25T03:47:53Z",
+      "board": "s3-wroom1u-03",
+      "tag": "box-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX inside shield box, USB through the wall",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -116.19922830353043,
+      "rms_median_dbfs": -36.55483121849687,
+      "rms_max_dbfs": -31.749162077119134,
+      "outlier_fraction_3db": 0.002,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 17.26390838623047,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -47.422279357910156,
+          "f_rf_fine_mhz": 2448.0001631575083,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 163.15750789642334
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 12.648712158203125,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.614906311035156,
+          "f_rf_fine_mhz": 2440.0001573552713,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 157.3552713394165
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 9.525611877441406,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -57.11907958984375,
+          "f_rf_fine_mhz": 2480.000153385392,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 153.38539171218872
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 38,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2425.984375,
+          "excess_db": 23.20944595336914,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -42.6874885559082
+        },
+        {
+          "f_rf_mhz": 2402.0,
+          "excess_db": 21.033077239990234,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -45.67459487915039
+        },
+        {
+          "f_rf_mhz": 2481.921875,
+          "excess_db": 20.342052459716797,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -46.36533737182617
+        },
+        {
+          "f_rf_mhz": 2418.015625,
+          "excess_db": 19.135269165039062,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -46.71465301513672
+        },
+        {
+          "f_rf_mhz": 2414.03125,
+          "excess_db": 18.26718521118164,
+          "snapshot_fraction": 0.001,
+          "level_dbfs_bin": -48.000789642333984
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2466.0625,
+        "excess_db": 15.225662231445312,
+        "snapshot_fraction": 0.003,
+        "level_dbfs_bin": -50.04014587402344
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_hotspot-20261025-r2.json",
+      "utc": "2026-10-25T05:00:15Z",
+      "board": "s3-wroom1u-03",
+      "tag": "hotspot-20261025-r2",
+      "same_day_20261025": true,
+      "termination": "repeat: 50 ohm on IPEX, shield box closed, USB through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -117.84726144562028,
+      "rms_median_dbfs": -38.07229373734697,
+      "rms_max_dbfs": -30.915324093565147,
+      "outlier_fraction_3db": 0.014,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.261802673339844,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -50.05128479003906,
+          "f_rf_fine_mhz": 2448.000158225529,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 158.22552919387817
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 13.789207458496094,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.86402893066406,
+          "f_rf_fine_mhz": 2440.0001543056865,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 154.30568647384644
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 10.267074584960938,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -58.06477355957031,
+          "f_rf_fine_mhz": 2480.000147328692,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 147.3286919593811
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 13,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2468.875,
+          "excess_db": 18.125415802001953,
+          "snapshot_fraction": 0.013,
+          "level_dbfs_bin": -49.12229537963867
+        },
+        {
+          "f_rf_mhz": 2459.5,
+          "excess_db": 17.88653564453125,
+          "snapshot_fraction": 0.014,
+          "level_dbfs_bin": -49.32740783691406
+        },
+        {
+          "f_rf_mhz": 2474.5,
+          "excess_db": 16.077106475830078,
+          "snapshot_fraction": 0.014,
+          "level_dbfs_bin": -52.04206466674805
+        },
+        {
+          "f_rf_mhz": 2425.984375,
+          "excess_db": 13.191329956054688,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -54.19169616699219
+        },
+        {
+          "f_rf_mhz": 2434.03125,
+          "excess_db": 12.924449920654297,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -53.79268264770508
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2468.875,
+        "excess_db": 18.125415802001953,
+        "snapshot_fraction": 0.013,
+        "level_dbfs_bin": -49.12229537963867
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_hotspot-20261025-r2.json",
+      "utc": "2026-10-25T05:00:15Z",
+      "board": "s3-wroom1u-03",
+      "tag": "hotspot-20261025-r2",
+      "same_day_20261025": true,
+      "termination": "repeat: 50 ohm on IPEX, shield box closed, USB through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -115.38025857696793,
+      "rms_median_dbfs": -36.49291278693371,
+      "rms_max_dbfs": -19.393171464836204,
+      "outlier_fraction_3db": 0.022,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.96291732788086,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -47.6527214050293,
+          "f_rf_fine_mhz": 2448.0001583766493,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 158.37664937973022
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 12.718360900878906,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.45001983642578,
+          "f_rf_fine_mhz": 2440.0001533459435,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 153.34594345092773
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 9.20782470703125,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -57.35912322998047,
+          "f_rf_fine_mhz": 2480.0001527727895,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 152.772789478302
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 36,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2426.0625,
+          "excess_db": 38.250755310058594,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -27.557737350463867
+        },
+        {
+          "f_rf_mhz": 2412.15625,
+          "excess_db": 34.75144958496094,
+          "snapshot_fraction": 0.003,
+          "level_dbfs_bin": -31.751955032348633
+        },
+        {
+          "f_rf_mhz": 2402.078125,
+          "excess_db": 34.588905334472656,
+          "snapshot_fraction": 0.01,
+          "level_dbfs_bin": -32.02174377441406
+        },
+        {
+          "f_rf_mhz": 2481.921875,
+          "excess_db": 33.839447021484375,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -32.76940155029297
+        },
+        {
+          "f_rf_mhz": 2431.6875,
+          "excess_db": 33.53279113769531,
+          "snapshot_fraction": 0.002,
+          "level_dbfs_bin": -31.891136169433594
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2459.5,
+        "excess_db": 29.342552185058594,
+        "snapshot_fraction": 0.007,
+        "level_dbfs_bin": -36.046348571777344
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T04:53:43Z",
+      "board": "s3-wroom1u-03",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, USB through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 44,
+      "count": 1000,
+      "floor_dbfs_per_hz": -117.8962650466945,
+      "rms_median_dbfs": -38.16693635194093,
+      "rms_max_dbfs": -23.908023044047123,
+      "outlier_fraction_3db": 0.012,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 16.409610748291016,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -50.054927825927734,
+          "f_rf_fine_mhz": 2448.000158100142,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 158.1001420021057
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 13.643669128417969,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -52.069007873535156,
+          "f_rf_fine_mhz": 2440.000154939382,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 154.93938159942627
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 10.312187194824219,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -58.11058807373047,
+          "f_rf_fine_mhz": 2480.0001538621987,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 153.86219882965088
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 19,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2441.6875,
+          "excess_db": 29.798675537109375,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -35.676170349121094
+        },
+        {
+          "f_rf_mhz": 2442.3125,
+          "excess_db": 29.565265655517578,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -35.90958023071289
+        },
+        {
+          "f_rf_mhz": 2465.046875,
+          "excess_db": 20.717151641845703,
+          "snapshot_fraction": 0.008,
+          "level_dbfs_bin": -46.439876556396484
+        },
+        {
+          "f_rf_mhz": 2426.0625,
+          "excess_db": 19.46441650390625,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -48.01031494140625
+        },
+        {
+          "f_rf_mhz": 2481.921875,
+          "excess_db": 18.253761291503906,
+          "snapshot_fraction": 0.013,
+          "level_dbfs_bin": -50.16901397705078
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2465.046875,
+        "excess_db": 20.717151641845703,
+        "snapshot_fraction": 0.008,
+        "level_dbfs_bin": -46.439876556396484
+      }
+    },
+    {
+      "source": "results/conducted/s3-wroom1u-03/floor_spurs_hotspot-20261025.json",
+      "utc": "2026-10-25T04:53:43Z",
+      "board": "s3-wroom1u-03",
+      "tag": "hotspot-20261025",
+      "same_day_20261025": true,
+      "termination": "50 ohm on IPEX, shield box closed, USB through wall; NRadio-5B26-2.4G outside on ch12 (2467 MHz), beacon left on",
+      "freq_mhz": 2442,
+      "gain_index": 60,
+      "count": 1000,
+      "floor_dbfs_per_hz": -115.61648751983903,
+      "rms_median_dbfs": -36.486065865933355,
+      "rms_max_dbfs": -17.971141069453346,
+      "outlier_fraction_3db": 0.034,
+      "n_persistent": 3,
+      "persistent_spurs": [
+        {
+          "f_rf_mhz": 2448.015625,
+          "excess_db": 17.02362823486328,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -47.64545440673828,
+          "f_rf_fine_mhz": 2448.00015586715,
+          "harmonic": [
+            {
+              "source_guess": "USB 48 MHz",
+              "order": 51,
+              "offset_hz": 155.8671498298645
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2439.96875,
+          "excess_db": 12.784770965576172,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -51.37173080444336,
+          "f_rf_fine_mhz": 2440.000155107444,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 61,
+              "offset_hz": 155.10744380950928
+            }
+          ]
+        },
+        {
+          "f_rf_mhz": 2479.96875,
+          "excess_db": 9.343467712402344,
+          "snapshot_fraction": 1.0,
+          "level_dbfs_bin": -57.2939453125,
+          "f_rf_fine_mhz": 2480.000192427865,
+          "harmonic": [
+            {
+              "source_guess": "XTAL 40 MHz",
+              "order": 62,
+              "offset_hz": 192.42786502838135
+            }
+          ]
+        }
+      ],
+      "n_intermittent": 33,
+      "intermittent_strongest": [
+        {
+          "f_rf_mhz": 2426.0625,
+          "excess_db": 29.46688461303711,
+          "snapshot_fraction": 0.014,
+          "level_dbfs_bin": -36.39503860473633
+        },
+        {
+          "f_rf_mhz": 2480.203125,
+          "excess_db": 29.226654052734375,
+          "snapshot_fraction": 0.007,
+          "level_dbfs_bin": -37.414573669433594
+        },
+        {
+          "f_rf_mhz": 2463.875,
+          "excess_db": 29.09042739868164,
+          "snapshot_fraction": 0.006,
+          "level_dbfs_bin": -36.16707229614258
+        },
+        {
+          "f_rf_mhz": 2402.0,
+          "excess_db": 28.493671417236328,
+          "snapshot_fraction": 0.009,
+          "level_dbfs_bin": -38.1858024597168
+        },
+        {
+          "f_rf_mhz": 2419.96875,
+          "excess_db": 28.239913940429688,
+          "snapshot_fraction": 0.004,
+          "level_dbfs_bin": -37.517791748046875
+        }
+      ],
+      "channel12_strongest": {
+        "f_rf_mhz": 2463.875,
+        "excess_db": 29.09042739868164,
+        "snapshot_fraction": 0.006,
+        "level_dbfs_bin": -36.16707229614258
+      }
+    }
+  ]
+}
